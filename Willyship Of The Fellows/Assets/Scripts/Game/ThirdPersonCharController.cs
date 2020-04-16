@@ -11,7 +11,7 @@ public class ThirdPersonCharController : MonoBehaviour
     [SerializeField] private float f_JumpForce;
     [SerializeField] private float f_mouseSensitivity;
     [SerializeField] private float groundCheckDistance;
-
+    [SerializeField] private float runModifier;
     [SerializeField] private Camera cam;
 
     #endregion
@@ -20,6 +20,7 @@ public class ThirdPersonCharController : MonoBehaviour
 
     private bool b_jump;
     private bool b_isGrounded;
+    private bool b_run;
 
     private Vector3 v_moveDir;
     private Vector3 v_mouseMove;
@@ -28,6 +29,9 @@ public class ThirdPersonCharController : MonoBehaviour
     private Rigidbody rb;
     private Player player;
 
+    Animator anim;
+    private float currentSpeed;
+
     #endregion
 
     private void Start()
@@ -35,12 +39,16 @@ public class ThirdPersonCharController : MonoBehaviour
 
         rb = GetComponent<Rigidbody>();
 
+        anim = GetComponentInChildren<Animator>();
+
         player = ReInput.players.GetPlayer(0);
 
     }
 
     private void Update()
     {
+        anim.SetFloat("speed", currentSpeed);
+        anim.SetBool("run", b_run);
 
         GroundCheck();
         GetInputs();
@@ -61,6 +69,7 @@ public class ThirdPersonCharController : MonoBehaviour
 
 
         b_jump = player.GetButtonDown("Jump");
+        b_run = player.GetButton("Run");
 
         v_moveDir.x = player.GetAxis("LeftStickX");
         v_moveDir.z = player.GetAxis("LeftStickY");
@@ -73,7 +82,7 @@ public class ThirdPersonCharController : MonoBehaviour
     private void AdjustMoveDirection()
     {
 
-        v_moveDir *= f_maxSpeed;
+        v_moveDir *= f_maxSpeed * (b_run ? runModifier : 1);
         v_moveDir *= Time.deltaTime;
 
         v_moveDir = cam.transform.TransformDirection(v_moveDir);
@@ -98,6 +107,7 @@ public class ThirdPersonCharController : MonoBehaviour
         rb.velocity *= 0.9f;
 
         rb.velocity = Vector3.Scale(rb.velocity, (Vector3.one - Vector3.up));
+        currentSpeed = rb.velocity.magnitude;
         rb.velocity += Vector3.up * y;
 
         Debug.Log(y);
