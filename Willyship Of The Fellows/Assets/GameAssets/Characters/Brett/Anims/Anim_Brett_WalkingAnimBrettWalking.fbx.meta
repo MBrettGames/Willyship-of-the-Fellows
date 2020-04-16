@@ -69,6 +69,17 @@ ModelImporter:
     100126: Spine
     100128: Spine1
     100130: Spine2
+    100132: Brett_M_Arms
+    100134: Brett_M_Belt
+    100136: Brett_M_Boots
+    100138: Brett_M_Cloak
+    100140: Brett_M_Eye_L
+    100142: Brett_M_Eye_R
+    100144: Brett_M_Gloves
+    100146: Brett_M_Head
+    100148: Brett_M_Top
+    100150: Brett_M_Trousers
+    100152: ElfCharacter
     400000: //RootNode
     400002: Head
     400004: HeadTop_End
@@ -135,8 +146,42 @@ ModelImporter:
     400126: Spine
     400128: Spine1
     400130: Spine2
+    400132: Brett_M_Arms
+    400134: Brett_M_Belt
+    400136: Brett_M_Boots
+    400138: Brett_M_Cloak
+    400140: Brett_M_Eye_L
+    400142: Brett_M_Eye_R
+    400144: Brett_M_Gloves
+    400146: Brett_M_Head
+    400148: Brett_M_Top
+    400150: Brett_M_Trousers
+    400152: ElfCharacter
+    2100000: BrettSkin
+    2100002: BrettClothes
+    4300000: Brett_M_Head
+    4300002: Brett_M_Eye_R
+    4300004: Brett_M_Eye_L
+    4300006: Brett_M_Cloak
+    4300008: Brett_M_Top
+    4300010: Brett_M_Arms
+    4300012: Brett_M_Gloves
+    4300014: Brett_M_Belt
+    4300016: Brett_M_Trousers
+    4300018: Brett_M_Boots
     7400000: AnimBrettWalking
     9500000: //RootNode
+    13700000: Brett_M_Arms
+    13700002: Brett_M_Belt
+    13700004: Brett_M_Boots
+    13700006: Brett_M_Cloak
+    13700008: Brett_M_Eye_L
+    13700010: Brett_M_Eye_R
+    13700012: Brett_M_Gloves
+    13700014: Brett_M_Head
+    13700016: Brett_M_Top
+    13700018: Brett_M_Trousers
+    2186277476908879412: ImportLogs
   externalObjects: {}
   materials:
     importMaterials: 1
@@ -169,7 +214,7 @@ ModelImporter:
       name: AnimBrettWalking
       takeName: AnimBrettWalking
       firstFrame: 0
-      lastFrame: 60
+      lastFrame: 59
       wrapMode: 0
       orientationOffsetY: 0
       level: 0
@@ -177,7 +222,7 @@ ModelImporter:
       loop: 0
       hasAdditiveReferencePose: 0
       loopTime: 1
-      loopBlend: 0
+      loopBlend: 1
       loopBlendOrientation: 1
       loopBlendPositionY: 1
       loopBlendPositionXZ: 1

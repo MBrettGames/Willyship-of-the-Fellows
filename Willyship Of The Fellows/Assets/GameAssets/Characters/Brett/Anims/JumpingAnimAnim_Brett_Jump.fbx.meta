@@ -1,12 +1,12 @@
 fileFormatVersion: 2
-guid: 0ca8f4550799f31418cc032d12e7d0ff
+guid: 234917902f1699a49a1cfdfe11d52dc3
 ModelImporter:
   serializedVersion: 23
   fileIDToRecycleName:
-    100000: //RootNode
-    100002: Head
-    100004: HeadTop_End
-    100006: Hips
+    100000: Head
+    100002: HeadTop_End
+    100004: Hips
+    100006: //RootNode
     100008: LeftArm
     100010: LeftFoot
     100012: LeftForeArm
@@ -69,10 +69,10 @@ ModelImporter:
     100126: Spine
     100128: Spine1
     100130: Spine2
-    400000: //RootNode
-    400002: Head
-    400004: HeadTop_End
-    400006: Hips
+    400000: Head
+    400002: HeadTop_End
+    400004: Hips
+    400006: //RootNode
     400008: LeftArm
     400010: LeftFoot
     400012: LeftForeArm
@@ -135,8 +135,9 @@ ModelImporter:
     400126: Spine
     400128: Spine1
     400130: Spine2
-    7400000: AnimBrettRunning
+    7400000: Anim_Brett_Jump
     9500000: //RootNode
+    2186277476908879412: ImportLogs
   externalObjects: {}
   materials:
     importMaterials: 1
@@ -150,14 +151,20 @@ ModelImporter:
     optimizeGameObjects: 0
     motionNodeName: 
     rigImportErrors: 
-    rigImportWarnings: 
+    rigImportWarnings: "Copied Avatar Rig Configuration mis-match. Bone length in
+      copied configuration does not match position in animation file:\n\t'LeftUpLeg'
+      : position error = 85.162956 mm\n\t'LeftLeg' : position error = 380.936310 mm\n\t'LeftFoot'
+      : position error = 394.232208 mm\n\t'LeftToeBase' : position error = 134.212830
+      mm\n\t'RightUpLeg' : position error = 85.265793 mm\n\t'RightLeg' : position
+      error = 381.143188 mm\n\t'RightFoot' : position error = 394.175598 mm\n\t'RightToeBase'
+      : position error = 135.617981 mm\n"
     animationImportErrors: 
     animationImportWarnings: 
     animationRetargetingWarnings: 
     animationDoRetargetingWarnings: 0
     importAnimatedCustomProperties: 0
     importConstraints: 0
-    animationCompression: 3
+    animationCompression: 1
     animationRotationError: 0.5
     animationPositionError: 0.5
     animationScaleError: 0.5
@@ -166,25 +173,25 @@ ModelImporter:
     extraUserProperties: []
     clipAnimations:
     - serializedVersion: 16
-      name: AnimBrettRunning
-      takeName: AnimBrettRunning
+      name: Anim_Brett_Jump
+      takeName: Anim_Brett_Jump
       firstFrame: 0
-      lastFrame: 58
+      lastFrame: 59
       wrapMode: 0
       orientationOffsetY: 0
-      level: 0
+      level: -0.8
       cycleOffset: 0
       loop: 0
       hasAdditiveReferencePose: 0
-      loopTime: 1
-      loopBlend: 1
+      loopTime: 0
+      loopBlend: 0
       loopBlendOrientation: 1
       loopBlendPositionY: 1
       loopBlendPositionXZ: 1
       keepOriginalOrientation: 0
-      keepOriginalPositionY: 1
+      keepOriginalPositionY: 0
       keepOriginalPositionXZ: 0
-      heightFromFeet: 0
+      heightFromFeet: 1
       mirror: 0
       bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
       curves: []
@@ -196,7 +203,7 @@ ModelImporter:
     isReadable: 1
   meshes:
     lODScreenPercentages: []
-    globalScale: 0.1
+    globalScale: 1
     meshCompression: 0
     addColliders: 0
     useSRGBMaterialColor: 1
@@ -216,8 +223,8 @@ ModelImporter:
     secondaryUVAreaDistortion: 15.000001
     secondaryUVHardAngle: 88
     secondaryUVPackMargin: 4
-    useFileScale: 0
-    previousCalculatedGlobalScale: 0.1
+    useFileScale: 1
+    previousCalculatedGlobalScale: 0.01
     hasPreviousCalculatedGlobalScale: 1
   tangentSpace:
     normalSmoothAngle: 60

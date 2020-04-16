@@ -137,6 +137,8 @@ public class ThirdPersonCharController : MonoBehaviour
     {
         if (b_jump)
         {
+            anim.SetTrigger("jump");
+            anim.ResetTrigger("jump");
             rb.AddForce(Vector3.up * f_JumpForce * (b_isGrounded ? 1 : 0), ForceMode.Impulse);
         }
     }
