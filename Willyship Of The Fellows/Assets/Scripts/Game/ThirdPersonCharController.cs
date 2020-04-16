@@ -1,4 +1,5 @@
-﻿using Rewired;
+﻿using Cinemachine;
+using Rewired;
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
@@ -7,6 +8,9 @@ public class ThirdPersonCharController : MonoBehaviour
 {
     #region Serialised
 
+    [SerializeField] string axis;
+    [Space]
+
     [SerializeField] private float f_maxSpeed;
     [SerializeField] private float f_JumpForce;
     [SerializeField] private float f_mouseSensitivity;
@@ -14,6 +18,7 @@ public class ThirdPersonCharController : MonoBehaviour
     [SerializeField] private float runModifier;
     [SerializeField] private float camDistance;
     [SerializeField] private Camera cam;
+    [SerializeField] private CinemachineFreeLook camLook;
     [SerializeField] private Transform camTarget;
 
     #endregion
@@ -56,6 +61,8 @@ public class ThirdPersonCharController : MonoBehaviour
         GetInputs();
         AdjustMoveDirection();
 
+        Debug.Log(Input.GetAxis(axis));
+
     }
 
     private void FixedUpdate()
@@ -69,11 +76,14 @@ public class ThirdPersonCharController : MonoBehaviour
     private void LateUpdate()
     {
 
-        cam.transform.LookAt(camTarget);
+        camLook.m_XAxis.m_InputAxisValue = v_mouseMove.x;
+        camLook.m_YAxis.m_InputAxisValue = v_mouseMove.y;
 
-        cam.transform.Translate(v_mouseMove * Time.deltaTime * f_mouseSensitivity);
+        //cam.transform.LookAt(camTarget);
 
-        cam.transform.position = camTarget.position + (cam.transform.position - camTarget.position).normalized * camDistance;
+        //cam.transform.Translate(v_mouseMove * Time.deltaTime * f_mouseSensitivity);
+
+        //cam.transform.position = camTarget.position + (cam.transform.position - camTarget.position).normalized * camDistance;
 
     }
 
