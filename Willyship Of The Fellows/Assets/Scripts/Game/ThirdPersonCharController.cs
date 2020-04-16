@@ -3,7 +3,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class ThirdPersonCharController: MonoBehaviour
+public class ThirdPersonCharController : MonoBehaviour
 {
     #region Serialised
 
@@ -51,7 +51,8 @@ public class ThirdPersonCharController: MonoBehaviour
     private void FixedUpdate()
     {
 
-       Move();
+        Move();
+        Jump();
 
     }
 
@@ -77,7 +78,7 @@ public class ThirdPersonCharController: MonoBehaviour
 
         v_moveDir = cam.transform.TransformDirection(v_moveDir);
 
-        v_moveDir = (!b_isGrounded? Vector3.ProjectOnPlane(v_moveDir, Vector3.up) : Vector3.ProjectOnPlane(v_moveDir, hit.normal));
+        v_moveDir = (!b_isGrounded ? Vector3.ProjectOnPlane(v_moveDir, Vector3.up) : Vector3.ProjectOnPlane(v_moveDir, hit.normal));
 
 
     }
@@ -101,6 +102,14 @@ public class ThirdPersonCharController: MonoBehaviour
 
         Debug.Log(y);
 
+    }
+
+    private void Jump()
+    {
+        if (b_jump)
+        {
+            rb.AddForce(Vector3.up * f_JumpForce * (b_isGrounded ? 1 : 0), ForceMode.Impulse);
+        }
     }
 
 }
