@@ -123,7 +123,8 @@ public class ThirdPersonCharController : MonoBehaviour
         currentSpeed = rb.velocity.magnitude;
         rb.velocity += Vector3.up * y;
 
-        Debug.Log(y);
+        if(v_moveDir.magnitude > 0.3f)
+            transform.rotation = Quaternion.LookRotation(v_moveDir);
 
     }
 
