@@ -77,7 +77,7 @@ public class ThirdPersonCharController: MonoBehaviour
 
         v_moveDir = cam.transform.TransformDirection(v_moveDir);
 
-        v_moveDir = (hit.normal == Vector3.forward ? Vector3.ProjectOnPlane(v_moveDir, Vector3.up) : Vector3.ProjectOnPlane(v_moveDir, hit.normal));
+        v_moveDir = (!b_isGrounded? Vector3.ProjectOnPlane(v_moveDir, Vector3.up) : Vector3.ProjectOnPlane(v_moveDir, hit.normal));
 
 
     }
