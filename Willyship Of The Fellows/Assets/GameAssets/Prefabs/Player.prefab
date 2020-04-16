@@ -112,11 +112,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7f0b4738f90b42e4d974939ebfeb0bff, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  f_maxSpeed: 175
+  f_maxSpeed: 100
   f_JumpForce: 30
   f_mouseSensitivity: 10
   groundCheckDistance: 1
-  runModifier: 1.5
+  runModifier: 2
   camDistance: 3
   cam: {fileID: 0}
   camTarget: {fileID: 5016928617902837875}
