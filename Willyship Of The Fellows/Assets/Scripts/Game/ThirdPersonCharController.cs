@@ -64,6 +64,12 @@ public class ThirdPersonCharController : MonoBehaviour
 
     }
 
+    private void LateUpdate()
+    {
+        
+    }
+
+
     private void GetInputs()
     {
 
