@@ -8,9 +8,6 @@ public class ThirdPersonCharController : MonoBehaviour
 {
     #region Serialised
 
-    [SerializeField] string axis;
-    [Space]
-
     [SerializeField] private float f_maxSpeed;
     [SerializeField] private float f_JumpForce;
     [SerializeField] private float f_mouseSensitivity;
@@ -60,8 +57,6 @@ public class ThirdPersonCharController : MonoBehaviour
         GroundCheck();
         GetInputs();
         AdjustMoveDirection();
-
-        Debug.Log(Input.GetAxis(axis));
 
     }
 
