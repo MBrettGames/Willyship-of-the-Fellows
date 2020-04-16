@@ -12,7 +12,9 @@ public class ThirdPersonCharController : MonoBehaviour
     [SerializeField] private float f_mouseSensitivity;
     [SerializeField] private float groundCheckDistance;
     [SerializeField] private float runModifier;
+    [SerializeField] private float camDistance;
     [SerializeField] private Camera cam;
+    [SerializeField] private Transform camTarget;
 
     #endregion
 
@@ -66,9 +68,14 @@ public class ThirdPersonCharController : MonoBehaviour
 
     private void LateUpdate()
     {
-        
-    }
 
+        cam.transform.LookAt(camTarget);
+
+        cam.transform.Translate(v_mouseMove * Time.deltaTime * f_mouseSensitivity);
+
+        cam.transform.position = camTarget.position + (cam.transform.position - camTarget.position).normalized * camDistance;
+
+    }
 
     private void GetInputs()
     {
@@ -80,8 +87,8 @@ public class ThirdPersonCharController : MonoBehaviour
         v_moveDir.x = player.GetAxis("LeftStickX");
         v_moveDir.z = player.GetAxis("LeftStickY");
 
-        v_mouseMove.x = -player.GetAxis("RightStickY");
-        v_mouseMove.y = player.GetAxis("RightStickX");
+        v_mouseMove.y = player.GetAxis("RightStickY");
+        v_mouseMove.x = player.GetAxis("RightStickX");
 
     }
 

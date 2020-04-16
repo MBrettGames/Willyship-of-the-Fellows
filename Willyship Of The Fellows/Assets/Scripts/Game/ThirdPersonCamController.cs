@@ -24,9 +24,9 @@ public class ThirdPersonCamController : MonoBehaviour
         mouseY -= Input.GetAxis("Mouse Y") * RotationSpeed;
         mouseY = Mathf.Clamp(mouseY, -35, 60);
 
-        transform.LookAt(Target);
+        //transform.LookAt(Target);
 
-            Target.rotation = Quaternion.Euler(mouseY, mouseX, 0);
-            Player.rotation = Quaternion.Euler(0, mouseX, 0);
+        //    Target.rotation = Quaternion.Euler(mouseY, mouseX, 0);
+        //    Player.rotation = Quaternion.Euler(0, mouseX, 0);
     }
 }
