@@ -10,6 +10,8 @@ ModelImporter:
     400002: Torch
     400004: //RootNode
     2100000: initialShadingGroup
+    2100002: StoneMat
+    2100004: TorchMat
     2300000: Stone
     2300002: Torch
     3300000: Stone
