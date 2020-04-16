@@ -116,7 +116,7 @@ MonoBehaviour:
   f_JumpForce: 30
   f_mouseSensitivity: 10
   groundCheckDistance: 1
-  runModifier: 2
+  runModifier: 3
   camDistance: 3
   cam: {fileID: 0}
   camTarget: {fileID: 5016928617902837875}
