@@ -122,7 +122,7 @@ public class ThirdPersonCharController : MonoBehaviour
 
         float y = rb.velocity.y;
 
-        rb.velocity *= 0.9f;
+        rb.velocity *= 0.8f;
 
         rb.velocity = Vector3.Scale(rb.velocity, (Vector3.one - Vector3.up));
         currentSpeed = rb.velocity.magnitude;
