@@ -129,6 +129,9 @@
     <None Include="Assets\Rewired\Documentation\licences.txt" />
     <None Include="Assets\Rewired\Documentation\ReadMe.txt" />
     <None Include="Assets\Rewired\Documentation\ReleaseNotes.txt" />
+    <Reference Include="Cinemachine">
+      <HintPath>D:/FMP_REMASTER/Willyship Of The Fellows/Willyship Of The Fellows/Library/ScriptAssemblies/Cinemachine.dll</HintPath>
+    </Reference>
     <Reference Include="Unity.TextMeshPro.Editor">
       <HintPath>D:/FMP_REMASTER/Willyship Of The Fellows/Willyship Of The Fellows/Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll</HintPath>
     </Reference>
@@ -138,23 +141,20 @@
     <Reference Include="Unity.CollabProxy.Editor">
       <HintPath>D:/FMP_REMASTER/Willyship Of The Fellows/Willyship Of The Fellows/Library/ScriptAssemblies/Unity.CollabProxy.Editor.dll</HintPath>
     </Reference>
-    <Reference Include="Unity.TextMeshPro">
-      <HintPath>D:/FMP_REMASTER/Willyship Of The Fellows/Willyship Of The Fellows/Library/ScriptAssemblies/Unity.TextMeshPro.dll</HintPath>
-    </Reference>
-    <Reference Include="Unity.Analytics.DataPrivacy">
-      <HintPath>D:/FMP_REMASTER/Willyship Of The Fellows/Willyship Of The Fellows/Library/ScriptAssemblies/Unity.Analytics.DataPrivacy.dll</HintPath>
-    </Reference>
-    <Reference Include="Cinemachine">
-      <HintPath>D:/FMP_REMASTER/Willyship Of The Fellows/Willyship Of The Fellows/Library/ScriptAssemblies/Cinemachine.dll</HintPath>
-    </Reference>
-    <Reference Include="com.unity.cinemachine.editor">
-      <HintPath>D:/FMP_REMASTER/Willyship Of The Fellows/Willyship Of The Fellows/Library/ScriptAssemblies/com.unity.cinemachine.editor.dll</HintPath>
-    </Reference>
     <Reference Include="Unity.Postprocessing.Editor">
       <HintPath>D:/FMP_REMASTER/Willyship Of The Fellows/Willyship Of The Fellows/Library/ScriptAssemblies/Unity.Postprocessing.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Postprocessing.Runtime">
       <HintPath>D:/FMP_REMASTER/Willyship Of The Fellows/Willyship Of The Fellows/Library/ScriptAssemblies/Unity.Postprocessing.Runtime.dll</HintPath>
+    </Reference>
+    <Reference Include="com.unity.cinemachine.editor">
+      <HintPath>D:/FMP_REMASTER/Willyship Of The Fellows/Willyship Of The Fellows/Library/ScriptAssemblies/com.unity.cinemachine.editor.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.TextMeshPro">
+      <HintPath>D:/FMP_REMASTER/Willyship Of The Fellows/Willyship Of The Fellows/Library/ScriptAssemblies/Unity.TextMeshPro.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.Analytics.DataPrivacy">
+      <HintPath>D:/FMP_REMASTER/Willyship Of The Fellows/Willyship Of The Fellows/Library/ScriptAssemblies/Unity.Analytics.DataPrivacy.dll</HintPath>
     </Reference>
     <Reference Include="UnityEngine.AIModule">
       <HintPath>C:/Program Files/Unity/Hub/Editor/2018.4.2f1/Editor/Data/Managed/UnityEngine/UnityEngine.AIModule.dll</HintPath>
