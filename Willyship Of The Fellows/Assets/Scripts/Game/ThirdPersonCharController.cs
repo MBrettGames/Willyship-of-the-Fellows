@@ -25,6 +25,7 @@ public class ThirdPersonCharController : MonoBehaviour
     private bool b_jump;
     private bool b_isGrounded;
     private bool b_run;
+    private bool b_attack;
 
     private Vector3 v_moveDir;
     private Vector3 v_mouseMove;
@@ -47,6 +48,9 @@ public class ThirdPersonCharController : MonoBehaviour
 
         player = ReInput.players.GetPlayer(0);
 
+        Cursor.visible = false;
+        Cursor.lockState = CursorLockMode.Locked;
+
     }
 
     private void Update()
@@ -63,6 +67,7 @@ public class ThirdPersonCharController : MonoBehaviour
     private void FixedUpdate()
     {
 
+        Attack();
         Move();
         Jump();
 
@@ -88,6 +93,7 @@ public class ThirdPersonCharController : MonoBehaviour
 
         b_jump = player.GetButtonDown("Jump");
         b_run = player.GetButton("Run");
+        b_attack = player.GetButton("Attack");
 
         v_moveDir.x = player.GetAxis("LeftStickX");
         v_moveDir.z = player.GetAxis("LeftStickY");
@@ -137,10 +143,15 @@ public class ThirdPersonCharController : MonoBehaviour
     {
         if (b_jump)
         {
-            anim.SetTrigger("jump");
-            anim.ResetTrigger("jump");
             rb.AddForce(Vector3.up * f_JumpForce * (b_isGrounded ? 1 : 0), ForceMode.Impulse);
         }
     }
 
+    private void Attack()
+    {
+        if (b_attack)
+        {
+            anim.Play("Drop_Kick");
+        }
+    }
 }
