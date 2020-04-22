@@ -57,6 +57,7 @@ public class ThirdPersonCharController : MonoBehaviour
     {
         anim.SetFloat("speed", currentSpeed);
         anim.SetBool("run", b_run);
+        anim.SetBool("grounded", b_isGrounded);
 
         GroundCheck();
         GetInputs();
