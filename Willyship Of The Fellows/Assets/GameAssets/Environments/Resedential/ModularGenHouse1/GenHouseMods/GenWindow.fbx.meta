@@ -16,7 +16,7 @@ ModelImporter:
       name: Positioned_BrettHeadSG1
     second: {fileID: 2100000, guid: d2f7759747599d045bb00db290c44a1a, type: 2}
   materials:
-    importMaterials: 1
+    importMaterials: 0
     materialName: 0
     materialSearch: 1
     materialLocation: 1

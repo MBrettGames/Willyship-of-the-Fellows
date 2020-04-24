@@ -119,7 +119,7 @@ public class ThirdPersonCharController : MonoBehaviour
 
     private void GroundCheck()
     {
-        hit.normal = Vector3.down;
+        hit.normal = Vector3.forward;
         b_isGrounded = Physics.Raycast(transform.position + transform.up * 0.1f, Vector3.down, out hit, groundCheckDistance);
     }
 
@@ -132,6 +132,8 @@ public class ThirdPersonCharController : MonoBehaviour
         rb.velocity *= 0.8f;
 
         rb.velocity = Vector3.Scale(rb.velocity, (Vector3.one - Vector3.up));
+
+        //speed for animation reasons
         currentSpeed = rb.velocity.magnitude;
         rb.velocity += Vector3.up * y;
 

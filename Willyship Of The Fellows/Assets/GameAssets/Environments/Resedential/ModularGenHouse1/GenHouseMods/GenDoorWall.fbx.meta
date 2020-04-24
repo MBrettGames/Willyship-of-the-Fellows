@@ -15,6 +15,7 @@ ModelImporter:
     400008: //RootNode
     2100000: lambert1
     2100002: Positioned_BrettHeadSG1
+    2100004: GenHouseTrim
     2300000: DoorWall_Door
     2300002: DoorWall_DoorTrim
     2300004: DoorWall_Trim
@@ -31,6 +32,11 @@ ModelImporter:
   - first:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
+      name: GenHouseTrim
+    second: {fileID: 2100000, guid: d2f7759747599d045bb00db290c44a1a, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
       name: Positioned_BrettHeadSG1
     second: {fileID: 2100000, guid: d2f7759747599d045bb00db290c44a1a, type: 2}
   - first:
@@ -39,7 +45,7 @@ ModelImporter:
       name: lambert1
     second: {fileID: 2100000, guid: 7d78bd55d2d950c4d937cc562a9bcb7b, type: 2}
   materials:
-    importMaterials: 1
+    importMaterials: 0
     materialName: 0
     materialSearch: 1
     materialLocation: 1
