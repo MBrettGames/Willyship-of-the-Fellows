@@ -972,7 +972,7 @@ ModelImporter:
       name: lambert3
     second: {fileID: 2100000, guid: 6f74b94a0ddd883458c4118977ff73a3, type: 2}
   materials:
-    importMaterials: 1
+    importMaterials: 0
     materialName: 0
     materialSearch: 1
     materialLocation: 1

@@ -1,28 +1,20 @@
 fileFormatVersion: 2
-guid: 23e8fc640ed617640bd6bdfab160a2dc
+guid: d6aae8685225eb34d9211a003626e86a
 ModelImporter:
   serializedVersion: 23
   fileIDToRecycleName:
     100000: //RootNode
-    100002: FloorLeaves1
     400000: //RootNode
-    400002: FloorLeaves1
-    2100000: initialShadingGroup
-    2100002: FloorLeaves1Mat
-    2300000: FloorLeaves1
-    3300000: FloorLeaves1
-    4300000: FloorLeaves1
+    2100000: Posters
+    2300000: //RootNode
+    3300000: //RootNode
+    4300000: Poster8
   externalObjects:
   - first:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
-      name: FloorLeaves1Mat
-    second: {fileID: 2100000, guid: bb4507279cdfa244c94edabc9b31986f, type: 2}
-  - first:
-      type: UnityEngine:Material
-      assembly: UnityEngine.CoreModule
-      name: initialShadingGroup
-    second: {fileID: 2100000, guid: bb4507279cdfa244c94edabc9b31986f, type: 2}
+      name: Posters
+    second: {fileID: 2100000, guid: c536bc733b62e5b48bf690b63fb5fc34, type: 2}
   materials:
     importMaterials: 0
     materialName: 0
@@ -73,7 +65,7 @@ ModelImporter:
     secondaryUVAreaDistortion: 15.000001
     secondaryUVHardAngle: 88
     secondaryUVPackMargin: 4
-    useFileScale: 1
+    useFileScale: 0
     previousCalculatedGlobalScale: 1
     hasPreviousCalculatedGlobalScale: 0
   tangentSpace:

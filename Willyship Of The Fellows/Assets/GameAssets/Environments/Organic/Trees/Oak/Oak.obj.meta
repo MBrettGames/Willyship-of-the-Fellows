@@ -469,7 +469,7 @@ ModelImporter:
       name: tree_Leaves4SG
     second: {fileID: 2100000, guid: bb4507279cdfa244c94edabc9b31986f, type: 2}
   materials:
-    importMaterials: 1
+    importMaterials: 0
     materialName: 0
     materialSearch: 1
     materialLocation: 1
