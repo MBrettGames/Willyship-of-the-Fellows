@@ -76,7 +76,7 @@ public class ThirdPersonCharController : MonoBehaviour
 
     private void LateUpdate()
     {
-
+        GetInputs();
         camLook.m_XAxis.m_InputAxisValue = v_mouseMove.x;
         camLook.m_YAxis.m_InputAxisValue = v_mouseMove.y;
 

@@ -96,8 +96,8 @@ MonoBehaviour:
   f_maxSpeed: 1200
   f_JumpForce: 100
   f_mouseSensitivity: 10
-  groundCheckDistance: 1
-  runModifier: 1.6
+  groundCheckDistance: 0.8
+  runModifier: 1.4
   camDistance: 3
   cam: {fileID: 0}
   camLook: {fileID: 0}
