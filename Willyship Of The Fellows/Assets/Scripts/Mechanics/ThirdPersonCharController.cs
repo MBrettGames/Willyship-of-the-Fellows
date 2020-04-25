@@ -76,7 +76,7 @@ public class ThirdPersonCharController : MonoBehaviour
 
     private void LateUpdate()
     {
-        GetInputs();
+
         camLook.m_XAxis.m_InputAxisValue = v_mouseMove.x;
         camLook.m_YAxis.m_InputAxisValue = v_mouseMove.y;
 
@@ -112,7 +112,7 @@ public class ThirdPersonCharController : MonoBehaviour
 
         v_moveDir = cam.transform.TransformDirection(v_moveDir);
 
-        v_moveDir = (!b_isGrounded ? Vector3.ProjectOnPlane(v_moveDir, Vector3.up) : Vector3.ProjectOnPlane(v_moveDir, hit.normal));
+        v_moveDir = Vector3.ProjectOnPlane(v_moveDir, Vector3.up);
 
 
     }

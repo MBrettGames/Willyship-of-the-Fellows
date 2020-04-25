@@ -9,6 +9,7 @@ ModelImporter:
     2300000: //RootNode
     3300000: //RootNode
     4300000: GenHouse_Mod_WindowLargeWall
+    4300002: GenHouse_Mod_CurveWindowWall
   externalObjects:
   - first:
       type: UnityEngine:Material
