@@ -11,14 +11,23 @@ public class DialogueManager : MonoBehaviour
     public Text dialogueText;
 
     public Animator animator;
+    private GameObject questBox;
+    private ThirdPersonCharController movementScript;
+    private PlayerInteract interactScript;
+
+    public static DialogueManager dialogueStatic;
 
     void Start()
     {
         sentences = new Queue<string>();
+        dialogueStatic = this;
     }
 
-    public void StartDialogue (Dialogue dialogue)
+    public void StartDialogue (Dialogue dialogue, GameObject questGiver, ThirdPersonCharController otherMovementScript, PlayerInteract localInteractScript)
     {
+        movementScript = otherMovementScript;
+        interactScript = localInteractScript;
+        questBox = questGiver;
         animator.SetBool("IsOpen", true);
         nameText.text = (dialogue.name);
 
@@ -56,5 +65,9 @@ public class DialogueManager : MonoBehaviour
     void EndDialogue()
     {
         animator.SetBool("IsOpen", false);
+        questBox.SetActive(false);
+        movementScript.enabled = true;
+        interactScript.isInteracting = false;
+
     }
 }

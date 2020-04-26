@@ -137,9 +137,15 @@ public class ThirdPersonCharController : MonoBehaviour
         currentSpeed = rb.velocity.magnitude;
         rb.velocity += Vector3.up * y;
 
-        if(v_moveDir.magnitude > 0.3f)
+        if (v_moveDir.magnitude > 0.3f)
             transform.rotation = Quaternion.LookRotation(v_moveDir);
 
+    }
+
+    public void StopMovement()
+    {
+        anim.SetFloat("speed", 0f);
+        rb.velocity = Vector3.zero;
     }
 
     private void Jump()
@@ -152,9 +158,17 @@ public class ThirdPersonCharController : MonoBehaviour
 
     private void Attack()
     {
-        if (b_attack)
+        if (b_attack && b_isGrounded)
         {
             anim.Play("Drop_Kick");
+            StopMovement();
+            StartCoroutine(Dropkickslow());
         }
+    }
+
+    IEnumerator Dropkickslow()
+    {
+        
+            yield return new WaitForSeconds(2);
     }
 }

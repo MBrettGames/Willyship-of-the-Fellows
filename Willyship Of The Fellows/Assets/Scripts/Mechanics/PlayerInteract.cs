@@ -9,12 +9,26 @@ public class PlayerInteract : MonoBehaviour
 {
     private GameObject raycastedObj;
     private Player player;
+    private QuestElement questElement;
+    public bool isInteracting;
+    private bool isSpeaking;
+
+    public Dialogue dialogue;
+
 
     [SerializeField] private int rayLength = 10;
     [SerializeField] private LayerMask layerMaskInteract;
 
-    [SerializeField] private GameObject uiCrosshair;
+    [SerializeField] private GameObject uiCrosshairTalk;
+    [SerializeField] private GameObject uiCrosshairUse;
 
+    [SerializeField] private ThirdPersonCharController movementScript;
+
+    private void Start()
+    {
+
+        player = ReInput.players.GetPlayer(0);
+    }
 
     private void Update()
     {
@@ -23,15 +37,45 @@ public class PlayerInteract : MonoBehaviour
 
         if (Physics.Raycast(transform.position, fwd, out hit, rayLength, layerMaskInteract.value))
         {
+            if (hit.collider.CompareTag("NPC"))
+            {
+                raycastedObj = hit.collider.gameObject;
+                CrosshairTalkActive();
+                isSpeaking = true;
+
+                if (player.GetButtonDown("Interact"))
+                {
+                    if (isInteracting)
+                    {
+                        DialogueManager.dialogueStatic.DisplayNextSentence();
+                    }
+
+                    else
+                    {
+                        CrosshairInactive();
+                        TriggerDialogue(raycastedObj);
+                        Debug.Log("I have spoken");
+                    }
+                }
+            }
+        }
+        else
+        {
+            CrosshairInactive();
+            isSpeaking = false;
+        }
+
+        if (Physics.Raycast(transform.position, fwd, out hit, rayLength, layerMaskInteract.value))
+        {
             if (hit.collider.CompareTag("Interactable"))
             {
                 raycastedObj = hit.collider.gameObject;
-                CrosshairActive();
+                CrosshairUseActive();
 
-                if (Input.GetButtonDown("Interact"))
+                if (player.GetButtonDown("Interact"))
                 {
+
                     Debug.Log("I have interacted");
-                    raycastedObj.SetActive(false);
                 }
             }
         }
@@ -39,16 +83,37 @@ public class PlayerInteract : MonoBehaviour
         {
             CrosshairInactive();
         }
+
     }
 
-    void CrosshairActive()
+    void CrosshairTalkActive()
     {
-        uiCrosshair.SetActive (true);
+        if (!isSpeaking)
+        {
+            uiCrosshairTalk.SetActive(true);
+        }
+    }
+
+    void CrosshairUseActive()
+    {
+        uiCrosshairUse.SetActive(true);
     }
 
     void CrosshairInactive()
     {
-        uiCrosshair.SetActive(false);
+        uiCrosshairTalk.SetActive(false);
+        uiCrosshairUse.SetActive(false);
+
     }
+
+    public void TriggerDialogue(GameObject NPC)
+    {
+        questElement = NPC.GetComponent<QuestElement>();
+        DialogueManager.dialogueStatic.StartDialogue(questElement.dialogue, NPC, movementScript, this);
+        isInteracting = true;
+        movementScript.enabled = false;
+        movementScript.StopMovement();
+    }
+
 
 }
