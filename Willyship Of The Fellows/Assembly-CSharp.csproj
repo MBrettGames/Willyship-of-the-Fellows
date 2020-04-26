@@ -123,6 +123,7 @@
     <Compile Include="Assets\Rewired\Internal\Scripts\InputManager.cs" />
     <Compile Include="Assets\Rewired\Internal\Scripts\Misc\ExternalTools.cs" />
     <Compile Include="Assets\Rewired\Internal\Scripts\Platforms\Ouya\OuyaInputSource.cs" />
+    <Compile Include="Assets\Scripts\Mechanics\PlayerInteract.cs" />
     <Compile Include="Assets\Scripts\Mechanics\ThirdPersonCharController.cs" />
     <Compile Include="Assets\Scripts\Narrative\Dialogue.cs" />
     <Compile Include="Assets\Scripts\Narrative\DialogueManager.cs" />
