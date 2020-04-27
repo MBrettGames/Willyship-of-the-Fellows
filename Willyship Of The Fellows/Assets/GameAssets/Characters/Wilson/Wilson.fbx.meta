@@ -67,9 +67,19 @@ ModelImporter:
     4300018: Wilson_M_Eyes
     4300020: Wilson_M_Teeth
     4300022: Wilson_M_Head
-  externalObjects: {}
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: WilsonClothes
+    second: {fileID: 2100000, guid: 9637c2bccbc935244ac9657a2f483e79, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: lambert1
+    second: {fileID: 2100000, guid: 46b54437f22442e45897cd3295e3fd7d, type: 2}
   materials:
-    importMaterials: 1
+    importMaterials: 0
     materialName: 0
     materialSearch: 1
     materialLocation: 1

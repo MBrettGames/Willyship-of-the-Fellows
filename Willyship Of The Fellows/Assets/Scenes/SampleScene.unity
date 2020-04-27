@@ -4646,7 +4646,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 63cf1fc8becc08947b776e41214f7b4a, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -2.68
+      value: -3.11
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 63cf1fc8becc08947b776e41214f7b4a, type: 3}
       propertyPath: m_LocalPosition.y
@@ -4654,7 +4654,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 63cf1fc8becc08947b776e41214f7b4a, type: 3}
       propertyPath: m_LocalPosition.z
-      value: 17.99
+      value: 108.13
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 63cf1fc8becc08947b776e41214f7b4a, type: 3}
       propertyPath: m_LocalRotation.x
@@ -4662,7 +4662,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 63cf1fc8becc08947b776e41214f7b4a, type: 3}
       propertyPath: m_LocalRotation.y
-      value: -1
+      value: -0.99954903
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 63cf1fc8becc08947b776e41214f7b4a, type: 3}
       propertyPath: m_LocalRotation.z
@@ -4670,7 +4670,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 63cf1fc8becc08947b776e41214f7b4a, type: 3}
       propertyPath: m_LocalRotation.w
-      value: 0.0000006407499
+      value: -0.030030865
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 63cf1fc8becc08947b776e41214f7b4a, type: 3}
       propertyPath: m_RootOrder
@@ -4682,7 +4682,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 63cf1fc8becc08947b776e41214f7b4a, type: 3}
       propertyPath: m_LocalEulerAnglesHint.y
-      value: -180.00002
+      value: -183.44199
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 63cf1fc8becc08947b776e41214f7b4a, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
@@ -9824,7 +9824,7 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 608409548}
-  m_LocalRotation: {x: 0.036325403, y: 0.000000052602527, z: -0.000000010155072, w: 0.99934006}
+  m_LocalRotation: {x: 0.036325403, y: 0.00000004419028, z: -0.000000008352588, w: 0.99934006}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
@@ -16671,7 +16671,7 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1013601647}
-  m_LocalRotation: {x: -0.021145485, y: 0.00000006151303, z: -0.000000020344618, w: 0.9997764}
+  m_LocalRotation: {x: -0.021145485, y: 0.000000061512985, z: -0.00000002034671, w: 0.9997764}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
@@ -17332,7 +17332,7 @@ PrefabInstance:
     - target: {fileID: 7563007915353727141, guid: 7dafdc34830274944af2bb9cd09adf0c,
         type: 3}
       propertyPath: m_RootOrder
-      value: 2
+      value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 7563007915353727141, guid: 7dafdc34830274944af2bb9cd09adf0c,
         type: 3}
@@ -19768,7 +19768,7 @@ PrefabInstance:
     - target: {fileID: 5016928618430544487, guid: 90e07a5450f8a0e44938f5cbfdde2d72,
         type: 3}
       propertyPath: m_RootOrder
-      value: 1
+      value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 5016928618430544487, guid: 90e07a5450f8a0e44938f5cbfdde2d72,
         type: 3}
@@ -21777,6 +21777,32 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 7f281341fea0fa342a006250772d94b2, type: 3}
+--- !u!1 &1290746621 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 100000, guid: 63cf1fc8becc08947b776e41214f7b4a,
+    type: 3}
+  m_PrefabInstance: {fileID: 251932591}
+  m_PrefabAsset: {fileID: 0}
+--- !u!4 &1290746622 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 400000, guid: 63cf1fc8becc08947b776e41214f7b4a,
+    type: 3}
+  m_PrefabInstance: {fileID: 251932591}
+  m_PrefabAsset: {fileID: 0}
+--- !u!136 &1290746623
+CapsuleCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1290746621}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  m_Radius: 0.5
+  m_Height: 3.58
+  m_Direction: 1
+  m_Center: {x: 0, y: 1.8, z: 0}
 --- !u!1001 &1302556282
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -33234,6 +33260,75 @@ Transform:
     type: 3}
   m_PrefabInstance: {fileID: 1901438941}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &1923871937
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1923871938}
+  - component: {fileID: 1923871940}
+  - component: {fileID: 1923871939}
+  m_Layer: 9
+  m_Name: WilsonQuestDialogue1
+  m_TagString: NPC
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1923871938
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1923871937}
+  m_LocalRotation: {x: -0, y: -0.06526407, z: -0, w: 0.99786806}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 1290746622}
+  m_RootOrder: 12
+  m_LocalEulerAnglesHint: {x: 0, y: -187.484, z: 0}
+--- !u!114 &1923871939
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1923871937}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9b37aa4e1df890740af09f0eeb78472f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  dialogue:
+    name: Lord Wilson
+    sentences:
+    - You aren't from around here, are you?
+    - Alright, lad. I've got a little something for you to do seen as it couldn't
+      have been you that did it.
+    - One of the cheeky little runts in my city nabbed me' jam butties when I went
+      to wake a whiz.
+    - Do us a solid and find out who took em. If they haven't eaten em bring them
+      to me.
+    - Bloody starving...
+--- !u!136 &1923871940
+CapsuleCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1923871937}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  m_Radius: 0.8
+  m_Height: 3.58
+  m_Direction: 1
+  m_Center: {x: 0, y: 1.8, z: 0}
 --- !u!1001 &1930980071
 PrefabInstance:
   m_ObjectHideFlags: 0
