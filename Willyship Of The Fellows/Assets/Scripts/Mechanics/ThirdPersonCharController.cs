@@ -168,7 +168,9 @@ public class ThirdPersonCharController : MonoBehaviour
 
     IEnumerator Dropkickslow()
     {
-        
-            yield return new WaitForSeconds(2);
+        f_maxSpeed = f_maxSpeed / 1.1f;
+            yield return new WaitForSeconds(1);
+        f_maxSpeed = f_maxSpeed * 1.1f;
+
     }
 }
