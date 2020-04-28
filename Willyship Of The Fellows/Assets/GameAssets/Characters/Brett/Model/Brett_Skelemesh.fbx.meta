@@ -83,6 +83,63 @@ ModelImporter:
     100154: Spine1
     100156: Spine2
     100158: Control1
+    100160: Bart
+    100162: Bart_M_Arm
+    100164: Bart_M_Belt
+    100166: Bart_M_Boots
+    100168: Bart_M_EyeL1
+    100170: Bart_M_Gloves
+    100172: Bart_M_Hair
+    100174: Bart_M_Hat
+    100176: Bart_M_Head
+    100178: Bart_M_Legs
+    100180: Bart_M_Shorts
+    100182: Bart_M_Top
+    100184: Ctrl_arm_L
+    100186: Ctrl_arm_R
+    100188: Ctrl_Chest
+    100190: Ctrl_Elbow_L
+    100192: Ctrl_Elbow_R
+    100194: Ctrl_Foot_L
+    100196: Ctrl_Foot_R
+    100198: Ctrl_Hand_L
+    100200: Ctrl_Hand_R
+    100202: Ctrl_Head
+    100204: Ctrl_Middle_1_L
+    100206: Ctrl_Middle_1_R
+    100208: Ctrl_Middle_2_L
+    100210: Ctrl_Middle_2_R
+    100212: Ctrl_Middle_3_L
+    100214: Ctrl_Middle_3_R
+    100216: Ctrl_Neck
+    100218: Ctrl_Pinky_1_L
+    100220: Ctrl_Pinky_1_R
+    100222: Ctrl_Pinky_2_L
+    100224: Ctrl_Pinky_2_R
+    100226: Ctrl_Pinky_3_L
+    100228: Ctrl_Pinky_3_R
+    100230: Ctrl_Point_1_L
+    100232: Ctrl_Point_1_R
+    100234: Ctrl_Point_2_L
+    100236: Ctrl_Point_2_R
+    100238: Ctrl_Point_3_L
+    100240: Ctrl_Point_3_R
+    100242: Ctrl_Ring_1_L
+    100244: Ctrl_Ring_1_R
+    100246: Ctrl_Ring_2_L
+    100248: Ctrl_Ring_2_R
+    100250: Ctrl_Ring_3_L
+    100252: Ctrl_Ring_3_R
+    100254: Ctrl_Shoulder_L
+    100256: Ctrl_Shoulder_R
+    100258: Ctrl_Spine_1
+    100260: Ctrl_Spine_2
+    100262: Ctrl_Thumb_1_L
+    100264: Ctrl_Thumb_1_R
+    100266: Ctrl_Thumb_2_L
+    100268: Ctrl_Thumb_2_R
+    100270: Ctrl_Toe_L
+    100272: Ctrl_Toe_R
     400000: Brett_M_Arms
     400002: Brett_M_Belt
     400004: Brett_M_Boots
@@ -163,8 +220,67 @@ ModelImporter:
     400154: Spine1
     400156: Spine2
     400158: Control1
+    400160: Bart
+    400162: Bart_M_Arm
+    400164: Bart_M_Belt
+    400166: Bart_M_Boots
+    400168: Bart_M_EyeL1
+    400170: Bart_M_Gloves
+    400172: Bart_M_Hair
+    400174: Bart_M_Hat
+    400176: Bart_M_Head
+    400178: Bart_M_Legs
+    400180: Bart_M_Shorts
+    400182: Bart_M_Top
+    400184: Ctrl_arm_L
+    400186: Ctrl_arm_R
+    400188: Ctrl_Chest
+    400190: Ctrl_Elbow_L
+    400192: Ctrl_Elbow_R
+    400194: Ctrl_Foot_L
+    400196: Ctrl_Foot_R
+    400198: Ctrl_Hand_L
+    400200: Ctrl_Hand_R
+    400202: Ctrl_Head
+    400204: Ctrl_Middle_1_L
+    400206: Ctrl_Middle_1_R
+    400208: Ctrl_Middle_2_L
+    400210: Ctrl_Middle_2_R
+    400212: Ctrl_Middle_3_L
+    400214: Ctrl_Middle_3_R
+    400216: Ctrl_Neck
+    400218: Ctrl_Pinky_1_L
+    400220: Ctrl_Pinky_1_R
+    400222: Ctrl_Pinky_2_L
+    400224: Ctrl_Pinky_2_R
+    400226: Ctrl_Pinky_3_L
+    400228: Ctrl_Pinky_3_R
+    400230: Ctrl_Point_1_L
+    400232: Ctrl_Point_1_R
+    400234: Ctrl_Point_2_L
+    400236: Ctrl_Point_2_R
+    400238: Ctrl_Point_3_L
+    400240: Ctrl_Point_3_R
+    400242: Ctrl_Ring_1_L
+    400244: Ctrl_Ring_1_R
+    400246: Ctrl_Ring_2_L
+    400248: Ctrl_Ring_2_R
+    400250: Ctrl_Ring_3_L
+    400252: Ctrl_Ring_3_R
+    400254: Ctrl_Shoulder_L
+    400256: Ctrl_Shoulder_R
+    400258: Ctrl_Spine_1
+    400260: Ctrl_Spine_2
+    400262: Ctrl_Thumb_1_L
+    400264: Ctrl_Thumb_1_R
+    400266: Ctrl_Thumb_2_L
+    400268: Ctrl_Thumb_2_R
+    400270: Ctrl_Toe_L
+    400272: Ctrl_Toe_R
     2100000: BrettSkin1
     2100002: BrettClothes1
+    2100004: lambert2
+    2100006: BartClothes
     4300000: Brett_M_Head
     4300002: Brett_M_Eye_R
     4300004: Brett_M_Eye_L
@@ -175,6 +291,17 @@ ModelImporter:
     4300014: Brett_M_Belt
     4300016: Brett_M_Trousers
     4300018: Brett_M_Boots
+    4300020: Bart_M_Hair
+    4300022: Bart_M_Head
+    4300024: Bart_M_Shorts
+    4300026: Bart_M_Boots
+    4300028: Bart_M_Top
+    4300030: Bart_M_Gloves
+    4300032: Bart_M_Legs
+    4300034: Bart_M_Arm
+    4300036: Bart_M_Hat
+    4300038: Bart_M_Belt
+    4300040: Bart_M_EyeL1
     9500000: //RootNode
     13700000: Brett_M_Arms
     13700002: Brett_M_Belt
@@ -186,6 +313,17 @@ ModelImporter:
     13700014: Brett_M_Head
     13700016: Brett_M_Top
     13700018: Brett_M_Trousers
+    13700020: Bart_M_Arm
+    13700022: Bart_M_Belt
+    13700024: Bart_M_Boots
+    13700026: Bart_M_EyeL1
+    13700028: Bart_M_Gloves
+    13700030: Bart_M_Hair
+    13700032: Bart_M_Hat
+    13700034: Bart_M_Head
+    13700036: Bart_M_Legs
+    13700038: Bart_M_Shorts
+    13700040: Bart_M_Top
     2186277476908879412: ImportLogs
   externalObjects:
   - first:
@@ -210,12 +348,7 @@ ModelImporter:
     optimizeGameObjects: 0
     motionNodeName: 
     rigImportErrors: 
-    rigImportWarnings: "Avatar Rig Configuration mis-match. Bone length in configuration
-      does not match position in animation file:\n\t'LeftLeg' : position error = 31.775757
-      mm\n\t'LeftFoot' : position error = 48.457848 mm\n\t'LeftToeBase' : position
-      error = 16.691854 mm\n\t'RightLeg' : position error = 31.775753 mm\n\t'RightFoot'
-      : position error = 48.458450 mm\n\t'RightToeBase' : position error = 16.691824
-      mm\n"
+    rigImportWarnings: 
     animationImportErrors: 
     animationImportWarnings: 
     animationRetargetingWarnings: 

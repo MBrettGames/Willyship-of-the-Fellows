@@ -129,6 +129,7 @@ ModelImporter:
     100246: Spine
     100248: Spine1
     100250: Spine2
+    100252: Bart_M_EyeL1
     400000: Bart
     400002: Bart_M_Arm
     400004: Bart_M_Belt
@@ -255,6 +256,7 @@ ModelImporter:
     400246: Spine
     400248: Spine1
     400250: Spine2
+    400252: Bart_M_EyeL1
     2100000: lambert2
     2100002: lambert3
     4300000: Bart_M_EyeL
@@ -269,6 +271,7 @@ ModelImporter:
     4300018: Bart_M_Arm
     4300020: Bart_M_Hat
     4300022: Bart_M_Belt
+    4300024: Bart_M_EyeL1
     9500000: //RootNode
     13700000: Bart_M_Arm
     13700002: Bart_M_Belt
@@ -282,7 +285,13 @@ ModelImporter:
     13700018: Bart_M_Legs
     13700020: Bart_M_Shorts
     13700022: Bart_M_Top
+    13700024: Bart_M_EyeL1
   externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: BartClothes
+    second: {fileID: 2100000, guid: f67d0e74b6741b946abb2e3f77127ed3, type: 2}
   - first:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
@@ -294,7 +303,7 @@ ModelImporter:
       name: lambert3
     second: {fileID: 2100000, guid: f67d0e74b6741b946abb2e3f77127ed3, type: 2}
   materials:
-    importMaterials: 1
+    importMaterials: 0
     materialName: 0
     materialSearch: 1
     materialLocation: 1
@@ -344,7 +353,7 @@ ModelImporter:
     secondaryUVHardAngle: 88
     secondaryUVPackMargin: 4
     useFileScale: 0
-    previousCalculatedGlobalScale: 0.01
+    previousCalculatedGlobalScale: 0.1
     hasPreviousCalculatedGlobalScale: 1
   tangentSpace:
     normalSmoothAngle: 60
