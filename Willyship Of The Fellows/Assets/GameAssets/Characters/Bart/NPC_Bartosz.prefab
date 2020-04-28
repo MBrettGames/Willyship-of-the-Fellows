@@ -1,0 +1,212 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &4240433100812083908
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4240433100812083911}
+  - component: {fileID: 4240433100812083905}
+  - component: {fileID: 4240433100812083910}
+  m_Layer: 9
+  m_Name: BartoszQuestDialogue1
+  m_TagString: NPC
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4240433100812083911
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4240433100812083908}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 4240433100887731024}
+  m_RootOrder: 1
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!136 &4240433100812083905
+CapsuleCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4240433100812083908}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  m_Radius: 0.8
+  m_Height: 3.58
+  m_Direction: 1
+  m_Center: {x: 0, y: 1.8, z: 0}
+--- !u!114 &4240433100812083910
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4240433100812083908}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9b37aa4e1df890740af09f0eeb78472f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  dialogue:
+    name: Bartosz the Gnome
+    sentences:
+    - Hello, traveling Elf. I'm Bartosz the magical Gnome...
+    - You got any jobs, bro? Lord Wilson won't give us Gnomes any, says our people
+      are "too shady"...
+    - Well if you don't have any jobs for me then I'm gonna wait here at the notice
+      board.
+    - I aint had a job in four days bro, you dont know the struggle, G.
+--- !u!1 &4240433100887731030
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4240433100887731024}
+  - component: {fileID: 4240433100887731025}
+  m_Layer: 0
+  m_Name: NPC_Bartosz
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4240433100887731024
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4240433100887731030}
+  m_LocalRotation: {x: -0, y: -1, z: -0, w: 0.00000058114523}
+  m_LocalPosition: {x: -4.54, y: 0, z: 16.56}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 7029558219190524009}
+  - {fileID: 4240433100812083911}
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!95 &4240433100887731025
+Animator:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4240433100887731030}
+  m_Enabled: 1
+  m_Avatar: {fileID: 9000000, guid: 6fc9129f7d044b44fb0036f76461d3b9, type: 3}
+  m_Controller: {fileID: 9100000, guid: 5619a314796361b4a9cbb9bc80e3b598, type: 2}
+  m_CullingMode: 1
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorControllerStateOnDisable: 0
+--- !u!136 &7029558219190125310
+CapsuleCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7029558219190092873}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  m_Radius: 0.5
+  m_Height: 3.58
+  m_Direction: 1
+  m_Center: {x: 0, y: 1.8, z: 0}
+--- !u!1001 &7029558219190125299
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 4240433100887731024}
+    m_Modifications:
+    - target: {fileID: 100026, guid: 44cc996368f8a3d45857d143c5b6796b, type: 3}
+      propertyPath: m_Name
+      value: Bart_Skelemesh
+      objectReference: {fileID: 0}
+    - target: {fileID: 400026, guid: 44cc996368f8a3d45857d143c5b6796b, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0.89
+      objectReference: {fileID: 0}
+    - target: {fileID: 400026, guid: 44cc996368f8a3d45857d143c5b6796b, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400026, guid: 44cc996368f8a3d45857d143c5b6796b, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -1.16
+      objectReference: {fileID: 0}
+    - target: {fileID: 400026, guid: 44cc996368f8a3d45857d143c5b6796b, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400026, guid: 44cc996368f8a3d45857d143c5b6796b, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0.083491914
+      objectReference: {fileID: 0}
+    - target: {fileID: 400026, guid: 44cc996368f8a3d45857d143c5b6796b, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400026, guid: 44cc996368f8a3d45857d143c5b6796b, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0.9965085
+      objectReference: {fileID: 0}
+    - target: {fileID: 400026, guid: 44cc996368f8a3d45857d143c5b6796b, type: 3}
+      propertyPath: m_RootOrder
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400026, guid: 44cc996368f8a3d45857d143c5b6796b, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400026, guid: 44cc996368f8a3d45857d143c5b6796b, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: -9.579
+      objectReference: {fileID: 0}
+    - target: {fileID: 400026, guid: 44cc996368f8a3d45857d143c5b6796b, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 9500000, guid: 44cc996368f8a3d45857d143c5b6796b, type: 3}
+      propertyPath: m_Avatar
+      value: 
+      objectReference: {fileID: 9000000, guid: 6fc9129f7d044b44fb0036f76461d3b9, type: 3}
+    - target: {fileID: 9500000, guid: 44cc996368f8a3d45857d143c5b6796b, type: 3}
+      propertyPath: m_Controller
+      value: 
+      objectReference: {fileID: 9100000, guid: 5619a314796361b4a9cbb9bc80e3b598, type: 2}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 44cc996368f8a3d45857d143c5b6796b, type: 3}
+--- !u!1 &7029558219190092873 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 100026, guid: 44cc996368f8a3d45857d143c5b6796b,
+    type: 3}
+  m_PrefabInstance: {fileID: 7029558219190125299}
+  m_PrefabAsset: {fileID: 0}
+--- !u!4 &7029558219190524009 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 400026, guid: 44cc996368f8a3d45857d143c5b6796b,
+    type: 3}
+  m_PrefabInstance: {fileID: 7029558219190125299}
+  m_PrefabAsset: {fileID: 0}

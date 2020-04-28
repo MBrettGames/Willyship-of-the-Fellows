@@ -150,8 +150,10 @@ public class ThirdPersonCharController : MonoBehaviour
 
     private void Jump()
     {
-        if (b_jump)
+        if (b_jump && b_isGrounded)
         {
+            StartCoroutine(JumpDelay());
+            anim.Play("Leap");
             rb.AddForce(Vector3.up * f_JumpForce * (b_isGrounded ? 1 : 0), ForceMode.Impulse);
         }
     }
@@ -171,6 +173,11 @@ public class ThirdPersonCharController : MonoBehaviour
         f_maxSpeed = f_maxSpeed / 1.1f;
             yield return new WaitForSeconds(1);
         f_maxSpeed = f_maxSpeed * 1.1f;
-
     }
+
+    IEnumerator JumpDelay()
+    {
+        yield return new WaitForSeconds(1);
+    }
+
 }
