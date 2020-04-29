@@ -30,8 +30,7 @@ public class ThirdPersonCharController : MonoBehaviour
     private bool b_attack;
     private bool b_utility;
 
-    private bool isRagdolling;
-    private bool b_self;
+    private bool b_isRagdolling;
 
 
     private Vector3 v_moveDir;
@@ -68,7 +67,6 @@ public class ThirdPersonCharController : MonoBehaviour
 
     private void Awake()
     {
-        //TurnOffRagdoll();
         SetRagdollParts();
         SetPlayerCollider();
     }
@@ -141,18 +139,16 @@ public class ThirdPersonCharController : MonoBehaviour
 
     private void GroundCheck()
     {
-        b_self = false;
         hit.normal = Vector3.forward;
         b_isGrounded = Physics.Raycast(transform.position + transform.up * 0.1f, Vector3.down, out hit, groundCheckDistance);
 
-        foreach (Collider col in RagdollParts)
+        /*foreach (Collider col in RagdollParts)
         {
             if (col.gameObject == hit.collider.gameObject)
             {
-                b_self = true;
                 break;
             }
-        }
+        }  */
     }
 
     private void Move()
@@ -184,7 +180,6 @@ public class ThirdPersonCharController : MonoBehaviour
     {
         if (b_jump && b_isGrounded)
         {
-            StartCoroutine(JumpDelay());
             anim.Play("Leap");
             rb.AddForce(Vector3.up * f_JumpForce * (b_isGrounded ? 1 : 0), ForceMode.Impulse);
         }
@@ -202,7 +197,19 @@ public class ThirdPersonCharController : MonoBehaviour
 
     private void UtilityAction()
     {
-        //TurnOnRagdoll();
+        if (b_utility && !b_isRagdolling)
+        {
+            TurnOnRagdoll();
+            new WaitForSeconds(1);
+        }
+
+        else if (b_utility && b_isRagdolling)
+        {
+            TurnOffRagdoll();
+            f_maxSpeed = f_maxSpeed * 10000f;
+            new WaitForSeconds(1);
+
+        }
     }
 
     IEnumerator Dropkickslow()
@@ -210,11 +217,6 @@ public class ThirdPersonCharController : MonoBehaviour
         f_maxSpeed = f_maxSpeed / 1.1f;
         yield return new WaitForSeconds(1);
         f_maxSpeed = f_maxSpeed * 1.1f;
-    }
-
-    IEnumerator JumpDelay()
-    {
-        yield return new WaitForSeconds(1);
     }
 
     private void SetRagdollParts()
@@ -236,31 +238,34 @@ public class ThirdPersonCharController : MonoBehaviour
         CapsuleCollider capsule = GetComponent<CapsuleCollider>();
     }
 
-    /* public void TurnOnRagdoll()
-     {
-         rb.useGravity = false;
-         rb.velocity = Vector3.zero;
-         this.gameObject.GetComponent<CapsuleCollider>().enabled = false;
-         anim.enabled = false;
+    public void TurnOnRagdoll()
+    {
+        rb.useGravity = false;
+        rb.velocity = Vector3.zero;
+        this.gameObject.GetComponent<CapsuleCollider>().enabled = false;
+        anim.enabled = false;
+        f_maxSpeed = f_maxSpeed / 10000f;
+        b_isRagdolling = true;
 
-         foreach(Collider col in RagdollParts)
-         {
-             col.enabled = false;
-             col.attachedRigidbody.velocity = Vector3.zero;
-         }
-     }
+        foreach (Collider col in RagdollParts)
+        {
+            col.enabled = true;
+            col.attachedRigidbody.velocity = Vector3.zero;
+        }
+    }
 
-     public void TurnOffRagdoll()
-     {
-         rb.useGravity = true;
-         this.gameObject.GetComponent<CapsuleCollider>().enabled = true;
-         anim.enabled = true;
+    public void TurnOffRagdoll()
+    {
+        rb.useGravity = true;
+        this.gameObject.GetComponent<CapsuleCollider>().enabled = true;
+        anim.enabled = true;
+        b_isRagdolling = false;
 
-         foreach (Collider col in RagdollParts)
-         {
-             col.enabled = true;
-         }
-     } */
+        foreach (Collider col in RagdollParts)
+        {
+            col.enabled = false;
+        }
+    }
 
 
 }
