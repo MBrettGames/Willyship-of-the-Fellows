@@ -200,15 +200,12 @@ public class ThirdPersonCharController : MonoBehaviour
         if (b_utility && !b_isRagdolling)
         {
             TurnOnRagdoll();
-            new WaitForSeconds(1);
         }
 
         else if (b_utility && b_isRagdolling)
         {
             TurnOffRagdoll();
             f_maxSpeed = f_maxSpeed * 10000f;
-            new WaitForSeconds(1);
-
         }
     }
 
