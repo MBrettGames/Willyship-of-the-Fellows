@@ -116,8 +116,11 @@ public class ThirdPersonCharController : MonoBehaviour
         b_attack = player.GetButton("Attack");
         b_utility = player.GetButton("Utility");
 
-        v_moveDir.x = player.GetAxis("LeftStickX");
-        v_moveDir.z = player.GetAxis("LeftStickY");
+        ///the lil bit at the end makes it not go faster diagonally
+        v_moveDir = (player.GetAxis("LeftStickX") * cam.transform.forward) + (player.GetAxis("LeftStickY") * cam.transform.right) * runModifier;
+
+        //v_moveDir.x = player.GetAxis("LeftStickX") * cam.transform.forward;
+        //v_moveDir.z = player.GetAxis("LeftStickY");
 
         v_mouseMove.y = player.GetAxis("RightStickY");
         v_mouseMove.x = player.GetAxis("RightStickX");
@@ -130,7 +133,7 @@ public class ThirdPersonCharController : MonoBehaviour
         v_moveDir *= f_maxSpeed * (b_run ? runModifier : 1);
         v_moveDir *= Time.deltaTime;
 
-        v_moveDir = cam.transform.TransformDirection(v_moveDir);
+        //v_moveDir = cam.transform.TransformDirection(v_moveDir);
 
         v_moveDir = Vector3.ProjectOnPlane(v_moveDir, Vector3.up);
 
