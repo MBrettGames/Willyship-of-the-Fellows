@@ -90,6 +90,70 @@ ModelImporter:
     100168: Spine1
     100170: Spine2
     100172: Brett_M_Arms3
+    100174: Brett_M_Arms4
+    100176: Brett_M_Arms5
+    100178: Brett_M_Trousers1
+    100180: Guard_M_Top3
+    100182: Guard_M_Top4
+    100184: Guard_M_Top5
+    100186: Guard_M_Top7
+    100188: Brett_M_Arms6
+    100190: Brett_M_Boots1
+    100192: Guard_M_Gloves2
+    100194: pPlane1
+    100196: Brett_M_Eye_R2
+    100198: Guard_M_Top8
+    100200: Guard_M_Arms3
+    100202: Guard_M_Arms5
+    100204: Guard_M_Arms6
+    100206: Guard_M_Belt1
+    100208: Guard_M_Boots1
+    100210: Guard_M_Eye_R2
+    100212: Guard_M_Trousers1
+    100214: pCylinder1
+    100216: Guard1
+    100218: Guard2
+    100220: Guard3
+    100222: Guard_M_Arms3 1
+    100224: Guard_M_Arms3 2
+    100226: Guard_M_Arms5 1
+    100228: Guard_M_Arms5 2
+    100230: Guard_M_Arms6 1
+    100232: Guard_M_Arms6 2
+    100234: Guard_M_Belt1 1
+    100236: Guard_M_Belt1 2
+    100238: Guard_M_Boots1 1
+    100240: Guard_M_Boots1 2
+    100242: Guard_M_Eye_R2 1
+    100244: Guard_M_Eye_R2 2
+    100246: Guard_M_Gloves1 1
+    100248: Guard_M_Gloves1 2
+    100250: Guard_M_Gloves2 1
+    100252: Guard_M_Gloves2 2
+    100254: Guard_M_Head1 1
+    100256: Guard_M_Head1 2
+    100258: Guard_M_Head2 1
+    100260: Guard_M_Head2 2
+    100262: Guard_M_Head3 1
+    100264: Guard_M_Head3 2
+    100266: Guard_M_Helm 1
+    100268: Guard_M_Helm 2
+    100270: Guard_M_Top3 1
+    100272: Guard_M_Top3 2
+    100274: Guard_M_Top4 1
+    100276: Guard_M_Top4 2
+    100278: Guard_M_Top5 1
+    100280: Guard_M_Top5 2
+    100282: Guard_M_Top7 1
+    100284: Guard_M_Top7 2
+    100286: Guard_M_Top8 1
+    100288: Guard_M_Top8 2
+    100290: Guard_M_Trousers1 1
+    100292: Guard_M_Trousers1 2
+    100294: pCylinder1 1
+    100296: pCylinder1 2
+    100298: pPlane1 1
+    100300: pPlane1 2
     400000: Brett_M_Arms
     400002: Brett_M_Arms1
     400004: Brett_M_Belt
@@ -177,10 +241,75 @@ ModelImporter:
     400168: Spine1
     400170: Spine2
     400172: Brett_M_Arms3
+    400174: Brett_M_Arms4
+    400176: Brett_M_Arms5
+    400178: Brett_M_Trousers1
+    400180: Guard_M_Top3
+    400182: Guard_M_Top4
+    400184: Guard_M_Top5
+    400186: Guard_M_Top7
+    400188: Brett_M_Arms6
+    400190: Brett_M_Boots1
+    400192: Guard_M_Gloves2
+    400194: pPlane1
+    400196: Brett_M_Eye_R2
+    400198: Guard_M_Top8
+    400200: Guard_M_Arms3
+    400202: Guard_M_Arms5
+    400204: Guard_M_Arms6
+    400206: Guard_M_Belt1
+    400208: Guard_M_Boots1
+    400210: Guard_M_Eye_R2
+    400212: Guard_M_Trousers1
+    400214: pCylinder1
+    400216: Guard1
+    400218: Guard2
+    400220: Guard3
+    400222: Guard_M_Arms3 1
+    400224: Guard_M_Arms3 2
+    400226: Guard_M_Arms5 1
+    400228: Guard_M_Arms5 2
+    400230: Guard_M_Arms6 1
+    400232: Guard_M_Arms6 2
+    400234: Guard_M_Belt1 1
+    400236: Guard_M_Belt1 2
+    400238: Guard_M_Boots1 1
+    400240: Guard_M_Boots1 2
+    400242: Guard_M_Eye_R2 1
+    400244: Guard_M_Eye_R2 2
+    400246: Guard_M_Gloves1 1
+    400248: Guard_M_Gloves1 2
+    400250: Guard_M_Gloves2 1
+    400252: Guard_M_Gloves2 2
+    400254: Guard_M_Head1 1
+    400256: Guard_M_Head1 2
+    400258: Guard_M_Head2 1
+    400260: Guard_M_Head2 2
+    400262: Guard_M_Head3 1
+    400264: Guard_M_Head3 2
+    400266: Guard_M_Helm 1
+    400268: Guard_M_Helm 2
+    400270: Guard_M_Top3 1
+    400272: Guard_M_Top3 2
+    400274: Guard_M_Top4 1
+    400276: Guard_M_Top4 2
+    400278: Guard_M_Top5 1
+    400280: Guard_M_Top5 2
+    400282: Guard_M_Top7 1
+    400284: Guard_M_Top7 2
+    400286: Guard_M_Top8 1
+    400288: Guard_M_Top8 2
+    400290: Guard_M_Trousers1 1
+    400292: Guard_M_Trousers1 2
+    400294: pCylinder1 1
+    400296: pCylinder1 2
+    400298: pPlane1 1
+    400300: pPlane1 2
     2100000: BrettSkin1
     2100002: BrettClothes1
     2100004: BrettSkin2
     2100006: lambert1
+    2100008: lambert2
     2300000: Brett_M_Arms1
     2300002: Brett_M_Belt1
     2300004: Brett_M_Top1
@@ -192,6 +321,67 @@ ModelImporter:
     2300016: Guard_M_Top1
     2300018: Guard_M_Top2
     2300020: Brett_M_Arms3
+    2300022: Brett_M_Arms4
+    2300024: Brett_M_Arms5
+    2300026: Brett_M_Trousers1
+    2300028: Guard_M_Top3
+    2300030: Guard_M_Top4
+    2300032: Guard_M_Top5
+    2300034: Guard_M_Top7
+    2300036: Brett_M_Arms6
+    2300038: Brett_M_Boots1
+    2300040: Guard_M_Gloves2
+    2300042: pPlane1
+    2300044: Brett_M_Eye_R2
+    2300046: Guard_M_Top8
+    2300048: Guard_M_Arms3
+    2300050: Guard_M_Arms5
+    2300052: Guard_M_Arms6
+    2300054: Guard_M_Belt1
+    2300056: Guard_M_Boots1
+    2300058: Guard_M_Eye_R2
+    2300060: Guard_M_Trousers1
+    2300062: pCylinder1
+    2300064: Guard_M_Arms3 1
+    2300066: Guard_M_Arms3 2
+    2300068: Guard_M_Arms5 1
+    2300070: Guard_M_Arms5 2
+    2300072: Guard_M_Arms6 1
+    2300074: Guard_M_Arms6 2
+    2300076: Guard_M_Belt1 1
+    2300078: Guard_M_Belt1 2
+    2300080: Guard_M_Boots1 1
+    2300082: Guard_M_Boots1 2
+    2300084: Guard_M_Eye_R2 1
+    2300086: Guard_M_Eye_R2 2
+    2300088: Guard_M_Gloves1 1
+    2300090: Guard_M_Gloves1 2
+    2300092: Guard_M_Gloves2 1
+    2300094: Guard_M_Gloves2 2
+    2300096: Guard_M_Head1 1
+    2300098: Guard_M_Head1 2
+    2300100: Guard_M_Head2 1
+    2300102: Guard_M_Head2 2
+    2300104: Guard_M_Head3 1
+    2300106: Guard_M_Head3 2
+    2300108: Guard_M_Helm 1
+    2300110: Guard_M_Helm 2
+    2300112: Guard_M_Top3 1
+    2300114: Guard_M_Top3 2
+    2300116: Guard_M_Top4 1
+    2300118: Guard_M_Top4 2
+    2300120: Guard_M_Top5 1
+    2300122: Guard_M_Top5 2
+    2300124: Guard_M_Top7 1
+    2300126: Guard_M_Top7 2
+    2300128: Guard_M_Top8 1
+    2300130: Guard_M_Top8 2
+    2300132: Guard_M_Trousers1 1
+    2300134: Guard_M_Trousers1 2
+    2300136: pCylinder1 1
+    2300138: pCylinder1 2
+    2300140: pPlane1 1
+    2300142: pPlane1 2
     3300000: Brett_M_Arms1
     3300002: Brett_M_Belt1
     3300004: Brett_M_Top1
@@ -203,6 +393,67 @@ ModelImporter:
     3300016: Guard_M_Top1
     3300018: Guard_M_Top2
     3300020: Brett_M_Arms3
+    3300022: Brett_M_Arms4
+    3300024: Brett_M_Arms5
+    3300026: Brett_M_Trousers1
+    3300028: Guard_M_Top3
+    3300030: Guard_M_Top4
+    3300032: Guard_M_Top5
+    3300034: Guard_M_Top7
+    3300036: Brett_M_Arms6
+    3300038: Brett_M_Boots1
+    3300040: Guard_M_Gloves2
+    3300042: pPlane1
+    3300044: Brett_M_Eye_R2
+    3300046: Guard_M_Top8
+    3300048: Guard_M_Arms3
+    3300050: Guard_M_Arms5
+    3300052: Guard_M_Arms6
+    3300054: Guard_M_Belt1
+    3300056: Guard_M_Boots1
+    3300058: Guard_M_Eye_R2
+    3300060: Guard_M_Trousers1
+    3300062: pCylinder1
+    3300064: Guard_M_Arms3 1
+    3300066: Guard_M_Arms3 2
+    3300068: Guard_M_Arms5 1
+    3300070: Guard_M_Arms5 2
+    3300072: Guard_M_Arms6 1
+    3300074: Guard_M_Arms6 2
+    3300076: Guard_M_Belt1 1
+    3300078: Guard_M_Belt1 2
+    3300080: Guard_M_Boots1 1
+    3300082: Guard_M_Boots1 2
+    3300084: Guard_M_Eye_R2 1
+    3300086: Guard_M_Eye_R2 2
+    3300088: Guard_M_Gloves1 1
+    3300090: Guard_M_Gloves1 2
+    3300092: Guard_M_Gloves2 1
+    3300094: Guard_M_Gloves2 2
+    3300096: Guard_M_Head1 1
+    3300098: Guard_M_Head1 2
+    3300100: Guard_M_Head2 1
+    3300102: Guard_M_Head2 2
+    3300104: Guard_M_Head3 1
+    3300106: Guard_M_Head3 2
+    3300108: Guard_M_Helm 1
+    3300110: Guard_M_Helm 2
+    3300112: Guard_M_Top3 1
+    3300114: Guard_M_Top3 2
+    3300116: Guard_M_Top4 1
+    3300118: Guard_M_Top4 2
+    3300120: Guard_M_Top5 1
+    3300122: Guard_M_Top5 2
+    3300124: Guard_M_Top7 1
+    3300126: Guard_M_Top7 2
+    3300128: Guard_M_Top8 1
+    3300130: Guard_M_Top8 2
+    3300132: Guard_M_Trousers1 1
+    3300134: Guard_M_Trousers1 2
+    3300136: pCylinder1 1
+    3300138: pCylinder1 2
+    3300140: pPlane1 1
+    3300142: pPlane1 2
     4300000: Brett_M_Eye_R
     4300002: Brett_M_Eye_L
     4300004: Brett_M_Top
@@ -223,6 +474,67 @@ ModelImporter:
     4300034: Brett_M_Top1
     4300036: Brett_M_Arms1
     4300038: Brett_M_Arms3
+    4300040: Brett_M_Arms4
+    4300042: Brett_M_Arms5
+    4300044: Brett_M_Trousers1
+    4300046: Guard_M_Top3
+    4300048: Guard_M_Top4
+    4300050: Guard_M_Top5
+    4300052: Guard_M_Top7
+    4300054: Brett_M_Arms6
+    4300056: Brett_M_Boots1
+    4300058: Guard_M_Gloves2
+    4300060: pPlane1
+    4300062: Brett_M_Eye_R2
+    4300064: Guard_M_Top8
+    4300066: Guard_M_Trousers1
+    4300068: Guard_M_Boots1
+    4300070: Guard_M_Belt1
+    4300072: Guard_M_Arms3
+    4300074: Guard_M_Arms5
+    4300076: Guard_M_Arms6
+    4300078: Guard_M_Eye_R2
+    4300080: pCylinder1
+    4300082: pPlane1
+    4300084: Guard_M_Eye_R2
+    4300086: Guard_M_Arms5
+    4300088: Guard_M_Trousers1
+    4300090: Guard_M_Head1
+    4300092: Guard_M_Top8
+    4300094: pCylinder1
+    4300096: Guard_M_Arms3
+    4300098: Guard_M_Top3
+    4300100: Guard_M_Top4
+    4300102: Guard_M_Head2
+    4300104: Guard_M_Head3
+    4300106: Guard_M_Gloves1
+    4300108: Guard_M_Top5
+    4300110: Guard_M_Gloves2
+    4300112: Guard_M_Boots1
+    4300114: Guard_M_Arms6
+    4300116: Guard_M_Helm
+    4300118: Guard_M_Top7
+    4300120: Guard_M_Belt1
+    4300122: pPlane1
+    4300124: Guard_M_Eye_R2
+    4300126: Guard_M_Arms5
+    4300128: Guard_M_Trousers1
+    4300130: Guard_M_Head1
+    4300132: Guard_M_Top8
+    4300134: pCylinder1
+    4300136: Guard_M_Arms3
+    4300138: Guard_M_Top3
+    4300140: Guard_M_Top4
+    4300142: Guard_M_Head2
+    4300144: Guard_M_Head3
+    4300146: Guard_M_Gloves1
+    4300148: Guard_M_Top5
+    4300150: Guard_M_Gloves2
+    4300152: Guard_M_Boots1
+    4300154: Guard_M_Arms6
+    4300156: Guard_M_Helm
+    4300158: Guard_M_Top7
+    4300160: Guard_M_Belt1
     9500000: //RootNode
     13700000: Brett_M_Arms
     13700002: Brett_M_Belt
@@ -265,7 +577,7 @@ ModelImporter:
     isReadable: 1
   meshes:
     lODScreenPercentages: []
-    globalScale: 1
+    globalScale: 0.1
     meshCompression: 0
     addColliders: 0
     useSRGBMaterialColor: 1
@@ -285,8 +597,8 @@ ModelImporter:
     secondaryUVAreaDistortion: 15.000001
     secondaryUVHardAngle: 88
     secondaryUVPackMargin: 4
-    useFileScale: 1
-    previousCalculatedGlobalScale: 1
+    useFileScale: 0
+    previousCalculatedGlobalScale: 0.1
     hasPreviousCalculatedGlobalScale: 1
   tangentSpace:
     normalSmoothAngle: 60

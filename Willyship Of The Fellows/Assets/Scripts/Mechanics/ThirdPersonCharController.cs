@@ -99,12 +99,12 @@ public class ThirdPersonCharController : MonoBehaviour
         camLook.m_XAxis.m_InputAxisValue = v_mouseMove.x;
         camLook.m_YAxis.m_InputAxisValue = v_mouseMove.y;
 
-        //cam.transform.LookAt(camTarget);
+        /*cam.transform.LookAt(camTarget);
 
-        //cam.transform.Translate(v_mouseMove * Time.deltaTime * f_mouseSensitivity);
+        cam.transform.Translate(v_mouseMove * Time.deltaTime * f_mouseSensitivity);
 
-        //cam.transform.position = camTarget.position + (cam.transform.position - camTarget.position).normalized * camDistance;
-
+        cam.transform.position = camTarget.position + (cam.transform.position - camTarget.position).normalized * camDistance;
+        */
     }
 
     private void GetInputs()
@@ -113,8 +113,8 @@ public class ThirdPersonCharController : MonoBehaviour
 
         b_jump = player.GetButtonDown("Jump");
         b_run = player.GetButton("Run");
-        b_attack = player.GetButton("Attack");
-        b_utility = player.GetButton("Utility");
+        b_attack = player.GetButtonDown("Attack");
+        b_utility = player.GetButtonDown("Utility");
 
         v_moveDir.x = player.GetAxis("LeftStickX");
         v_moveDir.z = player.GetAxis("LeftStickY");
@@ -163,6 +163,7 @@ public class ThirdPersonCharController : MonoBehaviour
 
         //speed for animation reasons
         currentSpeed = rb.velocity.magnitude;
+
         rb.velocity += Vector3.up * y;
 
         if (v_moveDir.magnitude > 0.3f)
