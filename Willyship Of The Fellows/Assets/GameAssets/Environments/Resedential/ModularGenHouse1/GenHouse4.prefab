@@ -40,7 +40,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 126
   m_IsActive: 1
 --- !u!4 &1498003293069988809
 Transform:
@@ -196,6 +196,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: GenWoodBeam (17)
       objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 8f35aa37dc393d94ca4863257794868c, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 126
+      objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 8f35aa37dc393d94ca4863257794868c, type: 3}
       propertyPath: m_LocalPosition.x
       value: 6.774
@@ -276,6 +280,10 @@ PrefabInstance:
     - target: {fileID: 100000, guid: 1e6060bbf96ff614d8a05921024e8574, type: 3}
       propertyPath: m_Name
       value: GenWoodBeamSupport (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 1e6060bbf96ff614d8a05921024e8574, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 126
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 1e6060bbf96ff614d8a05921024e8574, type: 3}
       propertyPath: m_LocalPosition.x
@@ -358,6 +366,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: GenWoodBeam (14)
       objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 8f35aa37dc393d94ca4863257794868c, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 126
+      objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 8f35aa37dc393d94ca4863257794868c, type: 3}
       propertyPath: m_LocalPosition.x
       value: 6.774
@@ -433,6 +445,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: GenWoodBeam (13)
       objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 8f35aa37dc393d94ca4863257794868c, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 126
+      objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 8f35aa37dc393d94ca4863257794868c, type: 3}
       propertyPath: m_LocalPosition.x
       value: 6.85
@@ -499,6 +515,10 @@ PrefabInstance:
     - target: {fileID: 100000, guid: 8f35aa37dc393d94ca4863257794868c, type: 3}
       propertyPath: m_Name
       value: GenWoodBeam (7)
+      objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 8f35aa37dc393d94ca4863257794868c, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 126
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 8f35aa37dc393d94ca4863257794868c, type: 3}
       propertyPath: m_LocalPosition.x
@@ -567,6 +587,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: GenHouseRoofTrim (3)
       objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 0808dbb12b4c6de4c8c97bde4d1dea7c, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 126
+      objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 0808dbb12b4c6de4c8c97bde4d1dea7c, type: 3}
       propertyPath: m_LocalPosition.x
       value: -3.6970997
@@ -629,6 +653,10 @@ PrefabInstance:
     - target: {fileID: 100000, guid: 0707a244397143a47a7c26e6d8c77b41, type: 3}
       propertyPath: m_Name
       value: GenCurveWallConvex (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 0707a244397143a47a7c26e6d8c77b41, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 126
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 0707a244397143a47a7c26e6d8c77b41, type: 3}
       propertyPath: m_LocalPosition.x
@@ -697,6 +725,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: GenHouseSmallRoofSlope (3)
       objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: f6f8352b583ced54aa51012e49029e52, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 126
+      objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: f6f8352b583ced54aa51012e49029e52, type: 3}
       propertyPath: m_LocalPosition.x
       value: -1.0507002
@@ -759,6 +791,10 @@ PrefabInstance:
     - target: {fileID: 100000, guid: 53fdd38aed4375a44adccb13126fe449, type: 3}
       propertyPath: m_Name
       value: GenWall (2)
+      objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 53fdd38aed4375a44adccb13126fe449, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 126
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 53fdd38aed4375a44adccb13126fe449, type: 3}
       propertyPath: m_LocalPosition.x
@@ -827,6 +863,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: GenHouseRoofTrim (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 0808dbb12b4c6de4c8c97bde4d1dea7c, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 126
+      objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 0808dbb12b4c6de4c8c97bde4d1dea7c, type: 3}
       propertyPath: m_LocalPosition.x
       value: 4.1993
@@ -889,6 +929,10 @@ PrefabInstance:
     - target: {fileID: 100000, guid: 0808dbb12b4c6de4c8c97bde4d1dea7c, type: 3}
       propertyPath: m_Name
       value: GenHouseRoofTrim (5)
+      objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 0808dbb12b4c6de4c8c97bde4d1dea7c, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 126
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 0808dbb12b4c6de4c8c97bde4d1dea7c, type: 3}
       propertyPath: m_LocalPosition.x
@@ -953,6 +997,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: GenTrim (3)
       objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 9360884cc8337004f9852f0a7a478900, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 126
+      objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 9360884cc8337004f9852f0a7a478900, type: 3}
       propertyPath: m_LocalPosition.x
       value: 4.1993
@@ -1015,6 +1063,10 @@ PrefabInstance:
     - target: {fileID: 100000, guid: 53fdd38aed4375a44adccb13126fe449, type: 3}
       propertyPath: m_Name
       value: GenWall
+      objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 53fdd38aed4375a44adccb13126fe449, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 126
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 53fdd38aed4375a44adccb13126fe449, type: 3}
       propertyPath: m_LocalPosition.x
@@ -1083,6 +1135,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: GenHouseSmallRoofSlope
       objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: f6f8352b583ced54aa51012e49029e52, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 126
+      objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: f6f8352b583ced54aa51012e49029e52, type: 3}
       propertyPath: m_LocalPosition.x
       value: 4.1993
@@ -1146,6 +1202,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: GenTrim (2)
       objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 9360884cc8337004f9852f0a7a478900, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 126
+      objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 9360884cc8337004f9852f0a7a478900, type: 3}
       propertyPath: m_LocalPosition.x
       value: -1.0721002
@@ -1208,6 +1268,10 @@ PrefabInstance:
     - target: {fileID: 100000, guid: 53fdd38aed4375a44adccb13126fe449, type: 3}
       propertyPath: m_Name
       value: GenWall (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 53fdd38aed4375a44adccb13126fe449, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 126
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 53fdd38aed4375a44adccb13126fe449, type: 3}
       propertyPath: m_LocalPosition.x
@@ -1276,6 +1340,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: GenHouseRoofTrim
       objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 0808dbb12b4c6de4c8c97bde4d1dea7c, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 126
+      objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 0808dbb12b4c6de4c8c97bde4d1dea7c, type: 3}
       propertyPath: m_LocalPosition.x
       value: 4.2153
@@ -1339,6 +1407,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: GenWindow (2)
       objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: e620882a19294974da89f5463d08f82d, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 126
+      objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: e620882a19294974da89f5463d08f82d, type: 3}
       propertyPath: m_LocalPosition.x
       value: 6.92
@@ -1401,6 +1473,10 @@ PrefabInstance:
     - target: {fileID: 100000, guid: 8f35aa37dc393d94ca4863257794868c, type: 3}
       propertyPath: m_Name
       value: GenWoodBeam (11)
+      objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 8f35aa37dc393d94ca4863257794868c, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 126
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 8f35aa37dc393d94ca4863257794868c, type: 3}
       propertyPath: m_LocalPosition.x
@@ -1469,6 +1545,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: GenWall (8)
       objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 53fdd38aed4375a44adccb13126fe449, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 126
+      objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 53fdd38aed4375a44adccb13126fe449, type: 3}
       propertyPath: m_LocalPosition.x
       value: -1.0613999
@@ -1535,6 +1615,10 @@ PrefabInstance:
     - target: {fileID: 100000, guid: 53fdd38aed4375a44adccb13126fe449, type: 3}
       propertyPath: m_Name
       value: GenWall (7)
+      objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 53fdd38aed4375a44adccb13126fe449, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 126
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 53fdd38aed4375a44adccb13126fe449, type: 3}
       propertyPath: m_LocalPosition.x
@@ -1603,6 +1687,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: GenHouseRoofTrim (2)
       objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 0808dbb12b4c6de4c8c97bde4d1dea7c, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 126
+      objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 0808dbb12b4c6de4c8c97bde4d1dea7c, type: 3}
       propertyPath: m_LocalPosition.x
       value: -1.0721002
@@ -1667,6 +1755,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: GenLitLantern
       objectReference: {fileID: 0}
+    - target: {fileID: 5249640973854552543, guid: b3c7046af661f88469945e7fbc39b8d9,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 126
+      objectReference: {fileID: 0}
     - target: {fileID: 5249640973854060031, guid: b3c7046af661f88469945e7fbc39b8d9,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -1722,6 +1815,16 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 1596895423721864109, guid: b3c7046af661f88469945e7fbc39b8d9,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 126
+      objectReference: {fileID: 0}
+    - target: {fileID: 9216522698000108089, guid: b3c7046af661f88469945e7fbc39b8d9,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 126
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: b3c7046af661f88469945e7fbc39b8d9, type: 3}
 --- !u!4 &1755919154049491314 stripped
@@ -1740,6 +1843,10 @@ PrefabInstance:
     - target: {fileID: 100000, guid: 6599c4e588f661947a010eb41fb05f20, type: 3}
       propertyPath: m_Name
       value: GenHouseSmallRoofSlopeConvex
+      objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 6599c4e588f661947a010eb41fb05f20, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 126
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 6599c4e588f661947a010eb41fb05f20, type: 3}
       propertyPath: m_LocalPosition.x
@@ -1804,6 +1911,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: GenHouseRoofTrim (4)
       objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 0808dbb12b4c6de4c8c97bde4d1dea7c, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 126
+      objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 0808dbb12b4c6de4c8c97bde4d1dea7c, type: 3}
       propertyPath: m_LocalPosition.x
       value: -3.7078
@@ -1866,6 +1977,10 @@ PrefabInstance:
     - target: {fileID: 100000, guid: 2625e17c6698d89419d9c0e79b7269c0, type: 3}
       propertyPath: m_Name
       value: GenWallSmallRoof
+      objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 2625e17c6698d89419d9c0e79b7269c0, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 126
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 2625e17c6698d89419d9c0e79b7269c0, type: 3}
       propertyPath: m_LocalPosition.x
@@ -1933,6 +2048,10 @@ PrefabInstance:
     - target: {fileID: 100000, guid: 8f35aa37dc393d94ca4863257794868c, type: 3}
       propertyPath: m_Name
       value: GenWoodBeam (6)
+      objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 8f35aa37dc393d94ca4863257794868c, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 126
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 8f35aa37dc393d94ca4863257794868c, type: 3}
       propertyPath: m_LocalPosition.x
@@ -2007,6 +2126,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: GenWall (5)
       objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 53fdd38aed4375a44adccb13126fe449, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 126
+      objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 53fdd38aed4375a44adccb13126fe449, type: 3}
       propertyPath: m_LocalPosition.x
       value: -3.7078
@@ -2073,6 +2196,10 @@ PrefabInstance:
     - target: {fileID: 100000, guid: 53fdd38aed4375a44adccb13126fe449, type: 3}
       propertyPath: m_Name
       value: GenWall (6)
+      objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 53fdd38aed4375a44adccb13126fe449, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 126
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 53fdd38aed4375a44adccb13126fe449, type: 3}
       propertyPath: m_LocalPosition.x
@@ -2145,6 +2272,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: GenTrim (4)
       objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 9360884cc8337004f9852f0a7a478900, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 126
+      objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 9360884cc8337004f9852f0a7a478900, type: 3}
       propertyPath: m_LocalPosition.x
       value: 6.835
@@ -2207,6 +2338,10 @@ PrefabInstance:
     - target: {fileID: 100000, guid: 8f35aa37dc393d94ca4863257794868c, type: 3}
       propertyPath: m_Name
       value: GenWoodBeam (3)
+      objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 8f35aa37dc393d94ca4863257794868c, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 126
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 8f35aa37dc393d94ca4863257794868c, type: 3}
       propertyPath: m_LocalPosition.x
@@ -2275,6 +2410,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: GenWoodBeam (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 8f35aa37dc393d94ca4863257794868c, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 126
+      objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 8f35aa37dc393d94ca4863257794868c, type: 3}
       propertyPath: m_LocalPosition.x
       value: 6.781
@@ -2342,6 +2481,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: GenWindow (3)
       objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: e620882a19294974da89f5463d08f82d, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 126
+      objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: e620882a19294974da89f5463d08f82d, type: 3}
       propertyPath: m_LocalPosition.x
       value: -1.04
@@ -2404,6 +2547,10 @@ PrefabInstance:
     - target: {fileID: 100000, guid: 5606ddc84f21a97499ea957bc52a82c0, type: 3}
       propertyPath: m_Name
       value: GenCurveWallTop
+      objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 5606ddc84f21a97499ea957bc52a82c0, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 126
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 5606ddc84f21a97499ea957bc52a82c0, type: 3}
       propertyPath: m_LocalPosition.x
@@ -2472,6 +2619,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: GenWoodBeam (4)
       objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 8f35aa37dc393d94ca4863257794868c, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 126
+      objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 8f35aa37dc393d94ca4863257794868c, type: 3}
       propertyPath: m_LocalPosition.x
       value: 6.9700003
@@ -2538,6 +2689,10 @@ PrefabInstance:
     - target: {fileID: 100000, guid: 2625e17c6698d89419d9c0e79b7269c0, type: 3}
       propertyPath: m_Name
       value: GenWallSmallRoof (2)
+      objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 2625e17c6698d89419d9c0e79b7269c0, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 126
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 2625e17c6698d89419d9c0e79b7269c0, type: 3}
       propertyPath: m_LocalPosition.x
@@ -2606,6 +2761,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: GenHouseSmallRoofSlope (2)
       objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: f6f8352b583ced54aa51012e49029e52, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 126
+      objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: f6f8352b583ced54aa51012e49029e52, type: 3}
       propertyPath: m_LocalPosition.x
       value: -1.0827999
@@ -2668,6 +2827,10 @@ PrefabInstance:
     - target: {fileID: 100000, guid: 53fdd38aed4375a44adccb13126fe449, type: 3}
       propertyPath: m_Name
       value: GenWall (3)
+      objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 53fdd38aed4375a44adccb13126fe449, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 126
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 53fdd38aed4375a44adccb13126fe449, type: 3}
       propertyPath: m_LocalPosition.x
@@ -2740,6 +2903,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: GenHouseRoofTrimConvex (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 9fca3ac50aff9a74fb357db0182852e9, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 126
+      objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 9fca3ac50aff9a74fb357db0182852e9, type: 3}
       propertyPath: m_LocalPosition.x
       value: -3.6970997
@@ -2802,6 +2969,10 @@ PrefabInstance:
     - target: {fileID: 100000, guid: 9360884cc8337004f9852f0a7a478900, type: 3}
       propertyPath: m_Name
       value: GenTrim (5)
+      objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 9360884cc8337004f9852f0a7a478900, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 126
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 9360884cc8337004f9852f0a7a478900, type: 3}
       propertyPath: m_LocalPosition.x
@@ -2866,6 +3037,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: GenHouseSmallRoofSlopeConcave
       objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: ec383a91f00dd514db33a5e950b697e3, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 126
+      objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: ec383a91f00dd514db33a5e950b697e3, type: 3}
       propertyPath: m_LocalPosition.x
       value: -1.0560999
@@ -2928,6 +3103,10 @@ PrefabInstance:
     - target: {fileID: 100000, guid: 53fdd38aed4375a44adccb13126fe449, type: 3}
       propertyPath: m_Name
       value: GenWall (4)
+      objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 53fdd38aed4375a44adccb13126fe449, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 126
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 53fdd38aed4375a44adccb13126fe449, type: 3}
       propertyPath: m_LocalPosition.x
@@ -2996,6 +3175,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: GenWoodBeam (5)
       objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 8f35aa37dc393d94ca4863257794868c, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 126
+      objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 8f35aa37dc393d94ca4863257794868c, type: 3}
       propertyPath: m_LocalPosition.x
       value: 6.9700003
@@ -3062,6 +3245,10 @@ PrefabInstance:
     - target: {fileID: 100000, guid: 8f35aa37dc393d94ca4863257794868c, type: 3}
       propertyPath: m_Name
       value: GenWoodBeam (12)
+      objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 8f35aa37dc393d94ca4863257794868c, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 126
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 8f35aa37dc393d94ca4863257794868c, type: 3}
       propertyPath: m_LocalPosition.x
@@ -3130,6 +3317,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: GenWoodBeam (10)
       objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 8f35aa37dc393d94ca4863257794868c, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 126
+      objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 8f35aa37dc393d94ca4863257794868c, type: 3}
       propertyPath: m_LocalPosition.x
       value: -0.9160018
@@ -3196,6 +3387,10 @@ PrefabInstance:
     - target: {fileID: 100000, guid: 8f35aa37dc393d94ca4863257794868c, type: 3}
       propertyPath: m_Name
       value: GenWoodBeam (9)
+      objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 8f35aa37dc393d94ca4863257794868c, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 126
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 8f35aa37dc393d94ca4863257794868c, type: 3}
       propertyPath: m_LocalPosition.x
@@ -3264,6 +3459,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: GenWindow (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: e620882a19294974da89f5463d08f82d, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 126
+      objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: e620882a19294974da89f5463d08f82d, type: 3}
       propertyPath: m_LocalPosition.x
       value: 4.19
@@ -3326,6 +3525,10 @@ PrefabInstance:
     - target: {fileID: 100000, guid: 8f35aa37dc393d94ca4863257794868c, type: 3}
       propertyPath: m_Name
       value: GenWoodBeam (2)
+      objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 8f35aa37dc393d94ca4863257794868c, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 126
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 8f35aa37dc393d94ca4863257794868c, type: 3}
       propertyPath: m_LocalPosition.x
@@ -3394,6 +3597,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: GenWoodBeam
       objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 8f35aa37dc393d94ca4863257794868c, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 126
+      objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 8f35aa37dc393d94ca4863257794868c, type: 3}
       propertyPath: m_LocalPosition.x
       value: 1.6199999
@@ -3460,6 +3667,10 @@ PrefabInstance:
     - target: {fileID: 100000, guid: 0707a244397143a47a7c26e6d8c77b41, type: 3}
       propertyPath: m_Name
       value: GenCurveWallConvex
+      objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 0707a244397143a47a7c26e6d8c77b41, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 126
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 0707a244397143a47a7c26e6d8c77b41, type: 3}
       propertyPath: m_LocalPosition.x
@@ -3528,6 +3739,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: GenHouseSmallRoofSlope (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: f6f8352b583ced54aa51012e49029e52, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 126
+      objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: f6f8352b583ced54aa51012e49029e52, type: 3}
       propertyPath: m_LocalPosition.x
       value: 4.2153
@@ -3591,6 +3806,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: GenWindow
       objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: e620882a19294974da89f5463d08f82d, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 126
+      objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: e620882a19294974da89f5463d08f82d, type: 3}
       propertyPath: m_LocalPosition.x
       value: -3.79
@@ -3653,6 +3872,10 @@ PrefabInstance:
     - target: {fileID: 100000, guid: 2625e17c6698d89419d9c0e79b7269c0, type: 3}
       propertyPath: m_Name
       value: GenWallSmallRoof (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 2625e17c6698d89419d9c0e79b7269c0, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 126
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 2625e17c6698d89419d9c0e79b7269c0, type: 3}
       propertyPath: m_LocalPosition.x
@@ -3721,6 +3944,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: GenWallConvexTrim
       objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: cf8e6f2f10c4ae4499c4bc77619b9437, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 126
+      objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: cf8e6f2f10c4ae4499c4bc77619b9437, type: 3}
       propertyPath: m_LocalPosition.x
       value: -1.0721002
@@ -3783,6 +4010,10 @@ PrefabInstance:
     - target: {fileID: 100000, guid: 8f35aa37dc393d94ca4863257794868c, type: 3}
       propertyPath: m_Name
       value: GenWoodBeam (8)
+      objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 8f35aa37dc393d94ca4863257794868c, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 126
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 8f35aa37dc393d94ca4863257794868c, type: 3}
       propertyPath: m_LocalPosition.x
@@ -3856,6 +4087,26 @@ PrefabInstance:
     - target: {fileID: 100008, guid: 720a724f3ac69a4479a1a73ed362ae90, type: 3}
       propertyPath: m_Name
       value: GenDoorWall
+      objectReference: {fileID: 0}
+    - target: {fileID: 100008, guid: 720a724f3ac69a4479a1a73ed362ae90, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 126
+      objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 720a724f3ac69a4479a1a73ed362ae90, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 126
+      objectReference: {fileID: 0}
+    - target: {fileID: 100002, guid: 720a724f3ac69a4479a1a73ed362ae90, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 126
+      objectReference: {fileID: 0}
+    - target: {fileID: 100004, guid: 720a724f3ac69a4479a1a73ed362ae90, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 126
+      objectReference: {fileID: 0}
+    - target: {fileID: 100006, guid: 720a724f3ac69a4479a1a73ed362ae90, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 126
       objectReference: {fileID: 0}
     - target: {fileID: 400008, guid: 720a724f3ac69a4479a1a73ed362ae90, type: 3}
       propertyPath: m_LocalPosition.x
@@ -3936,6 +4187,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: GenHouseRoofTrimConvex
       objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 9fca3ac50aff9a74fb357db0182852e9, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 126
+      objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 9fca3ac50aff9a74fb357db0182852e9, type: 3}
       propertyPath: m_LocalPosition.x
       value: -3.6970997
@@ -3998,6 +4253,10 @@ PrefabInstance:
     - target: {fileID: 100000, guid: 9360884cc8337004f9852f0a7a478900, type: 3}
       propertyPath: m_Name
       value: GenTrim
+      objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 9360884cc8337004f9852f0a7a478900, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 126
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 9360884cc8337004f9852f0a7a478900, type: 3}
       propertyPath: m_LocalPosition.x
@@ -4062,6 +4321,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: GenTrim (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 9360884cc8337004f9852f0a7a478900, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 126
+      objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 9360884cc8337004f9852f0a7a478900, type: 3}
       propertyPath: m_LocalPosition.x
       value: -3.7078
@@ -4124,6 +4387,10 @@ PrefabInstance:
     - target: {fileID: 100000, guid: 8f35aa37dc393d94ca4863257794868c, type: 3}
       propertyPath: m_Name
       value: GenWoodBeam (16)
+      objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 8f35aa37dc393d94ca4863257794868c, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 126
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 8f35aa37dc393d94ca4863257794868c, type: 3}
       propertyPath: m_LocalPosition.x
@@ -4192,6 +4459,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: GenWoodBeam (15)
       objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 8f35aa37dc393d94ca4863257794868c, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 126
+      objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 8f35aa37dc393d94ca4863257794868c, type: 3}
       propertyPath: m_LocalPosition.x
       value: -3.7189999
@@ -4258,6 +4529,10 @@ PrefabInstance:
     - target: {fileID: 100000, guid: 1e6060bbf96ff614d8a05921024e8574, type: 3}
       propertyPath: m_Name
       value: GenWoodBeamSupport
+      objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 1e6060bbf96ff614d8a05921024e8574, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 126
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 1e6060bbf96ff614d8a05921024e8574, type: 3}
       propertyPath: m_LocalPosition.x

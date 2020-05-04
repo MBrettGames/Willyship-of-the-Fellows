@@ -128,7 +128,6 @@ public class ThirdPersonCharController : MonoBehaviour
     {
 
         v_moveDir *= f_maxSpeed * (b_run ? runModifier : 1);
-        v_moveDir *= Time.deltaTime;
 
         v_moveDir = cam.transform.TransformDirection(v_moveDir);
 
@@ -153,7 +152,7 @@ public class ThirdPersonCharController : MonoBehaviour
 
     private void Move()
     {
-        rb.AddForce(v_moveDir, ForceMode.Impulse);
+        rb.AddForce(v_moveDir * Time.deltaTime, ForceMode.Impulse);
 
         float y = rb.velocity.y;
 
