@@ -18,6 +18,7 @@ public class PlayerInteract : MonoBehaviour
 
     [SerializeField] private int rayLength = 10;
     [SerializeField] private LayerMask layerMaskInteract;
+    [SerializeField] private Animator anim;
 
     [SerializeField] private GameObject uiCrosshairTalk;
     [SerializeField] private GameObject uiCrosshairUse;
@@ -74,6 +75,7 @@ public class PlayerInteract : MonoBehaviour
 
                 if (player.GetButtonDown("Interact"))
                 {
+                    anim.Play("Interact");
 
                     Debug.Log("I have interacted");
                 }
@@ -113,6 +115,8 @@ public class PlayerInteract : MonoBehaviour
         isInteracting = true;
         movementScript.enabled = false;
         movementScript.StopMovement();
+        anim.Play("Greet");
+        
     }
 
 

@@ -211,9 +211,9 @@ public class ThirdPersonCharController : MonoBehaviour
 
     IEnumerator Dropkickslow()
     {
-        f_maxSpeed = f_maxSpeed / 1.1f;
+        f_maxSpeed = f_maxSpeed / 2f;
         yield return new WaitForSeconds(1);
-        f_maxSpeed = f_maxSpeed * 1.1f;
+        f_maxSpeed = f_maxSpeed * 2f;
     }
 
     private void SetRagdollParts()
