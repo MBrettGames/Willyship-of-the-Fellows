@@ -86,8 +86,8 @@ public class ThirdPersonCharController : MonoBehaviour
     private void FixedUpdate()
     {
 
-        Attack();
         Move();
+        Attack();
         Jump();
         UtilityAction();
 
@@ -223,7 +223,7 @@ public class ThirdPersonCharController : MonoBehaviour
 
         foreach (Collider col in colliders)
         {
-            if (col.gameObject != this.gameObject)
+            if (col.CompareTag("RagdollPart") && col.gameObject != this.gameObject)
             {
                 col.enabled = false;
                 RagdollParts.Add(col);
