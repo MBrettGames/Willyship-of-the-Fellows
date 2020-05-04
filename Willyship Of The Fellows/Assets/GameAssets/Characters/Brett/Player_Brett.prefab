@@ -993,7 +993,7 @@ MonoBehaviour:
   f_JumpForce: 487
   f_mouseSensitivity: 10
   groundCheckDistance: 0.7
-  runModifier: 1.4
+  runModifier: 1.2
   camDistance: 3
   cam: {fileID: 0}
   camLook: {fileID: 0}
@@ -1125,6 +1125,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Brett_Skelemesh
       objectReference: {fileID: 0}
+    - target: {fileID: 100032, guid: 9d39a63bbbbf11c41910d224b2f0f382, type: 3}
+      propertyPath: m_TagString
+      value: RagdollPart
+      objectReference: {fileID: 0}
     - target: {fileID: 400020, guid: 9d39a63bbbbf11c41910d224b2f0f382, type: 3}
       propertyPath: m_LocalPosition.x
       value: 0
@@ -1176,6 +1180,46 @@ PrefabInstance:
     - target: {fileID: 9500000, guid: 9d39a63bbbbf11c41910d224b2f0f382, type: 3}
       propertyPath: m_UpdateMode
       value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 100090, guid: 9d39a63bbbbf11c41910d224b2f0f382, type: 3}
+      propertyPath: m_TagString
+      value: RagdollPart
+      objectReference: {fileID: 0}
+    - target: {fileID: 100150, guid: 9d39a63bbbbf11c41910d224b2f0f382, type: 3}
+      propertyPath: m_TagString
+      value: RagdollPart
+      objectReference: {fileID: 0}
+    - target: {fileID: 100082, guid: 9d39a63bbbbf11c41910d224b2f0f382, type: 3}
+      propertyPath: m_TagString
+      value: RagdollPart
+      objectReference: {fileID: 0}
+    - target: {fileID: 100142, guid: 9d39a63bbbbf11c41910d224b2f0f382, type: 3}
+      propertyPath: m_TagString
+      value: RagdollPart
+      objectReference: {fileID: 0}
+    - target: {fileID: 100154, guid: 9d39a63bbbbf11c41910d224b2f0f382, type: 3}
+      propertyPath: m_TagString
+      value: RagdollPart
+      objectReference: {fileID: 0}
+    - target: {fileID: 100092, guid: 9d39a63bbbbf11c41910d224b2f0f382, type: 3}
+      propertyPath: m_TagString
+      value: RagdollPart
+      objectReference: {fileID: 0}
+    - target: {fileID: 100034, guid: 9d39a63bbbbf11c41910d224b2f0f382, type: 3}
+      propertyPath: m_TagString
+      value: RagdollPart
+      objectReference: {fileID: 0}
+    - target: {fileID: 100094, guid: 9d39a63bbbbf11c41910d224b2f0f382, type: 3}
+      propertyPath: m_TagString
+      value: RagdollPart
+      objectReference: {fileID: 0}
+    - target: {fileID: 100038, guid: 9d39a63bbbbf11c41910d224b2f0f382, type: 3}
+      propertyPath: m_TagString
+      value: RagdollPart
+      objectReference: {fileID: 0}
+    - target: {fileID: 100098, guid: 9d39a63bbbbf11c41910d224b2f0f382, type: 3}
+      propertyPath: m_TagString
+      value: RagdollPart
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 9d39a63bbbbf11c41910d224b2f0f382, type: 3}
