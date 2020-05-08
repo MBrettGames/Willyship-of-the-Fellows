@@ -224,7 +224,7 @@ public class ThirdPersonCharController : MonoBehaviour
         {
             if (col.CompareTag("RagdollPart") && col.gameObject != this.gameObject)
             {
-                col.enabled = false;
+                col.isTrigger = true;
                 RagdollParts.Add(col);
             }
         }
@@ -246,7 +246,7 @@ public class ThirdPersonCharController : MonoBehaviour
 
         foreach (Collider col in RagdollParts)
         {
-            col.enabled = true;
+            col.isTrigger = false;
             col.attachedRigidbody.velocity = Vector3.zero;
         }
     }
@@ -260,7 +260,7 @@ public class ThirdPersonCharController : MonoBehaviour
 
         foreach (Collider col in RagdollParts)
         {
-            col.enabled = false;
+            col.isTrigger = true;
         }
     }
 
