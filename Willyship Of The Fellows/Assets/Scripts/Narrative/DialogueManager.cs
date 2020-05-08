@@ -7,6 +7,8 @@ public class DialogueManager : MonoBehaviour
 {
     private Queue<string> sentences;
 
+    [SerializeField] private GameObject DialogueBox;
+
     public Text nameText;
     public Text dialogueText;
 
@@ -21,10 +23,13 @@ public class DialogueManager : MonoBehaviour
     {
         sentences = new Queue<string>();
         dialogueStatic = this;
+        DialogueBox.SetActive(false);
+        animator.SetBool("IsOpen", true);
     }
 
     public void StartDialogue (Dialogue dialogue, GameObject questGiver, ThirdPersonCharController otherMovementScript, PlayerInteract localInteractScript)
     {
+        DialogueBox.SetActive(true);
         movementScript = otherMovementScript;
         interactScript = localInteractScript;
         questBox = questGiver;
