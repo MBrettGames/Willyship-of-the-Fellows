@@ -1,5 +1,68 @@
 %YAML 1.1
 %TAG !u! tag:unity3d.com,2011:
+--- !u!1 &431001657
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 431001658}
+  - component: {fileID: 431001660}
+  - component: {fileID: 431001659}
+  m_Layer: 9
+  m_Name: IdleDialogue_Wilson_1
+  m_TagString: NPC
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &431001658
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 431001657}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 5465205071379467791}
+  m_RootOrder: 2
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!136 &431001660
+CapsuleCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 431001657}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  m_Radius: 0.59
+  m_Height: 3.25
+  m_Direction: 1
+  m_Center: {x: 0, y: 1.8, z: 0}
+--- !u!114 &431001659
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 431001657}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9b37aa4e1df890740af09f0eeb78472f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  dialogue:
+    name: Lord Wilson
+    sentences:
+    - Jam butties, lad...
+    - 'Midget near here could have some gossip. Dew sum werk and find em''. '
 --- !u!1 &5465205069424248731
 GameObject:
   m_ObjectHideFlags: 0
@@ -12,8 +75,8 @@ GameObject:
   - component: {fileID: 5465205069424248734}
   - component: {fileID: 5465205069424248729}
   m_Layer: 9
-  m_Name: WilsonQuestDialogue1
-  m_TagString: NPC
+  m_Name: QuestDialogue_Wilson_1
+  m_TagString: NPCQuestObj
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -65,9 +128,11 @@ MonoBehaviour:
     - Alright, lad. I've got a little something for you to do seen as it couldn't
       have been you that did it.
     - One of the cheeky little runts in my city nabbed me' jam butties when I went
-      to wake a whiz.
+      to take a whiz.
     - Do us a solid and find out who took em. If they haven't eaten em bring them
       to me.
+    - There's a dwarf here, Elliot. Little gimp must know summet'. got his fingers
+      in a lot of pies in this town.
     - Bloody starving...
 --- !u!136 &5465205069722267828
 CapsuleCollider:
@@ -92,7 +157,6 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 5465205071379467791}
-  - component: {fileID: 5465205071379467790}
   m_Layer: 0
   m_Name: NPC_Wilson
   m_TagString: Untagged
@@ -107,34 +171,16 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 5465205071379467785}
-  m_LocalRotation: {x: -0, y: -1, z: -0, w: 0.00000058114523}
+  m_LocalRotation: {x: 0, y: 1, z: 0, w: 0.00000028088027}
   m_LocalPosition: {x: -3.1737976, y: 0, z: 107.898315}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 5465205069722135469}
   - {fileID: 5465205069424248728}
+  - {fileID: 431001658}
   m_Father: {fileID: 0}
   m_RootOrder: 0
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!95 &5465205071379467790
-Animator:
-  serializedVersion: 3
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 5465205071379467785}
-  m_Enabled: 1
-  m_Avatar: {fileID: 9000000, guid: 6fc9129f7d044b44fb0036f76461d3b9, type: 3}
-  m_Controller: {fileID: 9100000, guid: 5619a314796361b4a9cbb9bc80e3b598, type: 2}
-  m_CullingMode: 1
-  m_UpdateMode: 0
-  m_ApplyRootMotion: 0
-  m_LinearVelocityBlending: 0
-  m_WarningMessage: 
-  m_HasTransformHierarchy: 1
-  m_AllowConstantClipSamplingOptimization: 1
-  m_KeepAnimatorControllerStateOnDisable: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 179.99998, z: 0}
 --- !u!1001 &5465205069722267825
 PrefabInstance:
   m_ObjectHideFlags: 0

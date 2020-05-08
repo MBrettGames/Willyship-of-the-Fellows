@@ -38,7 +38,7 @@ public class PlayerInteract : MonoBehaviour
 
         if (Physics.Raycast(transform.position, fwd, out hit, rayLength, layerMaskInteract.value))
         {
-            if (hit.collider.CompareTag("NPC"))
+            if (hit.collider.CompareTag("NPC") || hit.collider.CompareTag("NPCQuestObj"))
             {
                 raycastedObj = hit.collider.gameObject;
                 CrosshairTalkActive();

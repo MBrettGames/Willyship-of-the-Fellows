@@ -13,7 +13,7 @@ public class DialogueManager : MonoBehaviour
     public Text dialogueText;
 
     public Animator animator;
-    private GameObject questBox;
+    private GameObject InteractCol;
     private ThirdPersonCharController movementScript;
     private PlayerInteract interactScript;
 
@@ -32,7 +32,7 @@ public class DialogueManager : MonoBehaviour
         DialogueBox.SetActive(true);
         movementScript = otherMovementScript;
         interactScript = localInteractScript;
-        questBox = questGiver;
+        InteractCol = questGiver;
         animator.SetBool("IsOpen", true);
         nameText.text = (dialogue.name);
 
@@ -70,7 +70,14 @@ public class DialogueManager : MonoBehaviour
     void EndDialogue()
     {
         animator.SetBool("IsOpen", false);
-        questBox.SetActive(false);
+        if(InteractCol.CompareTag ("NPCQuestObj"))
+        {
+        InteractCol.SetActive(false);
+        }
+        else
+        {
+            InteractCol.SetActive(true);
+        }
         movementScript.enabled = true;
         interactScript.isInteracting = false;
 
