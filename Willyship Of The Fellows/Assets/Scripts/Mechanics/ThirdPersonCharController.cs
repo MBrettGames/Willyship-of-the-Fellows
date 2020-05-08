@@ -197,17 +197,12 @@ public class ThirdPersonCharController : MonoBehaviour
 
     private void UtilityAction()
     {
-        if (b_utility)
-        {
-        anim.Play("IdleAction1");
-        }
-
-       // if (b_utility && !b_isRagdolling)
+        if (b_utility && !b_isRagdolling)
         {
             TurnOnRagdoll();
         }
 
-      //  else if (b_utility && b_isRagdolling)
+        else if (b_utility && b_isRagdolling)
         {
             TurnOffRagdoll();
             f_maxSpeed = f_maxSpeed * 10000f;
