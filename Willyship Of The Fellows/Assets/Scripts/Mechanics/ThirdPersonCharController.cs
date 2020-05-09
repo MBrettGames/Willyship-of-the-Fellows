@@ -17,6 +17,7 @@ public class ThirdPersonCharController : MonoBehaviour
     [SerializeField] private Camera cam;
     [SerializeField] private CinemachineFreeLook camLook;
     [SerializeField] private Transform camTarget;
+    [SerializeField] private GameObject dropKickBox;
 
     #endregion
 
@@ -67,6 +68,7 @@ public class ThirdPersonCharController : MonoBehaviour
 
     private void Awake()
     {
+        dropKickBox.SetActive(false);
         SetRagdollParts();
         SetPlayerCollider();
     }
@@ -213,7 +215,11 @@ public class ThirdPersonCharController : MonoBehaviour
     {
         f_maxSpeed = f_maxSpeed / 2f;
         yield return new WaitForSeconds(1);
+        dropKickBox.SetActive(true);
         f_maxSpeed = f_maxSpeed * 2f;
+        yield return new WaitForSeconds(1);
+        dropKickBox.SetActive(false);
+
     }
 
     private void SetRagdollParts()

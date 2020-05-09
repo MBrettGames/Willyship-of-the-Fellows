@@ -231,6 +231,20 @@ MeshRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
+--- !u!64 &7161175741816657084
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5733738746326747080}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Convex: 0
+  m_CookingOptions: 14
+  m_Mesh: {fileID: 4300146, guid: 64b95cb8ea0277e44bb8e39694cec684, type: 3}
 --- !u!1 &9196005035437547510
 GameObject:
   m_ObjectHideFlags: 0
@@ -240,7 +254,6 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 9196005035437376470}
-  - component: {fileID: 2652938094148947420}
   m_Layer: 0
   m_Name: Oak
   m_TagString: Untagged
@@ -266,20 +279,6 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!136 &2652938094148947420
-CapsuleCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 9196005035437547510}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  m_Radius: 2.1761355
-  m_Height: 17.37
-  m_Direction: 1
-  m_Center: {x: 0, y: 4.97, z: -2.13}
 --- !u!1001 &5733738746326712572
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -576,6 +575,12 @@ PrefabInstance:
 --- !u!4 &5733738746326850172 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 400000, guid: 64b95cb8ea0277e44bb8e39694cec684,
+    type: 3}
+  m_PrefabInstance: {fileID: 5733738746326712572}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &5733738746326747080 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 100148, guid: 64b95cb8ea0277e44bb8e39694cec684,
     type: 3}
   m_PrefabInstance: {fileID: 5733738746326712572}
   m_PrefabAsset: {fileID: 0}
