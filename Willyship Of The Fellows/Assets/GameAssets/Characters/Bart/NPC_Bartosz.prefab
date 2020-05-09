@@ -138,9 +138,11 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 4240433100887731024}
+  - component: {fileID: 5345026707223857033}
+  - component: {fileID: 1157584121566661051}
   m_Layer: 0
   m_Name: NPC_Bartosz
-  m_TagString: Untagged
+  m_TagString: HurtableNPC
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -162,13 +164,13 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 179.99998, z: 0}
---- !u!136 &7029558219190125310
+--- !u!136 &5345026707223857033
 CapsuleCollider:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 7029558219190092873}
+  m_GameObject: {fileID: 4240433100887731030}
   m_Material: {fileID: 0}
   m_IsTrigger: 0
   m_Enabled: 1
@@ -176,6 +178,19 @@ CapsuleCollider:
   m_Height: 3.58
   m_Direction: 1
   m_Center: {x: 0, y: 1.8, z: 0}
+--- !u!114 &1157584121566661051
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4240433100887731030}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d8869d0ea6394714bb8f43e7e4ff5914, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  RagdollParts: []
 --- !u!1001 &7029558219190125299
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -245,12 +260,6 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 44cc996368f8a3d45857d143c5b6796b, type: 3}
---- !u!1 &7029558219190092873 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 100026, guid: 44cc996368f8a3d45857d143c5b6796b,
-    type: 3}
-  m_PrefabInstance: {fileID: 7029558219190125299}
-  m_PrefabAsset: {fileID: 0}
 --- !u!4 &7029558219190524009 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 400026, guid: 44cc996368f8a3d45857d143c5b6796b,

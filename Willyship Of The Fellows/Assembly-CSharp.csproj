@@ -123,11 +123,14 @@
     <Compile Include="Assets\Rewired\Internal\Scripts\InputManager.cs" />
     <Compile Include="Assets\Rewired\Internal\Scripts\Misc\ExternalTools.cs" />
     <Compile Include="Assets\Rewired\Internal\Scripts\Platforms\Ouya\OuyaInputSource.cs" />
+    <Compile Include="Assets\Scripts\Mechanics\DropKick.cs" />
+    <Compile Include="Assets\Scripts\Mechanics\NPCRagdoll.cs" />
     <Compile Include="Assets\Scripts\Mechanics\PlayerInteract.cs" />
     <Compile Include="Assets\Scripts\Mechanics\ThirdPersonCharController.cs" />
     <Compile Include="Assets\Scripts\Narrative\Dialogue.cs" />
     <Compile Include="Assets\Scripts\Narrative\DialogueManager.cs" />
     <Compile Include="Assets\Scripts\Narrative\QuestElement.cs" />
+    <Compile Include="Assets\Scripts\Narrative\QuestProgress.cs" />
     <None Include="Assets\Rewired\Extras\TouchControls\Shaders\ColorShift.shader" />
     <None Include="Assets\Rewired\Documentation\licences.txt" />
     <None Include="Assets\Rewired\Documentation\ReadMe.txt" />
