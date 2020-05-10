@@ -1,0 +1,184 @@
+fileFormatVersion: 2
+guid: 1d6ec3a628bccd940bc66c86262eacfe
+ModelImporter:
+  serializedVersion: 23
+  fileIDToRecycleName:
+    100000: //RootNode
+    100002: group1
+    100004: group2
+    100006: RockChurch__EmptyWall10
+    100008: RockChurch__EmptyWall10 1
+    100010: RockChurch__EmptyWall24
+    100012: RockChurch__EmptyWall24 1
+    100014: RockChurch__EmptyWall25
+    100016: RockChurch__EmptyWall25 1
+    100018: RockChurch__EmptyWall7
+    100020: RockChurch__EmptyWall7 1
+    100022: RockChurch__EmptyWall8
+    100024: RockChurch__EmptyWall8 1
+    100026: RockChurch__EmptyWall9
+    100028: RockChurch__EmptyWall9 1
+    100030: pPlane1
+    100032: pPlane1 1
+    100034: RockChurch__EmptyWall26
+    100036: RockChurch__EmptyWall26 1
+    400000: //RootNode
+    400002: group1
+    400004: group2
+    400006: RockChurch__EmptyWall10
+    400008: RockChurch__EmptyWall10 1
+    400010: RockChurch__EmptyWall24
+    400012: RockChurch__EmptyWall24 1
+    400014: RockChurch__EmptyWall25
+    400016: RockChurch__EmptyWall25 1
+    400018: RockChurch__EmptyWall7
+    400020: RockChurch__EmptyWall7 1
+    400022: RockChurch__EmptyWall8
+    400024: RockChurch__EmptyWall8 1
+    400026: RockChurch__EmptyWall9
+    400028: RockChurch__EmptyWall9 1
+    400030: pPlane1
+    400032: pPlane1 1
+    400034: RockChurch__EmptyWall26
+    400036: RockChurch__EmptyWall26 1
+    2100000: lambert1
+    2100002: RoofTile
+    2300000: RockChurch__EmptyWall10
+    2300002: RockChurch__EmptyWall10 1
+    2300004: RockChurch__EmptyWall24
+    2300006: RockChurch__EmptyWall24 1
+    2300008: RockChurch__EmptyWall25
+    2300010: RockChurch__EmptyWall25 1
+    2300012: RockChurch__EmptyWall7
+    2300014: RockChurch__EmptyWall7 1
+    2300016: RockChurch__EmptyWall8
+    2300018: RockChurch__EmptyWall8 1
+    2300020: RockChurch__EmptyWall9
+    2300022: RockChurch__EmptyWall9 1
+    2300024: pPlane1
+    2300026: pPlane1 1
+    2300028: RockChurch__EmptyWall26
+    2300030: RockChurch__EmptyWall26 1
+    3300000: RockChurch__EmptyWall10
+    3300002: RockChurch__EmptyWall10 1
+    3300004: RockChurch__EmptyWall24
+    3300006: RockChurch__EmptyWall24 1
+    3300008: RockChurch__EmptyWall25
+    3300010: RockChurch__EmptyWall25 1
+    3300012: RockChurch__EmptyWall7
+    3300014: RockChurch__EmptyWall7 1
+    3300016: RockChurch__EmptyWall8
+    3300018: RockChurch__EmptyWall8 1
+    3300020: RockChurch__EmptyWall9
+    3300022: RockChurch__EmptyWall9 1
+    3300024: pPlane1
+    3300026: pPlane1 1
+    3300028: RockChurch__EmptyWall26
+    3300030: RockChurch__EmptyWall26 1
+    4300000: RockChurch__EmptyWall7
+    4300002: RockChurch__EmptyWall8
+    4300004: RockChurch__EmptyWall9
+    4300006: RockChurch__EmptyWall10
+    4300008: RockChurch__EmptyWall24
+    4300010: RockChurch__EmptyWall25
+    4300012: RockChurch__EmptyWall7
+    4300014: RockChurch__EmptyWall8
+    4300016: RockChurch__EmptyWall9
+    4300018: RockChurch__EmptyWall10
+    4300020: RockChurch__EmptyWall24
+    4300022: RockChurch__EmptyWall25
+    4300024: RockChurch__EmptyWall26
+    4300026: pPlane1
+    4300028: RockChurch__EmptyWall26
+    4300030: pPlane1
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: lambert1
+    second: {fileID: 2100000, guid: 7d78bd55d2d950c4d937cc562a9bcb7b, type: 2}
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    importConstraints: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    useSRGBMaterialColor: 1
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    preserveHierarchy: 0
+    indexFormat: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 0
+    previousCalculatedGlobalScale: 1
+    hasPreviousCalculatedGlobalScale: 0
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+    legacyComputeAllNormalsFromSmoothingGroupsWhenMeshHasBlendShapes: 0
+    blendShapeNormalImportMode: 1
+    normalSmoothingSource: 0
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 0
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

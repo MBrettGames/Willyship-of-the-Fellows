@@ -24,9 +24,22 @@ public class NPCRagdoll : MonoBehaviour
     {
         SetRagdollParts();
         SetPlayerCollider();
-       // TurnOffRagdoll();
+        b_isRagdolling = false;
+
     }
 
+    private void Update()
+    {
+        if (b_isRagdolling)
+        {
+            TurnOffRagdoll();
+        }
+
+        else
+        {
+            TurnOnRagdoll();
+        }
+    }
 
     private void SetRagdollParts()
     {

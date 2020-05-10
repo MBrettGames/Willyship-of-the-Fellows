@@ -6,7 +6,7 @@ public class DropKick : MonoBehaviour
 {
     private NPCRagdoll npcRagdoll;
 
-    private void OnTriggerEnter(Collider other)
+    private void OnTriggerEnter(Collider other, NPCRagdoll ragdollscript)
     {
         npcRagdoll = other.GetComponent<NPCRagdoll>();
         if (other.CompareTag("HurtableNPC"))
