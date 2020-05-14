@@ -62,7 +62,7 @@ MonoBehaviour:
     name: Lord Wilson
     sentences:
     - Jam butties, lad...
-    - 'Midget near here could have some gossip. Dew sum werk and find em''. '
+    - 'Midget near here could have some gossip. Dew sum werk and find em'', yeah? '
 --- !u!1 &5465205069424248731
 GameObject:
   m_ObjectHideFlags: 0
@@ -125,15 +125,15 @@ MonoBehaviour:
     name: Lord Wilson
     sentences:
     - You aren't from around here, are you?
-    - Alright, lad. I've got a little something for you to do seen as it couldn't
-      have been you that did it.
-    - One of the cheeky little runts in my city nabbed me' jam butties when I went
-      to take a whiz.
-    - Do us a solid and find out who took em. If they haven't eaten em bring them
-      to me.
-    - There's a dwarf here, Elliot. Little gimp must know summet'. got his fingers
-      in a lot of pies in this town.
-    - Bloody starving...
+    - Do you know why "Lord Wilson" wears a crown, eh?... It's because in my town
+      I may as well be king, innit.
+    - Anyways, enough of that. You ain't one of mine, elf ears give that away. Means
+      that you've just got here.
+    - Couldn't have been you then. Right. One of the cheeky little bellends in my
+      town nabbed me jam butties!
+    - Couldn't. bloody. believe it. Left them for 5 minutes maximum...
+    - The missus made them, so you do me a favour. Find who took me' butties, lad.
+    - I'll give ye' a reward or summet'.
 --- !u!136 &5465205069722267828
 CapsuleCollider:
   m_ObjectHideFlags: 0
@@ -159,7 +159,7 @@ GameObject:
   - component: {fileID: 5465205071379467791}
   m_Layer: 0
   m_Name: NPC_Wilson
-  m_TagString: Untagged
+  m_TagString: HurtableNPC
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
