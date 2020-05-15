@@ -1,0 +1,584 @@
+fileFormatVersion: 2
+guid: e17824d18c7e6224ebe743cea06c147e
+ModelImporter:
+  serializedVersion: 23
+  fileIDToRecycleName:
+    100000: Elliot
+    100002: Elliot_M_Belt
+    100004: Elliot_M_Eyes
+    100006: Elliot_M_Face
+    100008: Elliot_M_Hands
+    100010: Elliot_M_Legs
+    100012: Elliot_M_Shoes
+    100014: Elliot_M_Torso
+    100016: //RootNode
+    100018: Midget_Control1
+    100020: Midget_Ctrl_arm_L
+    100022: Midget_Ctrl_arm_L 1
+    100024: Midget_Ctrl_Chest
+    100026: Midget_Ctrl_Elbow_L
+    100028: Midget_Ctrl_Elbow_L 1
+    100030: Midget_Ctrl_Foot_L
+    100032: Midget_Ctrl_Foot_R
+    100034: Midget_Ctrl_Hand_L
+    100036: Midget_Ctrl_Hand_L 1
+    100038: Midget_Ctrl_Head
+    100040: Midget_Ctrl_Hips
+    100042: Midget_Ctrl_Middle_1_L
+    100044: Midget_Ctrl_Middle_1_L 1
+    100046: Midget_Ctrl_Middle_2_L
+    100048: Midget_Ctrl_Middle_2_L 1
+    100050: Midget_Ctrl_Middle_3_L
+    100052: Midget_Ctrl_Middle_3_L 1
+    100054: Midget_Ctrl_Neck
+    100056: Midget_Ctrl_Pinky_1_L
+    100058: Midget_Ctrl_Pinky_1_L 1
+    100060: Midget_Ctrl_Pinky_2_L
+    100062: Midget_Ctrl_Pinky_2_L 1
+    100064: Midget_Ctrl_Pinky_3_L
+    100066: Midget_Ctrl_Pinky_3_L 1
+    100068: Midget_Ctrl_Point_1_L
+    100070: Midget_Ctrl_Point_1_L 1
+    100072: Midget_Ctrl_Point_2_L
+    100074: Midget_Ctrl_Point_2_L 1
+    100076: Midget_Ctrl_Point_3_L
+    100078: Midget_Ctrl_Point_3_L 1
+    100080: Midget_Ctrl_Ring_1_L
+    100082: Midget_Ctrl_Ring_1_L 1
+    100084: Midget_Ctrl_Ring_2_L
+    100086: Midget_Ctrl_Ring_2_L 1
+    100088: Midget_Ctrl_Ring_3_L
+    100090: Midget_Ctrl_Ring_3_L 1
+    100092: Midget_Ctrl_Shoulder_L
+    100094: Midget_Ctrl_Shoulder_R
+    100096: Midget_Ctrl_Spine_1
+    100098: Midget_Ctrl_Spine_2
+    100100: Midget_Ctrl_Thumb_1_L
+    100102: Midget_Ctrl_Thumb_1_L 1
+    100104: Midget_Ctrl_Thumb_2_L
+    100106: Midget_Ctrl_Thumb_2_L 1
+    100108: Midget_Ctrl_Toe_L
+    100110: Midget_Ctrl_Toe_R
+    100112: Midget_Head
+    100114: Midget_HeadTop_End
+    100116: Midget_Hips
+    100118: Midget_LeftArm
+    100120: Midget_LeftFoot
+    100122: Midget_LeftForeArm
+    100124: Midget_LeftHand
+    100126: Midget_LeftHandIndex1
+    100128: Midget_LeftHandIndex2
+    100130: Midget_LeftHandIndex3
+    100132: Midget_LeftHandIndex4
+    100134: Midget_LeftHandMiddle1
+    100136: Midget_LeftHandMiddle2
+    100138: Midget_LeftHandMiddle3
+    100140: Midget_LeftHandMiddle4
+    100142: Midget_LeftHandPinky1
+    100144: Midget_LeftHandPinky2
+    100146: Midget_LeftHandPinky3
+    100148: Midget_LeftHandPinky4
+    100150: Midget_LeftHandRing1
+    100152: Midget_LeftHandRing2
+    100154: Midget_LeftHandRing3
+    100156: Midget_LeftHandRing4
+    100158: Midget_LeftHandThumb1
+    100160: Midget_LeftHandThumb2
+    100162: Midget_LeftHandThumb3
+    100164: Midget_LeftHandThumb4
+    100166: Midget_LeftLeg
+    100168: Midget_LeftShoulder
+    100170: Midget_LeftToe_End
+    100172: Midget_LeftToeBase
+    100174: Midget_LeftUpLeg
+    100176: Midget_Neck
+    100178: Midget_RightArm
+    100180: Midget_RightFoot
+    100182: Midget_RightForeArm
+    100184: Midget_RightHand
+    100186: Midget_RightHandIndex1
+    100188: Midget_RightHandIndex2
+    100190: Midget_RightHandIndex3
+    100192: Midget_RightHandIndex4
+    100194: Midget_RightHandMiddle1
+    100196: Midget_RightHandMiddle2
+    100198: Midget_RightHandMiddle3
+    100200: Midget_RightHandMiddle4
+    100202: Midget_RightHandPinky1
+    100204: Midget_RightHandPinky2
+    100206: Midget_RightHandPinky3
+    100208: Midget_RightHandPinky4
+    100210: Midget_RightHandRing1
+    100212: Midget_RightHandRing2
+    100214: Midget_RightHandRing3
+    100216: Midget_RightHandRing4
+    100218: Midget_RightHandThumb1
+    100220: Midget_RightHandThumb2
+    100222: Midget_RightHandThumb3
+    100224: Midget_RightHandThumb4
+    100226: Midget_RightLeg
+    100228: Midget_RightShoulder
+    100230: Midget_RightToe_End
+    100232: Midget_RightToeBase
+    100234: Midget_RightUpLeg
+    100236: Midget_Spine
+    100238: Midget_Spine1
+    100240: Midget_Spine2
+    100242: Control1
+    100244: Ctrl_arm_L
+    100246: Ctrl_arm_L 1
+    100248: Ctrl_Chest
+    100250: Ctrl_Elbow_L
+    100252: Ctrl_Elbow_L 1
+    100254: Ctrl_Foot_L
+    100256: Ctrl_Foot_R
+    100258: Ctrl_Hand_L
+    100260: Ctrl_Hand_L 1
+    100262: Ctrl_Head
+    100264: Ctrl_Hips
+    100266: Ctrl_Middle_1_L
+    100268: Ctrl_Middle_1_L 1
+    100270: Ctrl_Middle_2_L
+    100272: Ctrl_Middle_2_L 1
+    100274: Ctrl_Middle_3_L
+    100276: Ctrl_Middle_3_L 1
+    100278: Ctrl_Neck
+    100280: Ctrl_Pinky_1_L
+    100282: Ctrl_Pinky_1_L 1
+    100284: Ctrl_Pinky_2_L
+    100286: Ctrl_Pinky_2_L 1
+    100288: Ctrl_Pinky_3_L
+    100290: Ctrl_Pinky_3_L 1
+    100292: Ctrl_Point_1_L
+    100294: Ctrl_Point_1_L 1
+    100296: Ctrl_Point_2_L
+    100298: Ctrl_Point_2_L 1
+    100300: Ctrl_Point_3_L
+    100302: Ctrl_Point_3_L 1
+    100304: Ctrl_Ring_1_L
+    100306: Ctrl_Ring_1_L 1
+    100308: Ctrl_Ring_2_L
+    100310: Ctrl_Ring_2_L 1
+    100312: Ctrl_Ring_3_L
+    100314: Ctrl_Ring_3_L 1
+    100316: Ctrl_Shoulder_L
+    100318: Ctrl_Shoulder_R
+    100320: Ctrl_Spine_1
+    100322: Ctrl_Spine_2
+    100324: Ctrl_Thumb_1_L
+    100326: Ctrl_Thumb_1_L 1
+    100328: Ctrl_Thumb_2_L
+    100330: Ctrl_Thumb_2_L 1
+    100332: Ctrl_Toe_L
+    100334: Ctrl_Toe_R
+    100336: Head
+    100338: HeadTop_End
+    100340: Hips
+    100342: LeftArm
+    100344: LeftFoot
+    100346: LeftForeArm
+    100348: LeftHand
+    100350: LeftHandIndex1
+    100352: LeftHandIndex2
+    100354: LeftHandIndex3
+    100356: LeftHandIndex4
+    100358: LeftHandMiddle1
+    100360: LeftHandMiddle2
+    100362: LeftHandMiddle3
+    100364: LeftHandMiddle4
+    100366: LeftHandPinky1
+    100368: LeftHandPinky2
+    100370: LeftHandPinky3
+    100372: LeftHandPinky4
+    100374: LeftHandRing1
+    100376: LeftHandRing2
+    100378: LeftHandRing3
+    100380: LeftHandRing4
+    100382: LeftHandThumb1
+    100384: LeftHandThumb2
+    100386: LeftHandThumb3
+    100388: LeftHandThumb4
+    100390: LeftLeg
+    100392: LeftShoulder
+    100394: LeftToe_End
+    100396: LeftToeBase
+    100398: LeftUpLeg
+    100400: Neck
+    100402: RightArm
+    100404: RightFoot
+    100406: RightForeArm
+    100408: RightHand
+    100410: RightHandIndex1
+    100412: RightHandIndex2
+    100414: RightHandIndex3
+    100416: RightHandIndex4
+    100418: RightHandMiddle1
+    100420: RightHandMiddle2
+    100422: RightHandMiddle3
+    100424: RightHandMiddle4
+    100426: RightHandPinky1
+    100428: RightHandPinky2
+    100430: RightHandPinky3
+    100432: RightHandPinky4
+    100434: RightHandRing1
+    100436: RightHandRing2
+    100438: RightHandRing3
+    100440: RightHandRing4
+    100442: RightHandThumb1
+    100444: RightHandThumb2
+    100446: RightHandThumb3
+    100448: RightHandThumb4
+    100450: RightLeg
+    100452: RightShoulder
+    100454: RightToe_End
+    100456: RightToeBase
+    100458: RightUpLeg
+    100460: Spine
+    100462: Spine1
+    100464: Spine2
+    400000: Elliot
+    400002: Elliot_M_Belt
+    400004: Elliot_M_Eyes
+    400006: Elliot_M_Face
+    400008: Elliot_M_Hands
+    400010: Elliot_M_Legs
+    400012: Elliot_M_Shoes
+    400014: Elliot_M_Torso
+    400016: //RootNode
+    400018: Midget_Control1
+    400020: Midget_Ctrl_arm_L
+    400022: Midget_Ctrl_arm_L 1
+    400024: Midget_Ctrl_Chest
+    400026: Midget_Ctrl_Elbow_L
+    400028: Midget_Ctrl_Elbow_L 1
+    400030: Midget_Ctrl_Foot_L
+    400032: Midget_Ctrl_Foot_R
+    400034: Midget_Ctrl_Hand_L
+    400036: Midget_Ctrl_Hand_L 1
+    400038: Midget_Ctrl_Head
+    400040: Midget_Ctrl_Hips
+    400042: Midget_Ctrl_Middle_1_L
+    400044: Midget_Ctrl_Middle_1_L 1
+    400046: Midget_Ctrl_Middle_2_L
+    400048: Midget_Ctrl_Middle_2_L 1
+    400050: Midget_Ctrl_Middle_3_L
+    400052: Midget_Ctrl_Middle_3_L 1
+    400054: Midget_Ctrl_Neck
+    400056: Midget_Ctrl_Pinky_1_L
+    400058: Midget_Ctrl_Pinky_1_L 1
+    400060: Midget_Ctrl_Pinky_2_L
+    400062: Midget_Ctrl_Pinky_2_L 1
+    400064: Midget_Ctrl_Pinky_3_L
+    400066: Midget_Ctrl_Pinky_3_L 1
+    400068: Midget_Ctrl_Point_1_L
+    400070: Midget_Ctrl_Point_1_L 1
+    400072: Midget_Ctrl_Point_2_L
+    400074: Midget_Ctrl_Point_2_L 1
+    400076: Midget_Ctrl_Point_3_L
+    400078: Midget_Ctrl_Point_3_L 1
+    400080: Midget_Ctrl_Ring_1_L
+    400082: Midget_Ctrl_Ring_1_L 1
+    400084: Midget_Ctrl_Ring_2_L
+    400086: Midget_Ctrl_Ring_2_L 1
+    400088: Midget_Ctrl_Ring_3_L
+    400090: Midget_Ctrl_Ring_3_L 1
+    400092: Midget_Ctrl_Shoulder_L
+    400094: Midget_Ctrl_Shoulder_R
+    400096: Midget_Ctrl_Spine_1
+    400098: Midget_Ctrl_Spine_2
+    400100: Midget_Ctrl_Thumb_1_L
+    400102: Midget_Ctrl_Thumb_1_L 1
+    400104: Midget_Ctrl_Thumb_2_L
+    400106: Midget_Ctrl_Thumb_2_L 1
+    400108: Midget_Ctrl_Toe_L
+    400110: Midget_Ctrl_Toe_R
+    400112: Midget_Head
+    400114: Midget_HeadTop_End
+    400116: Midget_Hips
+    400118: Midget_LeftArm
+    400120: Midget_LeftFoot
+    400122: Midget_LeftForeArm
+    400124: Midget_LeftHand
+    400126: Midget_LeftHandIndex1
+    400128: Midget_LeftHandIndex2
+    400130: Midget_LeftHandIndex3
+    400132: Midget_LeftHandIndex4
+    400134: Midget_LeftHandMiddle1
+    400136: Midget_LeftHandMiddle2
+    400138: Midget_LeftHandMiddle3
+    400140: Midget_LeftHandMiddle4
+    400142: Midget_LeftHandPinky1
+    400144: Midget_LeftHandPinky2
+    400146: Midget_LeftHandPinky3
+    400148: Midget_LeftHandPinky4
+    400150: Midget_LeftHandRing1
+    400152: Midget_LeftHandRing2
+    400154: Midget_LeftHandRing3
+    400156: Midget_LeftHandRing4
+    400158: Midget_LeftHandThumb1
+    400160: Midget_LeftHandThumb2
+    400162: Midget_LeftHandThumb3
+    400164: Midget_LeftHandThumb4
+    400166: Midget_LeftLeg
+    400168: Midget_LeftShoulder
+    400170: Midget_LeftToe_End
+    400172: Midget_LeftToeBase
+    400174: Midget_LeftUpLeg
+    400176: Midget_Neck
+    400178: Midget_RightArm
+    400180: Midget_RightFoot
+    400182: Midget_RightForeArm
+    400184: Midget_RightHand
+    400186: Midget_RightHandIndex1
+    400188: Midget_RightHandIndex2
+    400190: Midget_RightHandIndex3
+    400192: Midget_RightHandIndex4
+    400194: Midget_RightHandMiddle1
+    400196: Midget_RightHandMiddle2
+    400198: Midget_RightHandMiddle3
+    400200: Midget_RightHandMiddle4
+    400202: Midget_RightHandPinky1
+    400204: Midget_RightHandPinky2
+    400206: Midget_RightHandPinky3
+    400208: Midget_RightHandPinky4
+    400210: Midget_RightHandRing1
+    400212: Midget_RightHandRing2
+    400214: Midget_RightHandRing3
+    400216: Midget_RightHandRing4
+    400218: Midget_RightHandThumb1
+    400220: Midget_RightHandThumb2
+    400222: Midget_RightHandThumb3
+    400224: Midget_RightHandThumb4
+    400226: Midget_RightLeg
+    400228: Midget_RightShoulder
+    400230: Midget_RightToe_End
+    400232: Midget_RightToeBase
+    400234: Midget_RightUpLeg
+    400236: Midget_Spine
+    400238: Midget_Spine1
+    400240: Midget_Spine2
+    400242: Control1
+    400244: Ctrl_arm_L
+    400246: Ctrl_arm_L 1
+    400248: Ctrl_Chest
+    400250: Ctrl_Elbow_L
+    400252: Ctrl_Elbow_L 1
+    400254: Ctrl_Foot_L
+    400256: Ctrl_Foot_R
+    400258: Ctrl_Hand_L
+    400260: Ctrl_Hand_L 1
+    400262: Ctrl_Head
+    400264: Ctrl_Hips
+    400266: Ctrl_Middle_1_L
+    400268: Ctrl_Middle_1_L 1
+    400270: Ctrl_Middle_2_L
+    400272: Ctrl_Middle_2_L 1
+    400274: Ctrl_Middle_3_L
+    400276: Ctrl_Middle_3_L 1
+    400278: Ctrl_Neck
+    400280: Ctrl_Pinky_1_L
+    400282: Ctrl_Pinky_1_L 1
+    400284: Ctrl_Pinky_2_L
+    400286: Ctrl_Pinky_2_L 1
+    400288: Ctrl_Pinky_3_L
+    400290: Ctrl_Pinky_3_L 1
+    400292: Ctrl_Point_1_L
+    400294: Ctrl_Point_1_L 1
+    400296: Ctrl_Point_2_L
+    400298: Ctrl_Point_2_L 1
+    400300: Ctrl_Point_3_L
+    400302: Ctrl_Point_3_L 1
+    400304: Ctrl_Ring_1_L
+    400306: Ctrl_Ring_1_L 1
+    400308: Ctrl_Ring_2_L
+    400310: Ctrl_Ring_2_L 1
+    400312: Ctrl_Ring_3_L
+    400314: Ctrl_Ring_3_L 1
+    400316: Ctrl_Shoulder_L
+    400318: Ctrl_Shoulder_R
+    400320: Ctrl_Spine_1
+    400322: Ctrl_Spine_2
+    400324: Ctrl_Thumb_1_L
+    400326: Ctrl_Thumb_1_L 1
+    400328: Ctrl_Thumb_2_L
+    400330: Ctrl_Thumb_2_L 1
+    400332: Ctrl_Toe_L
+    400334: Ctrl_Toe_R
+    400336: Head
+    400338: HeadTop_End
+    400340: Hips
+    400342: LeftArm
+    400344: LeftFoot
+    400346: LeftForeArm
+    400348: LeftHand
+    400350: LeftHandIndex1
+    400352: LeftHandIndex2
+    400354: LeftHandIndex3
+    400356: LeftHandIndex4
+    400358: LeftHandMiddle1
+    400360: LeftHandMiddle2
+    400362: LeftHandMiddle3
+    400364: LeftHandMiddle4
+    400366: LeftHandPinky1
+    400368: LeftHandPinky2
+    400370: LeftHandPinky3
+    400372: LeftHandPinky4
+    400374: LeftHandRing1
+    400376: LeftHandRing2
+    400378: LeftHandRing3
+    400380: LeftHandRing4
+    400382: LeftHandThumb1
+    400384: LeftHandThumb2
+    400386: LeftHandThumb3
+    400388: LeftHandThumb4
+    400390: LeftLeg
+    400392: LeftShoulder
+    400394: LeftToe_End
+    400396: LeftToeBase
+    400398: LeftUpLeg
+    400400: Neck
+    400402: RightArm
+    400404: RightFoot
+    400406: RightForeArm
+    400408: RightHand
+    400410: RightHandIndex1
+    400412: RightHandIndex2
+    400414: RightHandIndex3
+    400416: RightHandIndex4
+    400418: RightHandMiddle1
+    400420: RightHandMiddle2
+    400422: RightHandMiddle3
+    400424: RightHandMiddle4
+    400426: RightHandPinky1
+    400428: RightHandPinky2
+    400430: RightHandPinky3
+    400432: RightHandPinky4
+    400434: RightHandRing1
+    400436: RightHandRing2
+    400438: RightHandRing3
+    400440: RightHandRing4
+    400442: RightHandThumb1
+    400444: RightHandThumb2
+    400446: RightHandThumb3
+    400448: RightHandThumb4
+    400450: RightLeg
+    400452: RightShoulder
+    400454: RightToe_End
+    400456: RightToeBase
+    400458: RightUpLeg
+    400460: Spine
+    400462: Spine1
+    400464: Spine2
+    2100000: Elliot_Clothes1
+    2100002: Elliot_Skin1
+    4300000: Elliot_M_Belt
+    4300002: Elliot_M_Hands
+    4300004: Elliot_M_Torso
+    4300006: Elliot_M_Legs
+    4300008: Elliot_M_Eyes
+    4300010: Elliot_M_Face
+    4300012: Elliot_M_Shoes
+    9500000: //RootNode
+    13700000: Elliot_M_Belt
+    13700002: Elliot_M_Eyes
+    13700004: Elliot_M_Face
+    13700006: Elliot_M_Hands
+    13700008: Elliot_M_Legs
+    13700010: Elliot_M_Shoes
+    13700012: Elliot_M_Torso
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Elliot_Clothes1
+    second: {fileID: 2100000, guid: 42026e3d2b353304da11727c9d33a94f, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Elliot_Skin1
+    second: {fileID: 2100000, guid: 5875b00c35eeb3e408765c8d4af05206, type: 2}
+  materials:
+    importMaterials: 0
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    importConstraints: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 0.1
+    meshCompression: 0
+    addColliders: 0
+    useSRGBMaterialColor: 1
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    preserveHierarchy: 0
+    indexFormat: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 0
+    previousCalculatedGlobalScale: 0.1
+    hasPreviousCalculatedGlobalScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+    legacyComputeAllNormalsFromSmoothingGroupsWhenMeshHasBlendShapes: 0
+    blendShapeNormalImportMode: 1
+    normalSmoothingSource: 0
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
