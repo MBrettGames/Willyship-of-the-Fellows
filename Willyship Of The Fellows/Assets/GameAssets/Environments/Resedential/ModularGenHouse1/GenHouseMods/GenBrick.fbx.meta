@@ -1,30 +1,15 @@
 fileFormatVersion: 2
-guid: 25e0d32e3e54da54aade46128df728f4
+guid: 0f740cfd5b6f1e14b9f68062289c789e
 ModelImporter:
   serializedVersion: 23
   fileIDToRecycleName:
     100000: //RootNode
-    100002: WalkWayFloor
-    100004: WalkWayWall
     400000: //RootNode
-    400002: WalkWayFloor
-    400004: WalkWayWall
-    2100000: RoofTile
-    2100002: lambert1
-    2300000: WalkWayFloor
-    2300002: WalkWayWall
-    3300000: WalkWayFloor
-    3300002: WalkWayWall
-    4300000: WalkWayFloor
-    4300002: WalkWayWall
-    6400000: WalkWayFloor
-    6400002: WalkWayWall
+    2100000: lambert1
+    2300000: //RootNode
+    3300000: //RootNode
+    4300000: GenHouse_Mod_Brick
   externalObjects:
-  - first:
-      type: UnityEngine:Material
-      assembly: UnityEngine.CoreModule
-      name: RoofTile
-    second: {fileID: 2100000, guid: 3345f744574980e49a4ba5d2ebc3ece2, type: 2}
   - first:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
@@ -62,7 +47,7 @@ ModelImporter:
     lODScreenPercentages: []
     globalScale: 1
     meshCompression: 0
-    addColliders: 1
+    addColliders: 0
     useSRGBMaterialColor: 1
     importVisibility: 1
     importBlendShapes: 1
