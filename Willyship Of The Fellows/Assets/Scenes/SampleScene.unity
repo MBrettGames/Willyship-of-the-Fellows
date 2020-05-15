@@ -593,7 +593,7 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 10020153}
-  m_LocalRotation: {x: 0.07530288, y: -0.000000033503994, z: 0.000000002530131, w: 0.99716073}
+  m_LocalRotation: {x: 0.07530288, y: 0.00000003350387, z: -0.0000000025301217, w: 0.99716073}
   m_LocalPosition: {x: 0.072869696, y: 3.5702462, z: -10.386701}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
@@ -9392,7 +9392,7 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 608409548}
-  m_LocalRotation: {x: 0.037701063, y: -0.0000020198354, z: 0.000053243806, w: 0.9992891}
+  m_LocalRotation: {x: 0.037701063, y: -0.000001953826, z: 0.000053231186, w: 0.9992891}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
@@ -10518,7 +10518,7 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 664185782}
-  m_LocalRotation: {x: 0.008874378, y: -0.0000009825171, z: 0.000105379535, w: 0.9999606}
+  m_LocalRotation: {x: 0.008874394, y: -0.0000008877804, z: 0.00010536437, w: 0.99996066}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
@@ -11471,6 +11471,69 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 1498003293069988809, guid: 7f281341fea0fa342a006250772d94b2,
     type: 3}
   m_PrefabInstance: {fileID: 1286817147}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &754770696
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 1572781331134885637}
+    m_Modifications:
+    - target: {fileID: 100016, guid: 7ac15156bae7d7a4fb730ab0ae512dd4, type: 3}
+      propertyPath: m_Name
+      value: EllyTemp
+      objectReference: {fileID: 0}
+    - target: {fileID: 400016, guid: 7ac15156bae7d7a4fb730ab0ae512dd4, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400016, guid: 7ac15156bae7d7a4fb730ab0ae512dd4, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400016, guid: 7ac15156bae7d7a4fb730ab0ae512dd4, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400016, guid: 7ac15156bae7d7a4fb730ab0ae512dd4, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400016, guid: 7ac15156bae7d7a4fb730ab0ae512dd4, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400016, guid: 7ac15156bae7d7a4fb730ab0ae512dd4, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400016, guid: 7ac15156bae7d7a4fb730ab0ae512dd4, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 400016, guid: 7ac15156bae7d7a4fb730ab0ae512dd4, type: 3}
+      propertyPath: m_RootOrder
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 400016, guid: 7ac15156bae7d7a4fb730ab0ae512dd4, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400016, guid: 7ac15156bae7d7a4fb730ab0ae512dd4, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400016, guid: 7ac15156bae7d7a4fb730ab0ae512dd4, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 7ac15156bae7d7a4fb730ab0ae512dd4, type: 3}
+--- !u!4 &754770697 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 400016, guid: 7ac15156bae7d7a4fb730ab0ae512dd4,
+    type: 3}
+  m_PrefabInstance: {fileID: 754770696}
   m_PrefabAsset: {fileID: 0}
 --- !u!1001 &761647317
 PrefabInstance:
@@ -15691,7 +15754,7 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1013601647}
-  m_LocalRotation: {x: -0.019769164, y: 0.000002018629, z: 0.000104478626, w: 0.99980456}
+  m_LocalRotation: {x: -0.019769164, y: 0.0000021128358, z: 0.00010446622, w: 0.99980456}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
@@ -33391,6 +33454,7 @@ Transform:
   - {fileID: 5657839227935054908}
   - {fileID: 1572781332015605394}
   - {fileID: 1735291529}
+  - {fileID: 754770697}
   m_Father: {fileID: 1250631276}
   m_RootOrder: 14
   m_LocalEulerAnglesHint: {x: 0, y: 268.244, z: 0}
@@ -33445,7 +33509,7 @@ MonoBehaviour:
     - Lord Wilson sent you, did he?
     - He doesn't usually like dwarfs you see but I'm special. I couldn't grow a beard
       so they banished me.
-    - Wilson let me stay in the city because I have contact with the dwarf traders...
+    - Wilson let me stay in the city because my dad is a wealthy Dwarven traders...
     - I can make him bare pence, innit.
     - Anyways, enough about my intriguing backstory...
     - I need you to get me a turd.
@@ -34847,7 +34911,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!1 &5657839227934687262
 GameObject:
   m_ObjectHideFlags: 0
