@@ -392,6 +392,124 @@ ModelImporter:
     100772: Roof2
     100774: Roof3
     100776: Roof4
+    100778: DoorWall_Door1
+    100780: DoorWall_Door1 1
+    100782: DoorWall_Door1 2
+    100784: DoorWall_Door1 3
+    100786: DoorWall_DoorTrim1
+    100788: DoorWall_DoorTrim1 1
+    100790: DoorWall_DoorTrim1 2
+    100792: DoorWall_DoorTrim1 3
+    100794: DoorWall_Trim2
+    100796: DoorWall_Trim2 1
+    100798: DoorWall_Trim2 2
+    100800: DoorWall_Trim2 3
+    100802: Ext 1
+    100804: GenHouse_Mod_EmptyWall128
+    100806: GenHouse_Mod_EmptyWall128 1
+    100808: GenHouse_Mod_EmptyWall129
+    100810: GenHouse_Mod_EmptyWall129 1
+    100812: GenHouse_Mod_EmptyWall130
+    100814: GenHouse_Mod_EmptyWall130 1
+    100816: GenHouse_Mod_EmptyWall131
+    100818: GenHouse_Mod_EmptyWall131 1
+    100820: GenHouse_Mod_EmptyWall132
+    100822: GenHouse_Mod_EmptyWall132 1
+    100824: GenHouse_Mod_EmptyWall133
+    100826: GenHouse_Mod_EmptyWall133 1
+    100828: GenHouse_Mod_EmptyWall134
+    100830: GenHouse_Mod_EmptyWall134 1
+    100832: GenHouse_Mod_EmptyWall135
+    100834: GenHouse_Mod_EmptyWall135 1
+    100836: GenHouse_Mod_EmptyWall136
+    100838: GenHouse_Mod_EmptyWall136 1
+    100840: GenHouse_Mod_EmptyWall137
+    100842: GenHouse_Mod_EmptyWall137 1
+    100844: GenHouse_Mod_EmptyWall138
+    100846: GenHouse_Mod_EmptyWall138 1
+    100848: GenHouse_Mod_EmptyWall139
+    100850: GenHouse_Mod_EmptyWall139 1
+    100852: GenHouse_Mod_EmptyWall140
+    100854: GenHouse_Mod_EmptyWall140 1
+    100856: GenHouse_Mod_EmptyWall141
+    100858: GenHouse_Mod_EmptyWall141 1
+    100860: GenHouse_Mod_RoofSlope10 4
+    100862: GenHouse_Mod_RoofSlope10 5
+    100864: GenHouse_Mod_RoofSlope10 6
+    100866: GenHouse_Mod_RoofSlope10 7
+    100868: GenHouse_Mod_RoofSlope11 4
+    100870: GenHouse_Mod_RoofSlope11 5
+    100872: GenHouse_Mod_RoofSlope11 6
+    100874: GenHouse_Mod_RoofSlope11 7
+    100876: GenHouse_Mod_RoofSlope12 4
+    100878: GenHouse_Mod_RoofSlope12 5
+    100880: GenHouse_Mod_RoofSlope12 6
+    100882: GenHouse_Mod_RoofSlope12 7
+    100884: GenHouse_Mod_RoofSlope15 4
+    100886: GenHouse_Mod_RoofSlope15 5
+    100888: GenHouse_Mod_RoofSlope15 6
+    100890: GenHouse_Mod_RoofSlope15 7
+    100892: GenHouse_Mod_RoofSlope35
+    100894: GenHouse_Mod_RoofSlope35 1
+    100896: GenHouse_Mod_RoofSlope35 2
+    100898: GenHouse_Mod_RoofSlope35 3
+    100900: GenHouse_Mod_RoofSlope35 4
+    100902: GenHouse_Mod_RoofSlope35 5
+    100904: GenHouse_Mod_RoofSlope35 6
+    100906: GenHouse_Mod_RoofSlope35 7
+    100908: GenHouse_Mod_RoofSlope36
+    100910: GenHouse_Mod_RoofSlope36 1
+    100912: GenHouse_Mod_RoofSlope37
+    100914: GenHouse_Mod_RoofSlope37 1
+    100916: GenHouse_Mod_RoofSlope38
+    100918: GenHouse_Mod_RoofSlope38 1
+    100920: GenHouse_Mod_RoofSlope39
+    100922: GenHouse_Mod_RoofSlope39 1
+    100924: GenHouse_Mod_RoofSlope40
+    100926: GenHouse_Mod_RoofSlope40 1
+    100928: GenHouse_Mod_RoofSlope9 4
+    100930: GenHouse_Mod_RoofSlope9 5
+    100932: GenHouse_Mod_RoofSlope9 6
+    100934: GenHouse_Mod_RoofSlope9 7
+    100936: GenHouse_Mod_Window10
+    100938: GenHouse_Mod_Window4
+    100940: GenHouse_Mod_Window5
+    100942: GenHouse_Mod_Window6
+    100944: GenHouse_Mod_Window7
+    100946: GenHouse_Mod_Window8
+    100948: GenHouse_Mod_Window9
+    100950: GenHouse_Mod_WoodBeam2
+    100952: GenHouse_Mod_WoodBeam3
+    100954: GenHouse_Mod_WoodBeam4
+    100956: GenHouse_Mod_WoodBeam5
+    100958: GenHouse_Mod_WoodBeam6
+    100960: GenHouse_Mod_WoodBeam7
+    100962: group10
+    100964: group10 1
+    100966: group11
+    100968: group12
+    100970: group13
+    100972: group14
+    100974: group9
+    100976: group9 1
+    100978: Int 1
+    100980: pCube4
+    100982: pCube5
+    100984: pCube6
+    100986: RockPainting1
+    100988: RockPainting2
+    100990: RockPainting3
+    100992: RockPainting4
+    100994: RockPainting5
+    100996: RockPainting6
+    100998: RockPainting7
+    101000: RockPainting8
+    101002: Roof1 1
+    101004: Roof1 2
+    101006: Roof1 3
+    101008: Roof2 1
+    101010: Roof2 2
+    101012: Roof2 3
     400000: //RootNode
     400002: group1
     400004: group2
@@ -781,6 +899,124 @@ ModelImporter:
     400772: Roof2
     400774: Roof3
     400776: Roof4
+    400778: DoorWall_Door1
+    400780: DoorWall_Door1 1
+    400782: DoorWall_Door1 2
+    400784: DoorWall_Door1 3
+    400786: DoorWall_DoorTrim1
+    400788: DoorWall_DoorTrim1 1
+    400790: DoorWall_DoorTrim1 2
+    400792: DoorWall_DoorTrim1 3
+    400794: DoorWall_Trim2
+    400796: DoorWall_Trim2 1
+    400798: DoorWall_Trim2 2
+    400800: DoorWall_Trim2 3
+    400802: Ext 1
+    400804: GenHouse_Mod_EmptyWall128
+    400806: GenHouse_Mod_EmptyWall128 1
+    400808: GenHouse_Mod_EmptyWall129
+    400810: GenHouse_Mod_EmptyWall129 1
+    400812: GenHouse_Mod_EmptyWall130
+    400814: GenHouse_Mod_EmptyWall130 1
+    400816: GenHouse_Mod_EmptyWall131
+    400818: GenHouse_Mod_EmptyWall131 1
+    400820: GenHouse_Mod_EmptyWall132
+    400822: GenHouse_Mod_EmptyWall132 1
+    400824: GenHouse_Mod_EmptyWall133
+    400826: GenHouse_Mod_EmptyWall133 1
+    400828: GenHouse_Mod_EmptyWall134
+    400830: GenHouse_Mod_EmptyWall134 1
+    400832: GenHouse_Mod_EmptyWall135
+    400834: GenHouse_Mod_EmptyWall135 1
+    400836: GenHouse_Mod_EmptyWall136
+    400838: GenHouse_Mod_EmptyWall136 1
+    400840: GenHouse_Mod_EmptyWall137
+    400842: GenHouse_Mod_EmptyWall137 1
+    400844: GenHouse_Mod_EmptyWall138
+    400846: GenHouse_Mod_EmptyWall138 1
+    400848: GenHouse_Mod_EmptyWall139
+    400850: GenHouse_Mod_EmptyWall139 1
+    400852: GenHouse_Mod_EmptyWall140
+    400854: GenHouse_Mod_EmptyWall140 1
+    400856: GenHouse_Mod_EmptyWall141
+    400858: GenHouse_Mod_EmptyWall141 1
+    400860: GenHouse_Mod_RoofSlope10 4
+    400862: GenHouse_Mod_RoofSlope10 5
+    400864: GenHouse_Mod_RoofSlope10 6
+    400866: GenHouse_Mod_RoofSlope10 7
+    400868: GenHouse_Mod_RoofSlope11 4
+    400870: GenHouse_Mod_RoofSlope11 5
+    400872: GenHouse_Mod_RoofSlope11 6
+    400874: GenHouse_Mod_RoofSlope11 7
+    400876: GenHouse_Mod_RoofSlope12 4
+    400878: GenHouse_Mod_RoofSlope12 5
+    400880: GenHouse_Mod_RoofSlope12 6
+    400882: GenHouse_Mod_RoofSlope12 7
+    400884: GenHouse_Mod_RoofSlope15 4
+    400886: GenHouse_Mod_RoofSlope15 5
+    400888: GenHouse_Mod_RoofSlope15 6
+    400890: GenHouse_Mod_RoofSlope15 7
+    400892: GenHouse_Mod_RoofSlope35
+    400894: GenHouse_Mod_RoofSlope35 1
+    400896: GenHouse_Mod_RoofSlope35 2
+    400898: GenHouse_Mod_RoofSlope35 3
+    400900: GenHouse_Mod_RoofSlope35 4
+    400902: GenHouse_Mod_RoofSlope35 5
+    400904: GenHouse_Mod_RoofSlope35 6
+    400906: GenHouse_Mod_RoofSlope35 7
+    400908: GenHouse_Mod_RoofSlope36
+    400910: GenHouse_Mod_RoofSlope36 1
+    400912: GenHouse_Mod_RoofSlope37
+    400914: GenHouse_Mod_RoofSlope37 1
+    400916: GenHouse_Mod_RoofSlope38
+    400918: GenHouse_Mod_RoofSlope38 1
+    400920: GenHouse_Mod_RoofSlope39
+    400922: GenHouse_Mod_RoofSlope39 1
+    400924: GenHouse_Mod_RoofSlope40
+    400926: GenHouse_Mod_RoofSlope40 1
+    400928: GenHouse_Mod_RoofSlope9 4
+    400930: GenHouse_Mod_RoofSlope9 5
+    400932: GenHouse_Mod_RoofSlope9 6
+    400934: GenHouse_Mod_RoofSlope9 7
+    400936: GenHouse_Mod_Window10
+    400938: GenHouse_Mod_Window4
+    400940: GenHouse_Mod_Window5
+    400942: GenHouse_Mod_Window6
+    400944: GenHouse_Mod_Window7
+    400946: GenHouse_Mod_Window8
+    400948: GenHouse_Mod_Window9
+    400950: GenHouse_Mod_WoodBeam2
+    400952: GenHouse_Mod_WoodBeam3
+    400954: GenHouse_Mod_WoodBeam4
+    400956: GenHouse_Mod_WoodBeam5
+    400958: GenHouse_Mod_WoodBeam6
+    400960: GenHouse_Mod_WoodBeam7
+    400962: group10
+    400964: group10 1
+    400966: group11
+    400968: group12
+    400970: group13
+    400972: group14
+    400974: group9
+    400976: group9 1
+    400978: Int 1
+    400980: pCube4
+    400982: pCube5
+    400984: pCube6
+    400986: RockPainting1
+    400988: RockPainting2
+    400990: RockPainting3
+    400992: RockPainting4
+    400994: RockPainting5
+    400996: RockPainting6
+    400998: RockPainting7
+    401000: RockPainting8
+    401002: Roof1 1
+    401004: Roof1 2
+    401006: Roof1 3
+    401008: Roof2 1
+    401010: Roof2 2
+    401012: Roof2 3
     2100000: lambert1
     2100002: RoofTile
     2100004: lambert6
@@ -1153,6 +1389,108 @@ ModelImporter:
     2300720: GenHouse_Mod_Window1
     2300722: GenHouse_Mod_Window2
     2300724: GenHouse_Mod_Window3
+    2300726: DoorWall_Door1
+    2300728: DoorWall_Door1 1
+    2300730: DoorWall_Door1 2
+    2300732: DoorWall_Door1 3
+    2300734: DoorWall_DoorTrim1
+    2300736: DoorWall_DoorTrim1 1
+    2300738: DoorWall_DoorTrim1 2
+    2300740: DoorWall_DoorTrim1 3
+    2300742: DoorWall_Trim2
+    2300744: DoorWall_Trim2 1
+    2300746: DoorWall_Trim2 2
+    2300748: DoorWall_Trim2 3
+    2300750: GenHouse_Mod_EmptyWall128
+    2300752: GenHouse_Mod_EmptyWall128 1
+    2300754: GenHouse_Mod_EmptyWall129
+    2300756: GenHouse_Mod_EmptyWall129 1
+    2300758: GenHouse_Mod_EmptyWall130
+    2300760: GenHouse_Mod_EmptyWall130 1
+    2300762: GenHouse_Mod_EmptyWall131
+    2300764: GenHouse_Mod_EmptyWall131 1
+    2300766: GenHouse_Mod_EmptyWall132
+    2300768: GenHouse_Mod_EmptyWall132 1
+    2300770: GenHouse_Mod_EmptyWall133
+    2300772: GenHouse_Mod_EmptyWall133 1
+    2300774: GenHouse_Mod_EmptyWall134
+    2300776: GenHouse_Mod_EmptyWall134 1
+    2300778: GenHouse_Mod_EmptyWall135
+    2300780: GenHouse_Mod_EmptyWall135 1
+    2300782: GenHouse_Mod_EmptyWall136
+    2300784: GenHouse_Mod_EmptyWall136 1
+    2300786: GenHouse_Mod_EmptyWall137
+    2300788: GenHouse_Mod_EmptyWall137 1
+    2300790: GenHouse_Mod_EmptyWall138
+    2300792: GenHouse_Mod_EmptyWall138 1
+    2300794: GenHouse_Mod_EmptyWall139
+    2300796: GenHouse_Mod_EmptyWall139 1
+    2300798: GenHouse_Mod_EmptyWall140
+    2300800: GenHouse_Mod_EmptyWall140 1
+    2300802: GenHouse_Mod_EmptyWall141
+    2300804: GenHouse_Mod_EmptyWall141 1
+    2300806: GenHouse_Mod_RoofSlope10 4
+    2300808: GenHouse_Mod_RoofSlope10 5
+    2300810: GenHouse_Mod_RoofSlope10 6
+    2300812: GenHouse_Mod_RoofSlope10 7
+    2300814: GenHouse_Mod_RoofSlope11 4
+    2300816: GenHouse_Mod_RoofSlope11 5
+    2300818: GenHouse_Mod_RoofSlope11 6
+    2300820: GenHouse_Mod_RoofSlope11 7
+    2300822: GenHouse_Mod_RoofSlope12 4
+    2300824: GenHouse_Mod_RoofSlope12 5
+    2300826: GenHouse_Mod_RoofSlope12 6
+    2300828: GenHouse_Mod_RoofSlope12 7
+    2300830: GenHouse_Mod_RoofSlope15 4
+    2300832: GenHouse_Mod_RoofSlope15 5
+    2300834: GenHouse_Mod_RoofSlope15 6
+    2300836: GenHouse_Mod_RoofSlope15 7
+    2300838: GenHouse_Mod_RoofSlope35
+    2300840: GenHouse_Mod_RoofSlope35 1
+    2300842: GenHouse_Mod_RoofSlope35 2
+    2300844: GenHouse_Mod_RoofSlope35 3
+    2300846: GenHouse_Mod_RoofSlope35 4
+    2300848: GenHouse_Mod_RoofSlope35 5
+    2300850: GenHouse_Mod_RoofSlope35 6
+    2300852: GenHouse_Mod_RoofSlope35 7
+    2300854: GenHouse_Mod_RoofSlope36
+    2300856: GenHouse_Mod_RoofSlope36 1
+    2300858: GenHouse_Mod_RoofSlope37
+    2300860: GenHouse_Mod_RoofSlope37 1
+    2300862: GenHouse_Mod_RoofSlope38
+    2300864: GenHouse_Mod_RoofSlope38 1
+    2300866: GenHouse_Mod_RoofSlope39
+    2300868: GenHouse_Mod_RoofSlope39 1
+    2300870: GenHouse_Mod_RoofSlope40
+    2300872: GenHouse_Mod_RoofSlope40 1
+    2300874: GenHouse_Mod_RoofSlope9 4
+    2300876: GenHouse_Mod_RoofSlope9 5
+    2300878: GenHouse_Mod_RoofSlope9 6
+    2300880: GenHouse_Mod_RoofSlope9 7
+    2300882: GenHouse_Mod_Window10
+    2300884: GenHouse_Mod_Window4
+    2300886: GenHouse_Mod_Window5
+    2300888: GenHouse_Mod_Window6
+    2300890: GenHouse_Mod_Window7
+    2300892: GenHouse_Mod_Window8
+    2300894: GenHouse_Mod_Window9
+    2300896: GenHouse_Mod_WoodBeam2
+    2300898: GenHouse_Mod_WoodBeam3
+    2300900: GenHouse_Mod_WoodBeam4
+    2300902: GenHouse_Mod_WoodBeam5
+    2300904: GenHouse_Mod_WoodBeam6
+    2300906: GenHouse_Mod_WoodBeam7
+    2300908: pCube4
+    2300910: pCube5
+    2300912: pCube6
+    2300914: RockPainting1
+    2300916: RockPainting2
+    2300918: RockPainting3
+    2300920: RockPainting4
+    2300922: RockPainting5
+    2300924: RockPainting6
+    2300926: RockPainting7
+    2300928: RockPainting8
     3300000: RockChurch__EmptyWall10
     3300002: RockChurch__EmptyWall10 1
     3300004: RockChurch__EmptyWall24
@@ -1516,6 +1854,108 @@ ModelImporter:
     3300720: GenHouse_Mod_Window1
     3300722: GenHouse_Mod_Window2
     3300724: GenHouse_Mod_Window3
+    3300726: DoorWall_Door1
+    3300728: DoorWall_Door1 1
+    3300730: DoorWall_Door1 2
+    3300732: DoorWall_Door1 3
+    3300734: DoorWall_DoorTrim1
+    3300736: DoorWall_DoorTrim1 1
+    3300738: DoorWall_DoorTrim1 2
+    3300740: DoorWall_DoorTrim1 3
+    3300742: DoorWall_Trim2
+    3300744: DoorWall_Trim2 1
+    3300746: DoorWall_Trim2 2
+    3300748: DoorWall_Trim2 3
+    3300750: GenHouse_Mod_EmptyWall128
+    3300752: GenHouse_Mod_EmptyWall128 1
+    3300754: GenHouse_Mod_EmptyWall129
+    3300756: GenHouse_Mod_EmptyWall129 1
+    3300758: GenHouse_Mod_EmptyWall130
+    3300760: GenHouse_Mod_EmptyWall130 1
+    3300762: GenHouse_Mod_EmptyWall131
+    3300764: GenHouse_Mod_EmptyWall131 1
+    3300766: GenHouse_Mod_EmptyWall132
+    3300768: GenHouse_Mod_EmptyWall132 1
+    3300770: GenHouse_Mod_EmptyWall133
+    3300772: GenHouse_Mod_EmptyWall133 1
+    3300774: GenHouse_Mod_EmptyWall134
+    3300776: GenHouse_Mod_EmptyWall134 1
+    3300778: GenHouse_Mod_EmptyWall135
+    3300780: GenHouse_Mod_EmptyWall135 1
+    3300782: GenHouse_Mod_EmptyWall136
+    3300784: GenHouse_Mod_EmptyWall136 1
+    3300786: GenHouse_Mod_EmptyWall137
+    3300788: GenHouse_Mod_EmptyWall137 1
+    3300790: GenHouse_Mod_EmptyWall138
+    3300792: GenHouse_Mod_EmptyWall138 1
+    3300794: GenHouse_Mod_EmptyWall139
+    3300796: GenHouse_Mod_EmptyWall139 1
+    3300798: GenHouse_Mod_EmptyWall140
+    3300800: GenHouse_Mod_EmptyWall140 1
+    3300802: GenHouse_Mod_EmptyWall141
+    3300804: GenHouse_Mod_EmptyWall141 1
+    3300806: GenHouse_Mod_RoofSlope10 4
+    3300808: GenHouse_Mod_RoofSlope10 5
+    3300810: GenHouse_Mod_RoofSlope10 6
+    3300812: GenHouse_Mod_RoofSlope10 7
+    3300814: GenHouse_Mod_RoofSlope11 4
+    3300816: GenHouse_Mod_RoofSlope11 5
+    3300818: GenHouse_Mod_RoofSlope11 6
+    3300820: GenHouse_Mod_RoofSlope11 7
+    3300822: GenHouse_Mod_RoofSlope12 4
+    3300824: GenHouse_Mod_RoofSlope12 5
+    3300826: GenHouse_Mod_RoofSlope12 6
+    3300828: GenHouse_Mod_RoofSlope12 7
+    3300830: GenHouse_Mod_RoofSlope15 4
+    3300832: GenHouse_Mod_RoofSlope15 5
+    3300834: GenHouse_Mod_RoofSlope15 6
+    3300836: GenHouse_Mod_RoofSlope15 7
+    3300838: GenHouse_Mod_RoofSlope35
+    3300840: GenHouse_Mod_RoofSlope35 1
+    3300842: GenHouse_Mod_RoofSlope35 2
+    3300844: GenHouse_Mod_RoofSlope35 3
+    3300846: GenHouse_Mod_RoofSlope35 4
+    3300848: GenHouse_Mod_RoofSlope35 5
+    3300850: GenHouse_Mod_RoofSlope35 6
+    3300852: GenHouse_Mod_RoofSlope35 7
+    3300854: GenHouse_Mod_RoofSlope36
+    3300856: GenHouse_Mod_RoofSlope36 1
+    3300858: GenHouse_Mod_RoofSlope37
+    3300860: GenHouse_Mod_RoofSlope37 1
+    3300862: GenHouse_Mod_RoofSlope38
+    3300864: GenHouse_Mod_RoofSlope38 1
+    3300866: GenHouse_Mod_RoofSlope39
+    3300868: GenHouse_Mod_RoofSlope39 1
+    3300870: GenHouse_Mod_RoofSlope40
+    3300872: GenHouse_Mod_RoofSlope40 1
+    3300874: GenHouse_Mod_RoofSlope9 4
+    3300876: GenHouse_Mod_RoofSlope9 5
+    3300878: GenHouse_Mod_RoofSlope9 6
+    3300880: GenHouse_Mod_RoofSlope9 7
+    3300882: GenHouse_Mod_Window10
+    3300884: GenHouse_Mod_Window4
+    3300886: GenHouse_Mod_Window5
+    3300888: GenHouse_Mod_Window6
+    3300890: GenHouse_Mod_Window7
+    3300892: GenHouse_Mod_Window8
+    3300894: GenHouse_Mod_Window9
+    3300896: GenHouse_Mod_WoodBeam2
+    3300898: GenHouse_Mod_WoodBeam3
+    3300900: GenHouse_Mod_WoodBeam4
+    3300902: GenHouse_Mod_WoodBeam5
+    3300904: GenHouse_Mod_WoodBeam6
+    3300906: GenHouse_Mod_WoodBeam7
+    3300908: pCube4
+    3300910: pCube5
+    3300912: pCube6
+    3300914: RockPainting1
+    3300916: RockPainting2
+    3300918: RockPainting3
+    3300920: RockPainting4
+    3300922: RockPainting5
+    3300924: RockPainting6
+    3300926: RockPainting7
+    3300928: RockPainting8
     4300000: RockChurch__EmptyWall7
     4300002: RockChurch__EmptyWall8
     4300004: RockChurch__EmptyWall9
@@ -1879,6 +2319,108 @@ ModelImporter:
     4300720: GenHouse_Mod_Window1
     4300722: GenHouse_Mod_Window2
     4300724: GenHouse_Mod_Window3
+    4300726: GenHouse_Mod_EmptyWall128
+    4300728: GenHouse_Mod_RoofSlope38
+    4300730: GenHouse_Mod_EmptyWall130
+    4300732: GenHouse_Mod_EmptyWall131
+    4300734: GenHouse_Mod_EmptyWall132
+    4300736: GenHouse_Mod_EmptyWall133
+    4300738: GenHouse_Mod_EmptyWall134
+    4300740: GenHouse_Mod_EmptyWall135
+    4300742: GenHouse_Mod_EmptyWall136
+    4300744: GenHouse_Mod_EmptyWall137
+    4300746: GenHouse_Mod_EmptyWall138
+    4300748: GenHouse_Mod_EmptyWall139
+    4300750: GenHouse_Mod_EmptyWall140
+    4300752: GenHouse_Mod_EmptyWall141
+    4300754: GenHouse_Mod_EmptyWall129
+    4300756: GenHouse_Mod_RoofSlope36
+    4300758: GenHouse_Mod_RoofSlope37
+    4300760: GenHouse_Mod_RoofSlope39
+    4300762: GenHouse_Mod_RoofSlope40
+    4300764: GenHouse_Mod_RoofSlope35
+    4300766: GenHouse_Mod_RoofSlope35
+    4300768: GenHouse_Mod_RoofSlope35
+    4300770: GenHouse_Mod_RoofSlope35
+    4300772: RockPainting1
+    4300774: RockPainting2
+    4300776: RockPainting3
+    4300778: RockPainting4
+    4300780: GenHouse_Mod_WoodBeam2
+    4300782: DoorWall_Door1
+    4300784: DoorWall_DoorTrim1
+    4300786: DoorWall_Trim2
+    4300788: DoorWall_Door1
+    4300790: DoorWall_DoorTrim1
+    4300792: DoorWall_Trim2
+    4300794: GenHouse_Mod_WoodBeam3
+    4300796: GenHouse_Mod_WoodBeam4
+    4300798: GenHouse_Mod_Window4
+    4300800: GenHouse_Mod_Window5
+    4300802: GenHouse_Mod_Window6
+    4300804: GenHouse_Mod_EmptyWall128
+    4300806: GenHouse_Mod_RoofSlope38
+    4300808: GenHouse_Mod_EmptyWall130
+    4300810: GenHouse_Mod_EmptyWall131
+    4300812: GenHouse_Mod_EmptyWall132
+    4300814: GenHouse_Mod_EmptyWall133
+    4300816: GenHouse_Mod_EmptyWall134
+    4300818: GenHouse_Mod_EmptyWall135
+    4300820: GenHouse_Mod_EmptyWall136
+    4300822: GenHouse_Mod_EmptyWall137
+    4300824: GenHouse_Mod_EmptyWall138
+    4300826: GenHouse_Mod_EmptyWall139
+    4300828: GenHouse_Mod_EmptyWall140
+    4300830: GenHouse_Mod_EmptyWall141
+    4300832: GenHouse_Mod_EmptyWall129
+    4300834: GenHouse_Mod_RoofSlope36
+    4300836: GenHouse_Mod_RoofSlope37
+    4300838: GenHouse_Mod_RoofSlope39
+    4300840: GenHouse_Mod_RoofSlope40
+    4300842: GenHouse_Mod_RoofSlope9
+    4300844: GenHouse_Mod_RoofSlope11
+    4300846: GenHouse_Mod_RoofSlope15
+    4300848: GenHouse_Mod_RoofSlope10
+    4300850: GenHouse_Mod_RoofSlope12
+    4300852: GenHouse_Mod_RoofSlope35
+    4300854: GenHouse_Mod_RoofSlope9
+    4300856: GenHouse_Mod_RoofSlope11
+    4300858: GenHouse_Mod_RoofSlope15
+    4300860: GenHouse_Mod_RoofSlope10
+    4300862: GenHouse_Mod_RoofSlope12
+    4300864: GenHouse_Mod_RoofSlope35
+    4300866: GenHouse_Mod_RoofSlope9
+    4300868: GenHouse_Mod_RoofSlope11
+    4300870: GenHouse_Mod_RoofSlope15
+    4300872: GenHouse_Mod_RoofSlope10
+    4300874: GenHouse_Mod_RoofSlope12
+    4300876: GenHouse_Mod_RoofSlope35
+    4300878: GenHouse_Mod_RoofSlope9
+    4300880: GenHouse_Mod_RoofSlope11
+    4300882: GenHouse_Mod_RoofSlope15
+    4300884: GenHouse_Mod_RoofSlope10
+    4300886: GenHouse_Mod_RoofSlope12
+    4300888: GenHouse_Mod_RoofSlope35
+    4300890: GenHouse_Mod_Window7
+    4300892: GenHouse_Mod_Window8
+    4300894: pCube4
+    4300896: pCube5
+    4300898: RockPainting5
+    4300900: RockPainting6
+    4300902: RockPainting7
+    4300904: RockPainting8
+    4300906: GenHouse_Mod_WoodBeam5
+    4300908: DoorWall_Door1
+    4300910: DoorWall_DoorTrim1
+    4300912: DoorWall_Trim2
+    4300914: DoorWall_Door1
+    4300916: DoorWall_DoorTrim1
+    4300918: DoorWall_Trim2
+    4300920: GenHouse_Mod_WoodBeam6
+    4300922: GenHouse_Mod_WoodBeam7
+    4300924: pCube6
+    4300926: GenHouse_Mod_Window9
+    4300928: GenHouse_Mod_Window10
     6400000: pPlane1
     6400002: pPlane1 1
     6400004: pPlane3
@@ -2234,6 +2776,108 @@ ModelImporter:
     6400704: GenHouse_Mod_Window1
     6400706: GenHouse_Mod_Window2
     6400708: GenHouse_Mod_Window3
+    6400710: DoorWall_Door1
+    6400712: DoorWall_Door1 1
+    6400714: DoorWall_Door1 2
+    6400716: DoorWall_Door1 3
+    6400718: DoorWall_DoorTrim1
+    6400720: DoorWall_DoorTrim1 1
+    6400722: DoorWall_DoorTrim1 2
+    6400724: DoorWall_DoorTrim1 3
+    6400726: DoorWall_Trim2
+    6400728: DoorWall_Trim2 1
+    6400730: DoorWall_Trim2 2
+    6400732: DoorWall_Trim2 3
+    6400734: GenHouse_Mod_EmptyWall128
+    6400736: GenHouse_Mod_EmptyWall128 1
+    6400738: GenHouse_Mod_EmptyWall129
+    6400740: GenHouse_Mod_EmptyWall129 1
+    6400742: GenHouse_Mod_EmptyWall130
+    6400744: GenHouse_Mod_EmptyWall130 1
+    6400746: GenHouse_Mod_EmptyWall131
+    6400748: GenHouse_Mod_EmptyWall131 1
+    6400750: GenHouse_Mod_EmptyWall132
+    6400752: GenHouse_Mod_EmptyWall132 1
+    6400754: GenHouse_Mod_EmptyWall133
+    6400756: GenHouse_Mod_EmptyWall133 1
+    6400758: GenHouse_Mod_EmptyWall134
+    6400760: GenHouse_Mod_EmptyWall134 1
+    6400762: GenHouse_Mod_EmptyWall135
+    6400764: GenHouse_Mod_EmptyWall135 1
+    6400766: GenHouse_Mod_EmptyWall136
+    6400768: GenHouse_Mod_EmptyWall136 1
+    6400770: GenHouse_Mod_EmptyWall137
+    6400772: GenHouse_Mod_EmptyWall137 1
+    6400774: GenHouse_Mod_EmptyWall138
+    6400776: GenHouse_Mod_EmptyWall138 1
+    6400778: GenHouse_Mod_EmptyWall139
+    6400780: GenHouse_Mod_EmptyWall139 1
+    6400782: GenHouse_Mod_EmptyWall140
+    6400784: GenHouse_Mod_EmptyWall140 1
+    6400786: GenHouse_Mod_EmptyWall141
+    6400788: GenHouse_Mod_EmptyWall141 1
+    6400790: GenHouse_Mod_RoofSlope10 4
+    6400792: GenHouse_Mod_RoofSlope10 5
+    6400794: GenHouse_Mod_RoofSlope10 6
+    6400796: GenHouse_Mod_RoofSlope10 7
+    6400798: GenHouse_Mod_RoofSlope11 4
+    6400800: GenHouse_Mod_RoofSlope11 5
+    6400802: GenHouse_Mod_RoofSlope11 6
+    6400804: GenHouse_Mod_RoofSlope11 7
+    6400806: GenHouse_Mod_RoofSlope12 4
+    6400808: GenHouse_Mod_RoofSlope12 5
+    6400810: GenHouse_Mod_RoofSlope12 6
+    6400812: GenHouse_Mod_RoofSlope12 7
+    6400814: GenHouse_Mod_RoofSlope15 4
+    6400816: GenHouse_Mod_RoofSlope15 5
+    6400818: GenHouse_Mod_RoofSlope15 6
+    6400820: GenHouse_Mod_RoofSlope15 7
+    6400822: GenHouse_Mod_RoofSlope35
+    6400824: GenHouse_Mod_RoofSlope35 1
+    6400826: GenHouse_Mod_RoofSlope35 2
+    6400828: GenHouse_Mod_RoofSlope35 3
+    6400830: GenHouse_Mod_RoofSlope35 4
+    6400832: GenHouse_Mod_RoofSlope35 5
+    6400834: GenHouse_Mod_RoofSlope35 6
+    6400836: GenHouse_Mod_RoofSlope35 7
+    6400838: GenHouse_Mod_RoofSlope36
+    6400840: GenHouse_Mod_RoofSlope36 1
+    6400842: GenHouse_Mod_RoofSlope37
+    6400844: GenHouse_Mod_RoofSlope37 1
+    6400846: GenHouse_Mod_RoofSlope38
+    6400848: GenHouse_Mod_RoofSlope38 1
+    6400850: GenHouse_Mod_RoofSlope39
+    6400852: GenHouse_Mod_RoofSlope39 1
+    6400854: GenHouse_Mod_RoofSlope40
+    6400856: GenHouse_Mod_RoofSlope40 1
+    6400858: GenHouse_Mod_RoofSlope9 4
+    6400860: GenHouse_Mod_RoofSlope9 5
+    6400862: GenHouse_Mod_RoofSlope9 6
+    6400864: GenHouse_Mod_RoofSlope9 7
+    6400866: GenHouse_Mod_Window10
+    6400868: GenHouse_Mod_Window4
+    6400870: GenHouse_Mod_Window5
+    6400872: GenHouse_Mod_Window6
+    6400874: GenHouse_Mod_Window7
+    6400876: GenHouse_Mod_Window8
+    6400878: GenHouse_Mod_Window9
+    6400880: GenHouse_Mod_WoodBeam2
+    6400882: GenHouse_Mod_WoodBeam3
+    6400884: GenHouse_Mod_WoodBeam4
+    6400886: GenHouse_Mod_WoodBeam5
+    6400888: GenHouse_Mod_WoodBeam6
+    6400890: GenHouse_Mod_WoodBeam7
+    6400892: pCube4
+    6400894: pCube5
+    6400896: pCube6
+    6400898: RockPainting1
+    6400900: RockPainting2
+    6400902: RockPainting3
+    6400904: RockPainting4
+    6400906: RockPainting5
+    6400908: RockPainting6
+    6400910: RockPainting7
+    6400912: RockPainting8
   externalObjects:
   - first:
       type: UnityEngine:Material
