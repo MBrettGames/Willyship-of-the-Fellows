@@ -142,14 +142,12 @@ public class ThirdPersonCharController : MonoBehaviour
     {
         hit.normal = Vector3.forward;
         b_isGrounded = Physics.Raycast(transform.position + transform.up * 0.1f, Vector3.down, out hit, groundCheckDistance);
-
-        /*foreach (Collider col in RagdollParts)
+        
+        if(b_isGrounded == false)
         {
-            if (col.gameObject == hit.collider.gameObject)
-            {
-                break;
-            }
-        }  */
+            rb.AddForce(0,-5,0, ForceMode.Acceleration);
+        }
+
     }
 
     private void Move()
@@ -217,7 +215,7 @@ public class ThirdPersonCharController : MonoBehaviour
         yield return new WaitForSeconds(1);
         dropKickBox.SetActive(true);
         f_maxSpeed = f_maxSpeed * 2f;
-        yield return new WaitForSeconds(1);
+        yield return new WaitForSeconds(0.4f);
         dropKickBox.SetActive(false);
 
     }

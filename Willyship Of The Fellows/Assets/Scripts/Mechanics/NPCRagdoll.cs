@@ -5,9 +5,10 @@ using UnityEngine;
 public class NPCRagdoll : MonoBehaviour
 {
 
-    private bool b_isRagdolling;
+    public bool b_isRagdolling;
     private Rigidbody rb;
     Animator anim;
+    [SerializeField] GameObject DialogueCols;
 
     public List<Collider> RagdollParts = new List<Collider>();
 
@@ -18,26 +19,31 @@ public class NPCRagdoll : MonoBehaviour
         rb = GetComponent<Rigidbody>();
 
         anim = GetComponentInChildren<Animator>();
+        b_isRagdolling = false;
+        RagdollCtrl();
     }
 
     private void Awake()
     {
         SetRagdollParts();
         SetPlayerCollider();
-        b_isRagdolling = false;
 
     }
 
     private void Update()
+    { 
+    }
+
+    public void RagdollCtrl()
     {
-        if (b_isRagdolling)
+        if (b_isRagdolling == true)
         {
-            TurnOffRagdoll();
+            TurnOnRagdoll();
         }
 
         else
         {
-            TurnOnRagdoll();
+            TurnOffRagdoll();
         }
     }
 
@@ -64,11 +70,11 @@ public class NPCRagdoll : MonoBehaviour
 
     public void TurnOnRagdoll()
     {
+        DialogueCols.SetActive(false);
         rb.useGravity = false;
         rb.velocity = Vector3.zero;
-        this.gameObject.GetComponent<CapsuleCollider>().enabled = false;
         anim.enabled = false;
-        b_isRagdolling = true;
+        this.gameObject.GetComponent<CapsuleCollider>().enabled = false;
         Debug.Log("I'm ragdolling");
 
         foreach (Collider col in RagdollParts)
@@ -80,10 +86,10 @@ public class NPCRagdoll : MonoBehaviour
 
     public void TurnOffRagdoll()
     {
+        DialogueCols.SetActive(true);
         rb.useGravity = true;
-        this.gameObject.GetComponent<CapsuleCollider>().enabled = true;
         anim.enabled = true;
-        b_isRagdolling = false;
+        this.gameObject.GetComponent<CapsuleCollider>().enabled = true;
         Debug.Log("I'm not ragdolling");
 
         foreach (Collider col in RagdollParts)
