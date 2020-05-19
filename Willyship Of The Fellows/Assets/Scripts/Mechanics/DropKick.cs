@@ -13,7 +13,6 @@ public class DropKick : MonoBehaviour
         {
             npcRagdoll.b_isRagdolling = true;
             npcRagdoll.RagdollCtrl();
-            Debug.Log("I kicked him");
         }
     }
 }

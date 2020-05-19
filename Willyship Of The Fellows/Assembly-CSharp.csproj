@@ -131,6 +131,7 @@
     <Compile Include="Assets\Scripts\Narrative\DialogueManager.cs" />
     <Compile Include="Assets\Scripts\Narrative\QuestElement.cs" />
     <Compile Include="Assets\Scripts\Narrative\QuestProgress.cs" />
+    <Compile Include="Assets\Scripts\Performance\DisableNPCs.cs" />
     <None Include="Assets\Rewired\Extras\TouchControls\Shaders\ColorShift.shader" />
     <None Include="Assets\Rewired\Documentation\licences.txt" />
     <None Include="Assets\Rewired\Documentation\ReadMe.txt" />

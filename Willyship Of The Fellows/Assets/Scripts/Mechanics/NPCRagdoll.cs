@@ -64,7 +64,6 @@ public class NPCRagdoll : MonoBehaviour
     private void SetPlayerCollider()
     {
         CapsuleCollider capsule = GetComponent<CapsuleCollider>();
-        Debug.Log("I'm a player collider");
 
     }
 
@@ -75,7 +74,6 @@ public class NPCRagdoll : MonoBehaviour
         rb.velocity = Vector3.zero;
         anim.enabled = false;
         this.gameObject.GetComponent<CapsuleCollider>().enabled = false;
-        Debug.Log("I'm ragdolling");
 
         foreach (Collider col in RagdollParts)
         {
@@ -90,7 +88,6 @@ public class NPCRagdoll : MonoBehaviour
         rb.useGravity = true;
         anim.enabled = true;
         this.gameObject.GetComponent<CapsuleCollider>().enabled = true;
-        Debug.Log("I'm not ragdolling");
 
         foreach (Collider col in RagdollParts)
         {
