@@ -142,12 +142,11 @@ public class ThirdPersonCharController : MonoBehaviour
     {
         hit.normal = Vector3.forward;
         b_isGrounded = Physics.Raycast(transform.position + transform.up * 0.1f, Vector3.down, out hit, groundCheckDistance);
-        
-        if(b_isGrounded == false)
+
+        if (b_isGrounded == false && b_isRagdolling == false)
         {
             rb.AddForce(0,-5,0, ForceMode.Acceleration);
         }
-
     }
 
     private void Move()
