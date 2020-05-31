@@ -1,0 +1,2212 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &978413370806677811
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 8097327668341111840}
+  - component: {fileID: 5223735208227678827}
+  - component: {fileID: 4948493404264659137}
+  m_Layer: 0
+  m_Name: WoodenSpikeRope (1)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 126
+  m_IsActive: 1
+--- !u!4 &8097327668341111840
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 978413370806677811}
+  m_LocalRotation: {x: 1, y: -0.000000008381226, z: -1.06544606e-10, w: -0.0000006817281}
+  m_LocalPosition: {x: -0, y: 0.18, z: 0.022}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 1921214225669530471}
+  m_RootOrder: 2
+  m_LocalEulerAnglesHint: {x: 180, y: 0, z: -0.000015258789}
+--- !u!33 &5223735208227678827
+MeshFilter:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 978413370806677811}
+  m_Mesh: {fileID: 4300002, guid: e49c43d2ed3608341a792b76afd65459, type: 3}
+--- !u!23 &4948493404264659137
+MeshRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 978413370806677811}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_DynamicOccludee: 1
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_RenderingLayerMask: 1
+  m_RendererPriority: 0
+  m_Materials:
+  - {fileID: 2100000, guid: d2f7759747599d045bb00db290c44a1a, type: 2}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 0
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+--- !u!1 &1576887490024357220
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1398063391444431889}
+  - component: {fileID: 5203201158452526109}
+  - component: {fileID: 7813051834635636191}
+  m_Layer: 0
+  m_Name: WoodenSpikeRope (1)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 126
+  m_IsActive: 1
+--- !u!4 &1398063391444431889
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1576887490024357220}
+  m_LocalRotation: {x: 1, y: -0.000000008381226, z: -1.06544606e-10, w: -0.0000006817281}
+  m_LocalPosition: {x: -0, y: 0.18, z: 0.022}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 5715527979452336855}
+  m_RootOrder: 2
+  m_LocalEulerAnglesHint: {x: 180, y: 0, z: -0.000015258789}
+--- !u!33 &5203201158452526109
+MeshFilter:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1576887490024357220}
+  m_Mesh: {fileID: 4300002, guid: e49c43d2ed3608341a792b76afd65459, type: 3}
+--- !u!23 &7813051834635636191
+MeshRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1576887490024357220}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_DynamicOccludee: 1
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_RenderingLayerMask: 1
+  m_RendererPriority: 0
+  m_Materials:
+  - {fileID: 2100000, guid: d2f7759747599d045bb00db290c44a1a, type: 2}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 0
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+--- !u!1 &2333120408562144042
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 755522857099697100}
+  - component: {fileID: 4224206102214453163}
+  - component: {fileID: 6868250371108822671}
+  m_Layer: 0
+  m_Name: WoodenSpikeRope (10)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 126
+  m_IsActive: 1
+--- !u!4 &755522857099697100
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2333120408562144042}
+  m_LocalRotation: {x: 1, y: -0.00000021759404, z: 0.00000023841858, w: -0.00000041658114}
+  m_LocalPosition: {x: 0, y: 0.28, z: -0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 5715527979498058822}
+  m_RootOrder: 2
+  m_LocalEulerAnglesHint: {x: 180, y: 0, z: -0.000015258789}
+--- !u!33 &4224206102214453163
+MeshFilter:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2333120408562144042}
+  m_Mesh: {fileID: 4300002, guid: e49c43d2ed3608341a792b76afd65459, type: 3}
+--- !u!23 &6868250371108822671
+MeshRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2333120408562144042}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_DynamicOccludee: 1
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_RenderingLayerMask: 1
+  m_RendererPriority: 0
+  m_Materials:
+  - {fileID: 2100000, guid: d2f7759747599d045bb00db290c44a1a, type: 2}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 0
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+--- !u!1 &3185579940520971128
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 6301869566905937803}
+  - component: {fileID: 8887741701196647141}
+  - component: {fileID: 1810834156851817738}
+  m_Layer: 0
+  m_Name: WoodenSpikeRope (13)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 126
+  m_IsActive: 1
+--- !u!4 &6301869566905937803
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3185579940520971128}
+  m_LocalRotation: {x: 1, y: -0.00000020575503, z: 0.00000032837997, w: -0.0000003485475}
+  m_LocalPosition: {x: -0, y: 0.28, z: 0.03}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 5715527979293749774}
+  m_RootOrder: 2
+  m_LocalEulerAnglesHint: {x: 180, y: 0, z: -0.000015258789}
+--- !u!33 &8887741701196647141
+MeshFilter:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3185579940520971128}
+  m_Mesh: {fileID: 4300002, guid: e49c43d2ed3608341a792b76afd65459, type: 3}
+--- !u!23 &1810834156851817738
+MeshRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3185579940520971128}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_DynamicOccludee: 1
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_RenderingLayerMask: 1
+  m_RendererPriority: 0
+  m_Materials:
+  - {fileID: 2100000, guid: d2f7759747599d045bb00db290c44a1a, type: 2}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 0
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+--- !u!1 &5715527978941114522
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 5715527978941114524}
+  - component: {fileID: 5715527978941114525}
+  m_Layer: 0
+  m_Name: WoodenWallGate
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 126
+  m_IsActive: 1
+--- !u!4 &5715527978941114524
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5715527978941114522}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 24.19, y: 0, z: -5.01}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 5715527979452336855}
+  - {fileID: 5715527979583351800}
+  - {fileID: 5715527978467322815}
+  - {fileID: 5715527979160735283}
+  - {fileID: 5715527980237466629}
+  - {fileID: 5715527978301573349}
+  - {fileID: 5715527978814288144}
+  - {fileID: 5715527980148880839}
+  - {fileID: 5715527979602026081}
+  - {fileID: 5715527979498058822}
+  - {fileID: 5715527980337930643}
+  - {fileID: 5715527979799776261}
+  - {fileID: 5715527979293749774}
+  - {fileID: 1921214225669530471}
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!65 &5715527978941114525
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5715527978941114522}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 7.047945, y: 7.382699, z: 0.7703036}
+  m_Center: {x: 3.3614607, y: 3.6900535, z: 0.08515179}
+--- !u!1 &6413522004009312290
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 3824211141688949870}
+  - component: {fileID: 4964239749210364942}
+  - component: {fileID: 2928793593768977847}
+  m_Layer: 0
+  m_Name: WoodenSpikeRope (5)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 126
+  m_IsActive: 1
+--- !u!4 &3824211141688949870
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6413522004009312290}
+  m_LocalRotation: {x: 1, y: 0.000000019925851, z: 0.00000014921882, w: -0.00000036600977}
+  m_LocalPosition: {x: -0, y: 0.54, z: -0.049}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 5715527980237466629}
+  m_RootOrder: 2
+  m_LocalEulerAnglesHint: {x: 180, y: 0, z: 0}
+--- !u!33 &4964239749210364942
+MeshFilter:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6413522004009312290}
+  m_Mesh: {fileID: 4300002, guid: e49c43d2ed3608341a792b76afd65459, type: 3}
+--- !u!23 &2928793593768977847
+MeshRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6413522004009312290}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_DynamicOccludee: 1
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_RenderingLayerMask: 1
+  m_RendererPriority: 0
+  m_Materials:
+  - {fileID: 2100000, guid: d2f7759747599d045bb00db290c44a1a, type: 2}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 0
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+--- !u!1 &6551100597581441173
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 5274638067178012603}
+  - component: {fileID: 3710411391263028538}
+  - component: {fileID: 2382672778829488122}
+  m_Layer: 0
+  m_Name: WoodenSpikeRope (7)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 126
+  m_IsActive: 1
+--- !u!4 &5274638067178012603
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6551100597581441173}
+  m_LocalRotation: {x: 1, y: 0.0000000144355, z: 0.00000035978155, w: -0.0000008773641}
+  m_LocalPosition: {x: -0.03, y: 0.28, z: 0.01}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 5715527978814288144}
+  m_RootOrder: 2
+  m_LocalEulerAnglesHint: {x: 180, y: 0, z: 0}
+--- !u!33 &3710411391263028538
+MeshFilter:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6551100597581441173}
+  m_Mesh: {fileID: 4300002, guid: e49c43d2ed3608341a792b76afd65459, type: 3}
+--- !u!23 &2382672778829488122
+MeshRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6551100597581441173}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_DynamicOccludee: 1
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_RenderingLayerMask: 1
+  m_RendererPriority: 0
+  m_Materials:
+  - {fileID: 2100000, guid: d2f7759747599d045bb00db290c44a1a, type: 2}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 0
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+--- !u!1 &6864754351697271795
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 5406168049454529013}
+  - component: {fileID: 6701309564534139364}
+  - component: {fileID: 4939499534972922845}
+  m_Layer: 0
+  m_Name: WoodenSpikeRope (12)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 126
+  m_IsActive: 1
+--- !u!4 &5406168049454529013
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6864754351697271795}
+  m_LocalRotation: {x: 1, y: 0.000000008381904, z: 0.0000002344823, w: -0.00000031525272}
+  m_LocalPosition: {x: 0.029, y: 0.49, z: 0.02}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 5715527979799776261}
+  m_RootOrder: 2
+  m_LocalEulerAnglesHint: {x: 180, y: 0, z: 0}
+--- !u!33 &6701309564534139364
+MeshFilter:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6864754351697271795}
+  m_Mesh: {fileID: 4300002, guid: e49c43d2ed3608341a792b76afd65459, type: 3}
+--- !u!23 &4939499534972922845
+MeshRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6864754351697271795}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_DynamicOccludee: 1
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_RenderingLayerMask: 1
+  m_RendererPriority: 0
+  m_Materials:
+  - {fileID: 2100000, guid: d2f7759747599d045bb00db290c44a1a, type: 2}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 0
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+--- !u!1 &7336177083340513741
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 2874195937761538332}
+  - component: {fileID: 3622051192716903122}
+  - component: {fileID: 3637041857589195854}
+  m_Layer: 0
+  m_Name: WoodenSpikeRope (9)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 126
+  m_IsActive: 1
+--- !u!4 &2874195937761538332
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7336177083340513741}
+  m_LocalRotation: {x: 1, y: 0.000000008381904, z: 0.0000002344823, w: -0.00000031525272}
+  m_LocalPosition: {x: 0.022, y: 0.28, z: 0.02}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 5715527979602026081}
+  m_RootOrder: 2
+  m_LocalEulerAnglesHint: {x: 180, y: 0, z: 0}
+--- !u!33 &3622051192716903122
+MeshFilter:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7336177083340513741}
+  m_Mesh: {fileID: 4300002, guid: e49c43d2ed3608341a792b76afd65459, type: 3}
+--- !u!23 &3637041857589195854
+MeshRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7336177083340513741}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_DynamicOccludee: 1
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_RenderingLayerMask: 1
+  m_RendererPriority: 0
+  m_Materials:
+  - {fileID: 2100000, guid: d2f7759747599d045bb00db290c44a1a, type: 2}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 0
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+--- !u!1 &7827922128141386350
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1291905313799780318}
+  - component: {fileID: 4523907228697070306}
+  - component: {fileID: 2086818160798813448}
+  m_Layer: 0
+  m_Name: WoodenSpikeRope (2)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 126
+  m_IsActive: 1
+--- !u!4 &1291905313799780318
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7827922128141386350}
+  m_LocalRotation: {x: 1, y: 0.0000000144355, z: 0.00000035978155, w: -0.0000008773641}
+  m_LocalPosition: {x: -0.03, y: 0.28, z: 0.01}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 5715527979583351800}
+  m_RootOrder: 2
+  m_LocalEulerAnglesHint: {x: 180, y: 0, z: 0}
+--- !u!33 &4523907228697070306
+MeshFilter:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7827922128141386350}
+  m_Mesh: {fileID: 4300002, guid: e49c43d2ed3608341a792b76afd65459, type: 3}
+--- !u!23 &2086818160798813448
+MeshRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7827922128141386350}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_DynamicOccludee: 1
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_RenderingLayerMask: 1
+  m_RendererPriority: 0
+  m_Materials:
+  - {fileID: 2100000, guid: d2f7759747599d045bb00db290c44a1a, type: 2}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 0
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+--- !u!1 &7972962975619364921
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4833934376052574163}
+  - component: {fileID: 7742624872122047211}
+  - component: {fileID: 7252983514152731148}
+  m_Layer: 0
+  m_Name: WoodenSpikeRope (3)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 126
+  m_IsActive: 1
+--- !u!4 &4833934376052574163
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7972962975619364921}
+  m_LocalRotation: {x: 1, y: 0.000000008381904, z: 0.0000002344823, w: -0.00000031525272}
+  m_LocalPosition: {x: 0.025, y: 0.58, z: 0.02}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 5715527978467322815}
+  m_RootOrder: 2
+  m_LocalEulerAnglesHint: {x: 180, y: 0, z: 0}
+--- !u!33 &7742624872122047211
+MeshFilter:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7972962975619364921}
+  m_Mesh: {fileID: 4300002, guid: e49c43d2ed3608341a792b76afd65459, type: 3}
+--- !u!23 &7252983514152731148
+MeshRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7972962975619364921}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_DynamicOccludee: 1
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_RenderingLayerMask: 1
+  m_RendererPriority: 0
+  m_Materials:
+  - {fileID: 2100000, guid: d2f7759747599d045bb00db290c44a1a, type: 2}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 0
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+--- !u!1 &8040211486010231065
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4487136511026504963}
+  - component: {fileID: 5564713114010530471}
+  - component: {fileID: 526622531022888497}
+  m_Layer: 0
+  m_Name: WoodenSpikeRope (11)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 126
+  m_IsActive: 1
+--- !u!4 &4487136511026504963
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8040211486010231065}
+  m_LocalRotation: {x: 1, y: -0.00000020575503, z: 0.00000032837997, w: -0.0000003485475}
+  m_LocalPosition: {x: -0.000000027681999, y: 0.28, z: 0.03}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 5715527980337930643}
+  m_RootOrder: 2
+  m_LocalEulerAnglesHint: {x: 180, y: 0, z: -0.000015258789}
+--- !u!33 &5564713114010530471
+MeshFilter:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8040211486010231065}
+  m_Mesh: {fileID: 4300002, guid: e49c43d2ed3608341a792b76afd65459, type: 3}
+--- !u!23 &526622531022888497
+MeshRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8040211486010231065}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_DynamicOccludee: 1
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_RenderingLayerMask: 1
+  m_RendererPriority: 0
+  m_Materials:
+  - {fileID: 2100000, guid: d2f7759747599d045bb00db290c44a1a, type: 2}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 0
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+--- !u!1 &8187676972486730821
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 702948779495971618}
+  - component: {fileID: 4301575588752284298}
+  - component: {fileID: 923373820466712299}
+  m_Layer: 0
+  m_Name: WoodenSpikeRope (6)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 126
+  m_IsActive: 1
+--- !u!4 &702948779495971618
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8187676972486730821}
+  m_LocalRotation: {x: 1, y: 0.0000000773121, z: 0.00000017881396, w: -0.00000026527223}
+  m_LocalPosition: {x: 0, y: 0.28, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 5715527978301573349}
+  m_RootOrder: 2
+  m_LocalEulerAnglesHint: {x: 180, y: 0, z: 0}
+--- !u!33 &4301575588752284298
+MeshFilter:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8187676972486730821}
+  m_Mesh: {fileID: 4300002, guid: e49c43d2ed3608341a792b76afd65459, type: 3}
+--- !u!23 &923373820466712299
+MeshRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8187676972486730821}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_DynamicOccludee: 1
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_RenderingLayerMask: 1
+  m_RendererPriority: 0
+  m_Materials:
+  - {fileID: 2100000, guid: d2f7759747599d045bb00db290c44a1a, type: 2}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 0
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+--- !u!1 &8319950810932333737
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 2347979114820244076}
+  - component: {fileID: 6227027521723952105}
+  - component: {fileID: 7161785084137131364}
+  m_Layer: 0
+  m_Name: WoodenSpikeRope (4)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 126
+  m_IsActive: 1
+--- !u!4 &2347979114820244076
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8319950810932333737}
+  m_LocalRotation: {x: 1, y: -0.00000021759404, z: 0.00000023841858, w: -0.00000041658114}
+  m_LocalPosition: {x: 0, y: 0.47, z: -0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 5715527979160735283}
+  m_RootOrder: 2
+  m_LocalEulerAnglesHint: {x: 180, y: 0, z: -0.000015258789}
+--- !u!33 &6227027521723952105
+MeshFilter:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8319950810932333737}
+  m_Mesh: {fileID: 4300002, guid: e49c43d2ed3608341a792b76afd65459, type: 3}
+--- !u!23 &7161785084137131364
+MeshRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8319950810932333737}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_DynamicOccludee: 1
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_RenderingLayerMask: 1
+  m_RendererPriority: 0
+  m_Materials:
+  - {fileID: 2100000, guid: d2f7759747599d045bb00db290c44a1a, type: 2}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 0
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+--- !u!1 &8475366297953338706
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 8955382124470274277}
+  - component: {fileID: 3861143689437541199}
+  - component: {fileID: 3524724811157657682}
+  m_Layer: 0
+  m_Name: WoodenSpikeRope (8)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 126
+  m_IsActive: 1
+--- !u!4 &8955382124470274277
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8475366297953338706}
+  m_LocalRotation: {x: 1, y: -0.00000013400225, z: 0.00000026822093, w: -0.00000022044924}
+  m_LocalPosition: {x: -0.000000080301724, y: 0.27993202, z: -0.0046228818}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 5715527980148880839}
+  m_RootOrder: 2
+  m_LocalEulerAnglesHint: {x: 180, y: 0, z: -0.000015258789}
+--- !u!33 &3861143689437541199
+MeshFilter:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8475366297953338706}
+  m_Mesh: {fileID: 4300002, guid: e49c43d2ed3608341a792b76afd65459, type: 3}
+--- !u!23 &3524724811157657682
+MeshRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8475366297953338706}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_DynamicOccludee: 1
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_RenderingLayerMask: 1
+  m_RendererPriority: 0
+  m_Materials:
+  - {fileID: 2100000, guid: d2f7759747599d045bb00db290c44a1a, type: 2}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 0
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+--- !u!1001 &1921214225669405155
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 5715527978941114524}
+    m_Modifications:
+    - target: {fileID: 100004, guid: e49c43d2ed3608341a792b76afd65459, type: 3}
+      propertyPath: m_Name
+      value: WoodenWallSpike (13)
+      objectReference: {fileID: 0}
+    - target: {fileID: 100004, guid: e49c43d2ed3608341a792b76afd65459, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 126
+      objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: e49c43d2ed3608341a792b76afd65459, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 126
+      objectReference: {fileID: 0}
+    - target: {fileID: 100002, guid: e49c43d2ed3608341a792b76afd65459, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 126
+      objectReference: {fileID: 0}
+    - target: {fileID: 400004, guid: e49c43d2ed3608341a792b76afd65459, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -0.10239935
+      objectReference: {fileID: 0}
+    - target: {fileID: 400004, guid: e49c43d2ed3608341a792b76afd65459, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0.1242
+      objectReference: {fileID: 0}
+    - target: {fileID: 400004, guid: e49c43d2ed3608341a792b76afd65459, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0.3271
+      objectReference: {fileID: 0}
+    - target: {fileID: 400004, guid: e49c43d2ed3608341a792b76afd65459, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0.011743651
+      objectReference: {fileID: 0}
+    - target: {fileID: 400004, guid: e49c43d2ed3608341a792b76afd65459, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0.0048643653
+      objectReference: {fileID: 0}
+    - target: {fileID: 400004, guid: e49c43d2ed3608341a792b76afd65459, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0.38265237
+      objectReference: {fileID: 0}
+    - target: {fileID: 400004, guid: e49c43d2ed3608341a792b76afd65459, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0.923805
+      objectReference: {fileID: 0}
+    - target: {fileID: 400004, guid: e49c43d2ed3608341a792b76afd65459, type: 3}
+      propertyPath: m_RootOrder
+      value: 13
+      objectReference: {fileID: 0}
+    - target: {fileID: 400004, guid: e49c43d2ed3608341a792b76afd65459, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: -1.457
+      objectReference: {fileID: 0}
+    - target: {fileID: 400004, guid: e49c43d2ed3608341a792b76afd65459, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400004, guid: e49c43d2ed3608341a792b76afd65459, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: -45.000004
+      objectReference: {fileID: 0}
+    - target: {fileID: 400004, guid: e49c43d2ed3608341a792b76afd65459, type: 3}
+      propertyPath: m_LocalScale.y
+      value: 1.3594713
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: e49c43d2ed3608341a792b76afd65459, type: 3}
+--- !u!4 &1921214225669530471 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 400004, guid: e49c43d2ed3608341a792b76afd65459,
+    type: 3}
+  m_PrefabInstance: {fileID: 1921214225669405155}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &5715527978301968993
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 5715527978941114524}
+    m_Modifications:
+    - target: {fileID: 100004, guid: e49c43d2ed3608341a792b76afd65459, type: 3}
+      propertyPath: m_Name
+      value: WoodenWallSpike (5)
+      objectReference: {fileID: 0}
+    - target: {fileID: 100004, guid: e49c43d2ed3608341a792b76afd65459, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 126
+      objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: e49c43d2ed3608341a792b76afd65459, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 126
+      objectReference: {fileID: 0}
+    - target: {fileID: 100002, guid: e49c43d2ed3608341a792b76afd65459, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 126
+      objectReference: {fileID: 0}
+    - target: {fileID: 400004, guid: e49c43d2ed3608341a792b76afd65459, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 3.9800005
+      objectReference: {fileID: 0}
+    - target: {fileID: 400004, guid: e49c43d2ed3608341a792b76afd65459, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400004, guid: e49c43d2ed3608341a792b76afd65459, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400004, guid: e49c43d2ed3608341a792b76afd65459, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400004, guid: e49c43d2ed3608341a792b76afd65459, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0.7554522
+      objectReference: {fileID: 0}
+    - target: {fileID: 400004, guid: e49c43d2ed3608341a792b76afd65459, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400004, guid: e49c43d2ed3608341a792b76afd65459, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0.65520376
+      objectReference: {fileID: 0}
+    - target: {fileID: 400004, guid: e49c43d2ed3608341a792b76afd65459, type: 3}
+      propertyPath: m_RootOrder
+      value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: 400004, guid: e49c43d2ed3608341a792b76afd65459, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400004, guid: e49c43d2ed3608341a792b76afd65459, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 98.130005
+      objectReference: {fileID: 0}
+    - target: {fileID: 400004, guid: e49c43d2ed3608341a792b76afd65459, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: e49c43d2ed3608341a792b76afd65459, type: 3}
+--- !u!4 &5715527978301573349 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 400004, guid: e49c43d2ed3608341a792b76afd65459,
+    type: 3}
+  m_PrefabInstance: {fileID: 5715527978301968993}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &5715527978467717435
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 5715527978941114524}
+    m_Modifications:
+    - target: {fileID: 100004, guid: e49c43d2ed3608341a792b76afd65459, type: 3}
+      propertyPath: m_Name
+      value: WoodenWallSpike (2)
+      objectReference: {fileID: 0}
+    - target: {fileID: 100004, guid: e49c43d2ed3608341a792b76afd65459, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 126
+      objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: e49c43d2ed3608341a792b76afd65459, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 126
+      objectReference: {fileID: 0}
+    - target: {fileID: 100002, guid: e49c43d2ed3608341a792b76afd65459, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 126
+      objectReference: {fileID: 0}
+    - target: {fileID: 400004, guid: e49c43d2ed3608341a792b76afd65459, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 2.36
+      objectReference: {fileID: 0}
+    - target: {fileID: 400004, guid: e49c43d2ed3608341a792b76afd65459, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -0.15
+      objectReference: {fileID: 0}
+    - target: {fileID: 400004, guid: e49c43d2ed3608341a792b76afd65459, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400004, guid: e49c43d2ed3608341a792b76afd65459, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0.008328471
+      objectReference: {fileID: 0}
+    - target: {fileID: 400004, guid: e49c43d2ed3608341a792b76afd65459, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0.7553911
+      objectReference: {fileID: 0}
+    - target: {fileID: 400004, guid: e49c43d2ed3608341a792b76afd65459, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0.009602755
+      objectReference: {fileID: 0}
+    - target: {fileID: 400004, guid: e49c43d2ed3608341a792b76afd65459, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0.6551509
+      objectReference: {fileID: 0}
+    - target: {fileID: 400004, guid: e49c43d2ed3608341a792b76afd65459, type: 3}
+      propertyPath: m_RootOrder
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 400004, guid: e49c43d2ed3608341a792b76afd65459, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0.20600002
+      objectReference: {fileID: 0}
+    - target: {fileID: 400004, guid: e49c43d2ed3608341a792b76afd65459, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 98.12701
+      objectReference: {fileID: 0}
+    - target: {fileID: 400004, guid: e49c43d2ed3608341a792b76afd65459, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: -1.442
+      objectReference: {fileID: 0}
+    - target: {fileID: 400004, guid: e49c43d2ed3608341a792b76afd65459, type: 3}
+      propertyPath: m_LocalScale.y
+      value: 1.049
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: e49c43d2ed3608341a792b76afd65459, type: 3}
+--- !u!4 &5715527978467322815 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 400004, guid: e49c43d2ed3608341a792b76afd65459,
+    type: 3}
+  m_PrefabInstance: {fileID: 5715527978467717435}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &5715527978814679956
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 5715527978941114524}
+    m_Modifications:
+    - target: {fileID: 100004, guid: e49c43d2ed3608341a792b76afd65459, type: 3}
+      propertyPath: m_Name
+      value: WoodenWallSpike (6)
+      objectReference: {fileID: 0}
+    - target: {fileID: 100004, guid: e49c43d2ed3608341a792b76afd65459, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 126
+      objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: e49c43d2ed3608341a792b76afd65459, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 126
+      objectReference: {fileID: 0}
+    - target: {fileID: 100002, guid: e49c43d2ed3608341a792b76afd65459, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 126
+      objectReference: {fileID: 0}
+    - target: {fileID: 400004, guid: e49c43d2ed3608341a792b76afd65459, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 1.2700012
+      objectReference: {fileID: 0}
+    - target: {fileID: 400004, guid: e49c43d2ed3608341a792b76afd65459, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -0.23
+      objectReference: {fileID: 0}
+    - target: {fileID: 400004, guid: e49c43d2ed3608341a792b76afd65459, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400004, guid: e49c43d2ed3608341a792b76afd65459, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0.0022460013
+      objectReference: {fileID: 0}
+    - target: {fileID: 400004, guid: e49c43d2ed3608341a792b76afd65459, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0.5497511
+      objectReference: {fileID: 0}
+    - target: {fileID: 400004, guid: e49c43d2ed3608341a792b76afd65459, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0.0014781584
+      objectReference: {fileID: 0}
+    - target: {fileID: 400004, guid: e49c43d2ed3608341a792b76afd65459, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0.8353242
+      objectReference: {fileID: 0}
+    - target: {fileID: 400004, guid: e49c43d2ed3608341a792b76afd65459, type: 3}
+      propertyPath: m_RootOrder
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 400004, guid: e49c43d2ed3608341a792b76afd65459, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0.12200001
+      objectReference: {fileID: 0}
+    - target: {fileID: 400004, guid: e49c43d2ed3608341a792b76afd65459, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 66.700005
+      objectReference: {fileID: 0}
+    - target: {fileID: 400004, guid: e49c43d2ed3608341a792b76afd65459, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0.28300002
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: e49c43d2ed3608341a792b76afd65459, type: 3}
+--- !u!4 &5715527978814288144 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 400004, guid: e49c43d2ed3608341a792b76afd65459,
+    type: 3}
+  m_PrefabInstance: {fileID: 5715527978814679956}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &5715527979160343735
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 5715527978941114524}
+    m_Modifications:
+    - target: {fileID: 100004, guid: e49c43d2ed3608341a792b76afd65459, type: 3}
+      propertyPath: m_Name
+      value: WoodenWallSpike (3)
+      objectReference: {fileID: 0}
+    - target: {fileID: 100004, guid: e49c43d2ed3608341a792b76afd65459, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 126
+      objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: e49c43d2ed3608341a792b76afd65459, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 126
+      objectReference: {fileID: 0}
+    - target: {fileID: 100002, guid: e49c43d2ed3608341a792b76afd65459, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 126
+      objectReference: {fileID: 0}
+    - target: {fileID: 400004, guid: e49c43d2ed3608341a792b76afd65459, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 4.5300035
+      objectReference: {fileID: 0}
+    - target: {fileID: 400004, guid: e49c43d2ed3608341a792b76afd65459, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400004, guid: e49c43d2ed3608341a792b76afd65459, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400004, guid: e49c43d2ed3608341a792b76afd65459, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400004, guid: e49c43d2ed3608341a792b76afd65459, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0.54975307
+      objectReference: {fileID: 0}
+    - target: {fileID: 400004, guid: e49c43d2ed3608341a792b76afd65459, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400004, guid: e49c43d2ed3608341a792b76afd65459, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0.83532727
+      objectReference: {fileID: 0}
+    - target: {fileID: 400004, guid: e49c43d2ed3608341a792b76afd65459, type: 3}
+      propertyPath: m_RootOrder
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 400004, guid: e49c43d2ed3608341a792b76afd65459, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400004, guid: e49c43d2ed3608341a792b76afd65459, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 66.700005
+      objectReference: {fileID: 0}
+    - target: {fileID: 400004, guid: e49c43d2ed3608341a792b76afd65459, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400004, guid: e49c43d2ed3608341a792b76afd65459, type: 3}
+      propertyPath: m_LocalScale.y
+      value: 1.0308
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: e49c43d2ed3608341a792b76afd65459, type: 3}
+--- !u!4 &5715527979160735283 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 400004, guid: e49c43d2ed3608341a792b76afd65459,
+    type: 3}
+  m_PrefabInstance: {fileID: 5715527979160343735}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &5715527979293616266
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 5715527978941114524}
+    m_Modifications:
+    - target: {fileID: 100004, guid: e49c43d2ed3608341a792b76afd65459, type: 3}
+      propertyPath: m_Name
+      value: WoodenWallSpike (12)
+      objectReference: {fileID: 0}
+    - target: {fileID: 100004, guid: e49c43d2ed3608341a792b76afd65459, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 126
+      objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: e49c43d2ed3608341a792b76afd65459, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 126
+      objectReference: {fileID: 0}
+    - target: {fileID: 100002, guid: e49c43d2ed3608341a792b76afd65459, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 126
+      objectReference: {fileID: 0}
+    - target: {fileID: 400004, guid: e49c43d2ed3608341a792b76afd65459, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0.1200006
+      objectReference: {fileID: 0}
+    - target: {fileID: 400004, guid: e49c43d2ed3608341a792b76afd65459, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -0.21
+      objectReference: {fileID: 0}
+    - target: {fileID: 400004, guid: e49c43d2ed3608341a792b76afd65459, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400004, guid: e49c43d2ed3608341a792b76afd65459, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0.002688771
+      objectReference: {fileID: 0}
+    - target: {fileID: 400004, guid: e49c43d2ed3608341a792b76afd65459, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400004, guid: e49c43d2ed3608341a792b76afd65459, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400004, guid: e49c43d2ed3608341a792b76afd65459, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0.99999636
+      objectReference: {fileID: 0}
+    - target: {fileID: 400004, guid: e49c43d2ed3608341a792b76afd65459, type: 3}
+      propertyPath: m_RootOrder
+      value: 12
+      objectReference: {fileID: 0}
+    - target: {fileID: 400004, guid: e49c43d2ed3608341a792b76afd65459, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0.30800003
+      objectReference: {fileID: 0}
+    - target: {fileID: 400004, guid: e49c43d2ed3608341a792b76afd65459, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400004, guid: e49c43d2ed3608341a792b76afd65459, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: e49c43d2ed3608341a792b76afd65459, type: 3}
+--- !u!4 &5715527979293749774 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 400004, guid: e49c43d2ed3608341a792b76afd65459,
+    type: 3}
+  m_PrefabInstance: {fileID: 5715527979293616266}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &5715527979452731475
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 5715527978941114524}
+    m_Modifications:
+    - target: {fileID: 100004, guid: e49c43d2ed3608341a792b76afd65459, type: 3}
+      propertyPath: m_Name
+      value: WoodenWallSpike
+      objectReference: {fileID: 0}
+    - target: {fileID: 100004, guid: e49c43d2ed3608341a792b76afd65459, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 126
+      objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: e49c43d2ed3608341a792b76afd65459, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 126
+      objectReference: {fileID: 0}
+    - target: {fileID: 100002, guid: e49c43d2ed3608341a792b76afd65459, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 126
+      objectReference: {fileID: 0}
+    - target: {fileID: 400004, guid: e49c43d2ed3608341a792b76afd65459, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 3.4400005
+      objectReference: {fileID: 0}
+    - target: {fileID: 400004, guid: e49c43d2ed3608341a792b76afd65459, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400004, guid: e49c43d2ed3608341a792b76afd65459, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400004, guid: e49c43d2ed3608341a792b76afd65459, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0.012711267
+      objectReference: {fileID: 0}
+    - target: {fileID: 400004, guid: e49c43d2ed3608341a792b76afd65459, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400004, guid: e49c43d2ed3608341a792b76afd65459, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400004, guid: e49c43d2ed3608341a792b76afd65459, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0.99991924
+      objectReference: {fileID: 0}
+    - target: {fileID: 400004, guid: e49c43d2ed3608341a792b76afd65459, type: 3}
+      propertyPath: m_RootOrder
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400004, guid: e49c43d2ed3608341a792b76afd65459, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: -1.457
+      objectReference: {fileID: 0}
+    - target: {fileID: 400004, guid: e49c43d2ed3608341a792b76afd65459, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400004, guid: e49c43d2ed3608341a792b76afd65459, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400004, guid: e49c43d2ed3608341a792b76afd65459, type: 3}
+      propertyPath: m_LocalScale.y
+      value: 0.98491
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: e49c43d2ed3608341a792b76afd65459, type: 3}
+--- !u!4 &5715527979452336855 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 400004, guid: e49c43d2ed3608341a792b76afd65459,
+    type: 3}
+  m_PrefabInstance: {fileID: 5715527979452731475}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &5715527979498450626
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 5715527978941114524}
+    m_Modifications:
+    - target: {fileID: 100004, guid: e49c43d2ed3608341a792b76afd65459, type: 3}
+      propertyPath: m_Name
+      value: WoodenWallSpike (9)
+      objectReference: {fileID: 0}
+    - target: {fileID: 100004, guid: e49c43d2ed3608341a792b76afd65459, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 126
+      objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: e49c43d2ed3608341a792b76afd65459, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 126
+      objectReference: {fileID: 0}
+    - target: {fileID: 100002, guid: e49c43d2ed3608341a792b76afd65459, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 126
+      objectReference: {fileID: 0}
+    - target: {fileID: 400004, guid: e49c43d2ed3608341a792b76afd65459, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 6.1100006
+      objectReference: {fileID: 0}
+    - target: {fileID: 400004, guid: e49c43d2ed3608341a792b76afd65459, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400004, guid: e49c43d2ed3608341a792b76afd65459, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400004, guid: e49c43d2ed3608341a792b76afd65459, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400004, guid: e49c43d2ed3608341a792b76afd65459, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0.54975307
+      objectReference: {fileID: 0}
+    - target: {fileID: 400004, guid: e49c43d2ed3608341a792b76afd65459, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400004, guid: e49c43d2ed3608341a792b76afd65459, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0.83532727
+      objectReference: {fileID: 0}
+    - target: {fileID: 400004, guid: e49c43d2ed3608341a792b76afd65459, type: 3}
+      propertyPath: m_RootOrder
+      value: 9
+      objectReference: {fileID: 0}
+    - target: {fileID: 400004, guid: e49c43d2ed3608341a792b76afd65459, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400004, guid: e49c43d2ed3608341a792b76afd65459, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 66.700005
+      objectReference: {fileID: 0}
+    - target: {fileID: 400004, guid: e49c43d2ed3608341a792b76afd65459, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: e49c43d2ed3608341a792b76afd65459, type: 3}
+--- !u!4 &5715527979498058822 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 400004, guid: e49c43d2ed3608341a792b76afd65459,
+    type: 3}
+  m_PrefabInstance: {fileID: 5715527979498450626}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &5715527979582959996
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 5715527978941114524}
+    m_Modifications:
+    - target: {fileID: 100004, guid: e49c43d2ed3608341a792b76afd65459, type: 3}
+      propertyPath: m_Name
+      value: WoodenWallSpike (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 100004, guid: e49c43d2ed3608341a792b76afd65459, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 126
+      objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: e49c43d2ed3608341a792b76afd65459, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 126
+      objectReference: {fileID: 0}
+    - target: {fileID: 100002, guid: e49c43d2ed3608341a792b76afd65459, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 126
+      objectReference: {fileID: 0}
+    - target: {fileID: 400004, guid: e49c43d2ed3608341a792b76afd65459, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 2.9100006
+      objectReference: {fileID: 0}
+    - target: {fileID: 400004, guid: e49c43d2ed3608341a792b76afd65459, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400004, guid: e49c43d2ed3608341a792b76afd65459, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400004, guid: e49c43d2ed3608341a792b76afd65459, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0.0022460013
+      objectReference: {fileID: 0}
+    - target: {fileID: 400004, guid: e49c43d2ed3608341a792b76afd65459, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0.5497511
+      objectReference: {fileID: 0}
+    - target: {fileID: 400004, guid: e49c43d2ed3608341a792b76afd65459, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0.0014781584
+      objectReference: {fileID: 0}
+    - target: {fileID: 400004, guid: e49c43d2ed3608341a792b76afd65459, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0.8353242
+      objectReference: {fileID: 0}
+    - target: {fileID: 400004, guid: e49c43d2ed3608341a792b76afd65459, type: 3}
+      propertyPath: m_RootOrder
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 400004, guid: e49c43d2ed3608341a792b76afd65459, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0.12200001
+      objectReference: {fileID: 0}
+    - target: {fileID: 400004, guid: e49c43d2ed3608341a792b76afd65459, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 66.700005
+      objectReference: {fileID: 0}
+    - target: {fileID: 400004, guid: e49c43d2ed3608341a792b76afd65459, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0.28300002
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: e49c43d2ed3608341a792b76afd65459, type: 3}
+--- !u!4 &5715527979583351800 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 400004, guid: e49c43d2ed3608341a792b76afd65459,
+    type: 3}
+  m_PrefabInstance: {fileID: 5715527979582959996}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &5715527979601888485
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 5715527978941114524}
+    m_Modifications:
+    - target: {fileID: 100004, guid: e49c43d2ed3608341a792b76afd65459, type: 3}
+      propertyPath: m_Name
+      value: WoodenWallSpike (8)
+      objectReference: {fileID: 0}
+    - target: {fileID: 100004, guid: e49c43d2ed3608341a792b76afd65459, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 126
+      objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: e49c43d2ed3608341a792b76afd65459, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 126
+      objectReference: {fileID: 0}
+    - target: {fileID: 100002, guid: e49c43d2ed3608341a792b76afd65459, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 126
+      objectReference: {fileID: 0}
+    - target: {fileID: 400004, guid: e49c43d2ed3608341a792b76afd65459, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0.7200005
+      objectReference: {fileID: 0}
+    - target: {fileID: 400004, guid: e49c43d2ed3608341a792b76afd65459, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400004, guid: e49c43d2ed3608341a792b76afd65459, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400004, guid: e49c43d2ed3608341a792b76afd65459, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0.008328471
+      objectReference: {fileID: 0}
+    - target: {fileID: 400004, guid: e49c43d2ed3608341a792b76afd65459, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0.7553911
+      objectReference: {fileID: 0}
+    - target: {fileID: 400004, guid: e49c43d2ed3608341a792b76afd65459, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0.009602755
+      objectReference: {fileID: 0}
+    - target: {fileID: 400004, guid: e49c43d2ed3608341a792b76afd65459, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0.6551509
+      objectReference: {fileID: 0}
+    - target: {fileID: 400004, guid: e49c43d2ed3608341a792b76afd65459, type: 3}
+      propertyPath: m_RootOrder
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 400004, guid: e49c43d2ed3608341a792b76afd65459, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0.20600002
+      objectReference: {fileID: 0}
+    - target: {fileID: 400004, guid: e49c43d2ed3608341a792b76afd65459, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 98.12701
+      objectReference: {fileID: 0}
+    - target: {fileID: 400004, guid: e49c43d2ed3608341a792b76afd65459, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: -1.442
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: e49c43d2ed3608341a792b76afd65459, type: 3}
+--- !u!4 &5715527979602026081 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 400004, guid: e49c43d2ed3608341a792b76afd65459,
+    type: 3}
+  m_PrefabInstance: {fileID: 5715527979601888485}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &5715527979799647873
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 5715527978941114524}
+    m_Modifications:
+    - target: {fileID: 100004, guid: e49c43d2ed3608341a792b76afd65459, type: 3}
+      propertyPath: m_Name
+      value: WoodenWallSpike (11)
+      objectReference: {fileID: 0}
+    - target: {fileID: 100004, guid: e49c43d2ed3608341a792b76afd65459, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 126
+      objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: e49c43d2ed3608341a792b76afd65459, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 126
+      objectReference: {fileID: 0}
+    - target: {fileID: 100002, guid: e49c43d2ed3608341a792b76afd65459, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 126
+      objectReference: {fileID: 0}
+    - target: {fileID: 400004, guid: e49c43d2ed3608341a792b76afd65459, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 5.5599966
+      objectReference: {fileID: 0}
+    - target: {fileID: 400004, guid: e49c43d2ed3608341a792b76afd65459, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400004, guid: e49c43d2ed3608341a792b76afd65459, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400004, guid: e49c43d2ed3608341a792b76afd65459, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0.008328471
+      objectReference: {fileID: 0}
+    - target: {fileID: 400004, guid: e49c43d2ed3608341a792b76afd65459, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0.7553911
+      objectReference: {fileID: 0}
+    - target: {fileID: 400004, guid: e49c43d2ed3608341a792b76afd65459, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0.009602755
+      objectReference: {fileID: 0}
+    - target: {fileID: 400004, guid: e49c43d2ed3608341a792b76afd65459, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0.6551509
+      objectReference: {fileID: 0}
+    - target: {fileID: 400004, guid: e49c43d2ed3608341a792b76afd65459, type: 3}
+      propertyPath: m_RootOrder
+      value: 11
+      objectReference: {fileID: 0}
+    - target: {fileID: 400004, guid: e49c43d2ed3608341a792b76afd65459, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0.20600002
+      objectReference: {fileID: 0}
+    - target: {fileID: 400004, guid: e49c43d2ed3608341a792b76afd65459, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 98.12701
+      objectReference: {fileID: 0}
+    - target: {fileID: 400004, guid: e49c43d2ed3608341a792b76afd65459, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: -1.442
+      objectReference: {fileID: 0}
+    - target: {fileID: 400004, guid: e49c43d2ed3608341a792b76afd65459, type: 3}
+      propertyPath: m_LocalScale.y
+      value: 1.0334
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: e49c43d2ed3608341a792b76afd65459, type: 3}
+--- !u!4 &5715527979799776261 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 400004, guid: e49c43d2ed3608341a792b76afd65459,
+    type: 3}
+  m_PrefabInstance: {fileID: 5715527979799647873}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &5715527980148748099
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 5715527978941114524}
+    m_Modifications:
+    - target: {fileID: 100004, guid: e49c43d2ed3608341a792b76afd65459, type: 3}
+      propertyPath: m_Name
+      value: WoodenWallSpike (7)
+      objectReference: {fileID: 0}
+    - target: {fileID: 100004, guid: e49c43d2ed3608341a792b76afd65459, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 126
+      objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: e49c43d2ed3608341a792b76afd65459, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 126
+      objectReference: {fileID: 0}
+    - target: {fileID: 100002, guid: e49c43d2ed3608341a792b76afd65459, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 126
+      objectReference: {fileID: 0}
+    - target: {fileID: 400004, guid: e49c43d2ed3608341a792b76afd65459, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 1.8000011
+      objectReference: {fileID: 0}
+    - target: {fileID: 400004, guid: e49c43d2ed3608341a792b76afd65459, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400004, guid: e49c43d2ed3608341a792b76afd65459, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400004, guid: e49c43d2ed3608341a792b76afd65459, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400004, guid: e49c43d2ed3608341a792b76afd65459, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400004, guid: e49c43d2ed3608341a792b76afd65459, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400004, guid: e49c43d2ed3608341a792b76afd65459, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 400004, guid: e49c43d2ed3608341a792b76afd65459, type: 3}
+      propertyPath: m_RootOrder
+      value: 7
+      objectReference: {fileID: 0}
+    - target: {fileID: 400004, guid: e49c43d2ed3608341a792b76afd65459, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400004, guid: e49c43d2ed3608341a792b76afd65459, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400004, guid: e49c43d2ed3608341a792b76afd65459, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: e49c43d2ed3608341a792b76afd65459, type: 3}
+--- !u!4 &5715527980148880839 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 400004, guid: e49c43d2ed3608341a792b76afd65459,
+    type: 3}
+  m_PrefabInstance: {fileID: 5715527980148748099}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &5715527980237338241
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 5715527978941114524}
+    m_Modifications:
+    - target: {fileID: 100004, guid: e49c43d2ed3608341a792b76afd65459, type: 3}
+      propertyPath: m_Name
+      value: WoodenWallSpike (4)
+      objectReference: {fileID: 0}
+    - target: {fileID: 100004, guid: e49c43d2ed3608341a792b76afd65459, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 126
+      objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: e49c43d2ed3608341a792b76afd65459, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 126
+      objectReference: {fileID: 0}
+    - target: {fileID: 100002, guid: e49c43d2ed3608341a792b76afd65459, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 126
+      objectReference: {fileID: 0}
+    - target: {fileID: 400004, guid: e49c43d2ed3608341a792b76afd65459, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 5.0600033
+      objectReference: {fileID: 0}
+    - target: {fileID: 400004, guid: e49c43d2ed3608341a792b76afd65459, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400004, guid: e49c43d2ed3608341a792b76afd65459, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400004, guid: e49c43d2ed3608341a792b76afd65459, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0.010022667
+      objectReference: {fileID: 0}
+    - target: {fileID: 400004, guid: e49c43d2ed3608341a792b76afd65459, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400004, guid: e49c43d2ed3608341a792b76afd65459, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400004, guid: e49c43d2ed3608341a792b76afd65459, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0.9999498
+      objectReference: {fileID: 0}
+    - target: {fileID: 400004, guid: e49c43d2ed3608341a792b76afd65459, type: 3}
+      propertyPath: m_RootOrder
+      value: 4
+      objectReference: {fileID: 0}
+    - target: {fileID: 400004, guid: e49c43d2ed3608341a792b76afd65459, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: -1.149
+      objectReference: {fileID: 0}
+    - target: {fileID: 400004, guid: e49c43d2ed3608341a792b76afd65459, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400004, guid: e49c43d2ed3608341a792b76afd65459, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400004, guid: e49c43d2ed3608341a792b76afd65459, type: 3}
+      propertyPath: m_LocalScale.y
+      value: 1.0421
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: e49c43d2ed3608341a792b76afd65459, type: 3}
+--- !u!4 &5715527980237466629 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 400004, guid: e49c43d2ed3608341a792b76afd65459,
+    type: 3}
+  m_PrefabInstance: {fileID: 5715527980237338241}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &5715527980338330391
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 5715527978941114524}
+    m_Modifications:
+    - target: {fileID: 100004, guid: e49c43d2ed3608341a792b76afd65459, type: 3}
+      propertyPath: m_Name
+      value: WoodenWallSpike (10)
+      objectReference: {fileID: 0}
+    - target: {fileID: 100004, guid: e49c43d2ed3608341a792b76afd65459, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 126
+      objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: e49c43d2ed3608341a792b76afd65459, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 126
+      objectReference: {fileID: 0}
+    - target: {fileID: 100002, guid: e49c43d2ed3608341a792b76afd65459, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 126
+      objectReference: {fileID: 0}
+    - target: {fileID: 400004, guid: e49c43d2ed3608341a792b76afd65459, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 6.6399975
+      objectReference: {fileID: 0}
+    - target: {fileID: 400004, guid: e49c43d2ed3608341a792b76afd65459, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400004, guid: e49c43d2ed3608341a792b76afd65459, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400004, guid: e49c43d2ed3608341a792b76afd65459, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0.002688771
+      objectReference: {fileID: 0}
+    - target: {fileID: 400004, guid: e49c43d2ed3608341a792b76afd65459, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400004, guid: e49c43d2ed3608341a792b76afd65459, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400004, guid: e49c43d2ed3608341a792b76afd65459, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0.99999636
+      objectReference: {fileID: 0}
+    - target: {fileID: 400004, guid: e49c43d2ed3608341a792b76afd65459, type: 3}
+      propertyPath: m_RootOrder
+      value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: 400004, guid: e49c43d2ed3608341a792b76afd65459, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0.30800003
+      objectReference: {fileID: 0}
+    - target: {fileID: 400004, guid: e49c43d2ed3608341a792b76afd65459, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400004, guid: e49c43d2ed3608341a792b76afd65459, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: e49c43d2ed3608341a792b76afd65459, type: 3}
+--- !u!4 &5715527980337930643 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 400004, guid: e49c43d2ed3608341a792b76afd65459,
+    type: 3}
+  m_PrefabInstance: {fileID: 5715527980338330391}
+  m_PrefabAsset: {fileID: 0}

@@ -241,6 +241,7 @@ public class ThirdPersonCharController : MonoBehaviour
 
     public void TurnOnRagdoll()
     {
+        b_isGrounded = true;
         rb.useGravity = false;
         rb.velocity = Vector3.zero;
         this.gameObject.GetComponent<CapsuleCollider>().enabled = false;

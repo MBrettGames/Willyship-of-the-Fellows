@@ -9,9 +9,14 @@ ModelImporter:
     2300000: //RootNode
     3300000: //RootNode
     4300000: GenHouse_Trim3Sewage
-  externalObjects: {}
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: GenHouseTrim3
+    second: {fileID: 2100000, guid: db3fb0365ea860446801bf935ef0509c, type: 2}
   materials:
-    importMaterials: 1
+    importMaterials: 0
     materialName: 0
     materialSearch: 1
     materialLocation: 1
