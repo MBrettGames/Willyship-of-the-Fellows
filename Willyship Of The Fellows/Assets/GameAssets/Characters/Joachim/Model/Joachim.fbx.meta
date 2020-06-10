@@ -1,0 +1,145 @@
+fileFormatVersion: 2
+guid: 423f5aa85e998c941bbe1695bab8a006
+ModelImporter:
+  serializedVersion: 23
+  fileIDToRecycleName:
+    100000: //RootNode
+    100002: Joachim_M_Eyes
+    100004: Joachim_M_Face
+    100006: Joachim_M_Hands
+    100008: Joachim_M_Hat
+    100010: Joachim_M_Legs
+    100012: Joachim_M_Shoes
+    100014: Joachim_M_Shorts
+    100016: Joachim_M_Top
+    400000: //RootNode
+    400002: Joachim_M_Eyes
+    400004: Joachim_M_Face
+    400006: Joachim_M_Hands
+    400008: Joachim_M_Hat
+    400010: Joachim_M_Legs
+    400012: Joachim_M_Shoes
+    400014: Joachim_M_Shorts
+    400016: Joachim_M_Top
+    2100000: Joachim_Skin
+    2100002: Joachim_Clothes
+    2300000: Joachim_M_Eyes
+    2300002: Joachim_M_Face
+    2300004: Joachim_M_Hands
+    2300006: Joachim_M_Hat
+    2300008: Joachim_M_Legs
+    2300010: Joachim_M_Shoes
+    2300012: Joachim_M_Shorts
+    2300014: Joachim_M_Top
+    3300000: Joachim_M_Eyes
+    3300002: Joachim_M_Face
+    3300004: Joachim_M_Hands
+    3300006: Joachim_M_Hat
+    3300008: Joachim_M_Legs
+    3300010: Joachim_M_Shoes
+    3300012: Joachim_M_Shorts
+    3300014: Joachim_M_Top
+    4300000: Joachim_M_Eyes
+    4300002: Joachim_M_Face
+    4300004: Joachim_M_Hat
+    4300006: Joachim_M_Hands
+    4300008: Joachim_M_Top
+    4300010: Joachim_M_Legs
+    4300012: Joachim_M_Shorts
+    4300014: Joachim_M_Shoes
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Joachim_Clothes
+    second: {fileID: 2100000, guid: c94a5b137df12054e8effe52495cc7ee, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Joachim_Skin
+    second: {fileID: 2100000, guid: 5aafc71077ef0a04da422b5df0275b45, type: 2}
+  materials:
+    importMaterials: 0
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    importConstraints: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 0.1
+    meshCompression: 0
+    addColliders: 0
+    useSRGBMaterialColor: 1
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    preserveHierarchy: 0
+    indexFormat: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 0
+    previousCalculatedGlobalScale: 1
+    hasPreviousCalculatedGlobalScale: 0
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+    legacyComputeAllNormalsFromSmoothingGroupsWhenMeshHasBlendShapes: 0
+    blendShapeNormalImportMode: 1
+    normalSmoothingSource: 0
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 0
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
