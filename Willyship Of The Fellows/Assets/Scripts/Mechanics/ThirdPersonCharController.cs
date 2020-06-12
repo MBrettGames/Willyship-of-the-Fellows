@@ -145,7 +145,7 @@ public class ThirdPersonCharController : MonoBehaviour
 
         if (b_isGrounded == false && b_isRagdolling == false)
         {
-            rb.AddForce(0,-5,0, ForceMode.Acceleration);
+            rb.AddForce(0, -5, 0, ForceMode.Acceleration);
         }
     }
 
@@ -165,7 +165,7 @@ public class ThirdPersonCharController : MonoBehaviour
         rb.velocity += Vector3.up * y;
 
         if (v_moveDir.magnitude > 0.3f)
-            transform.rotation = Quaternion.LookRotation(v_moveDir);
+            transform.rotation = Quaternion.Lerp(transform.rotation, Quaternion.LookRotation(v_moveDir), 0.3f);
 
     }
 

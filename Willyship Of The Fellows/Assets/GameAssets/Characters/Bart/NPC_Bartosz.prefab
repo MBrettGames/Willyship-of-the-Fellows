@@ -59,9 +59,12 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   dialogue:
-    name: Bartosz the Gnome
+    name:
+    - Bartosz the Gnome
+    - Brett The Elf
     sentences:
     - I really don't got much to offer here, bro. Speak to Wilson...
+    - That's fair. See you in a bizzle.
 --- !u!1 &4240433100812083908
 GameObject:
   m_ObjectHideFlags: 0
@@ -121,14 +124,20 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   dialogue:
-    name: Bartosz the Gnome
+    name:
+    - Bartosz the Gnome
+    - Bartosz the Gnome
+    - Brett the Elf
+    - Bartosz the Gnome
+    - Brett The Elf
     sentences:
     - Hello, traveling Elf. I'm Bartosz the magical Gnome...
     - You got any jobs, bro? Lord Wilson won't give us Gnomes any, says our people
       are "too shady"...
-    - Well if you don't have any jobs for me then I'm gonna wait here at the notice
-      board.
-    - I aint had a job in four days bro, you dont know the struggle, G.
+    - Nah lad. Just got here myself, absolutely buzzing. Haven't been to the main
+      city before.
+    - Yeah, it's aight. Anyways bro, I'm probably just gonna chill fora bit here.
+    - No worries, my guy. I'll have a chat with Willy then.
 --- !u!1 &4240433100887731030
 GameObject:
   m_ObjectHideFlags: 0
@@ -224,7 +233,7 @@ Rigidbody:
   m_IsKinematic: 0
   m_Interpolate: 0
   m_Constraints: 0
-  m_CollisionDetection: 0
+  m_CollisionDetection: 1
 --- !u!144 &1421862003
 CharacterJoint:
   m_ObjectHideFlags: 0
@@ -236,7 +245,7 @@ CharacterJoint:
   m_Anchor: {x: 0, y: 0, z: 0}
   m_Axis: {x: -1, y: 0, z: 0}
   m_AutoConfigureConnectedAnchor: 1
-  m_ConnectedAnchor: {x: 0.18274245, y: -0.09280813, z: 0.012595478}
+  m_ConnectedAnchor: {x: 0.18274236, y: -0.09280884, z: 0.012596432}
   serializedVersion: 2
   m_SwingAxis: {x: 0, y: 0, z: 1}
   m_TwistLimitSpring:
@@ -299,7 +308,7 @@ Rigidbody:
   m_IsKinematic: 0
   m_Interpolate: 0
   m_Constraints: 0
-  m_CollisionDetection: 0
+  m_CollisionDetection: 1
 --- !u!144 &663426384
 CharacterJoint:
   m_ObjectHideFlags: 0
@@ -311,7 +320,7 @@ CharacterJoint:
   m_Anchor: {x: 0, y: 0, z: 0}
   m_Axis: {x: 1, y: 0, z: 0}
   m_AutoConfigureConnectedAnchor: 1
-  m_ConnectedAnchor: {x: 0.00000015785918, y: 0.36291254, z: -0.031873357}
+  m_ConnectedAnchor: {x: 0.0000003068708, y: 0.36291015, z: -0.031875256}
   serializedVersion: 2
   m_SwingAxis: {x: 0, y: 0, z: 1}
   m_TwistLimitSpring:
@@ -373,7 +382,7 @@ Rigidbody:
   m_IsKinematic: 0
   m_Interpolate: 0
   m_Constraints: 0
-  m_CollisionDetection: 0
+  m_CollisionDetection: 1
 --- !u!136 &1709678280
 CapsuleCollider:
   m_ObjectHideFlags: 0
@@ -399,7 +408,7 @@ CharacterJoint:
   m_Anchor: {x: 0, y: 0, z: 0}
   m_Axis: {x: -1, y: 0, z: 0}
   m_AutoConfigureConnectedAnchor: 1
-  m_ConnectedAnchor: {x: -0.00009550899, y: 0.86918205, z: 0.06382287}
+  m_ConnectedAnchor: {x: -0.000095427036, y: 0.8691859, z: 0.06382233}
   serializedVersion: 2
   m_SwingAxis: {x: 0, y: 0, z: 1}
   m_TwistLimitSpring:
@@ -448,7 +457,7 @@ Rigidbody:
   m_IsKinematic: 0
   m_Interpolate: 0
   m_Constraints: 0
-  m_CollisionDetection: 0
+  m_CollisionDetection: 1
 --- !u!136 &426418966
 CapsuleCollider:
   m_ObjectHideFlags: 0
@@ -474,7 +483,7 @@ CharacterJoint:
   m_Anchor: {x: 0, y: 0, z: 0}
   m_Axis: {x: -1, y: 0, z: 0}
   m_AutoConfigureConnectedAnchor: 1
-  m_ConnectedAnchor: {x: -0.00000008940697, y: 0.5040101, z: -0.00000009685755}
+  m_ConnectedAnchor: {x: -0.0000009946525, y: 0.50401014, z: 0.00000043213367}
   serializedVersion: 2
   m_SwingAxis: {x: 0, y: 0, z: -1}
   m_TwistLimitSpring:
@@ -523,7 +532,7 @@ Rigidbody:
   m_IsKinematic: 0
   m_Interpolate: 0
   m_Constraints: 0
-  m_CollisionDetection: 0
+  m_CollisionDetection: 1
 --- !u!136 &1793462332
 CapsuleCollider:
   m_ObjectHideFlags: 0
@@ -549,7 +558,7 @@ CharacterJoint:
   m_Anchor: {x: 0, y: 0, z: 0}
   m_Axis: {x: -1, y: 0, z: 0}
   m_AutoConfigureConnectedAnchor: 1
-  m_ConnectedAnchor: {x: 0.00008313358, y: 0.8692088, z: 0.06384216}
+  m_ConnectedAnchor: {x: 0.00008288771, y: 0.86920637, z: 0.06384005}
   serializedVersion: 2
   m_SwingAxis: {x: 0, y: 0, z: 1}
   m_TwistLimitSpring:
@@ -598,7 +607,7 @@ Rigidbody:
   m_IsKinematic: 0
   m_Interpolate: 0
   m_Constraints: 0
-  m_CollisionDetection: 0
+  m_CollisionDetection: 1
 --- !u!135 &1238443365
 SphereCollider:
   m_ObjectHideFlags: 0
@@ -623,7 +632,7 @@ CharacterJoint:
   m_Anchor: {x: 0, y: 0, z: 0}
   m_Axis: {x: 1, y: 0, z: 0}
   m_AutoConfigureConnectedAnchor: 1
-  m_ConnectedAnchor: {x: 0.00000012945384, y: 0.47640437, z: 0.000000115868765}
+  m_ConnectedAnchor: {x: 0.00000012945384, y: 0.47640318, z: 0.000000011560633}
   serializedVersion: 2
   m_SwingAxis: {x: 0, y: 0, z: 1}
   m_TwistLimitSpring:
@@ -672,7 +681,7 @@ Rigidbody:
   m_IsKinematic: 0
   m_Interpolate: 0
   m_Constraints: 0
-  m_CollisionDetection: 0
+  m_CollisionDetection: 1
 --- !u!144 &74203908
 CharacterJoint:
   m_ObjectHideFlags: 0
@@ -684,7 +693,7 @@ CharacterJoint:
   m_Anchor: {x: 0, y: 0, z: 0}
   m_Axis: {x: -1, y: 0, z: 0}
   m_AutoConfigureConnectedAnchor: 1
-  m_ConnectedAnchor: {x: -0.18274252, y: -0.09280813, z: 0.011087734}
+  m_ConnectedAnchor: {x: -0.18274252, y: -0.09280884, z: 0.011087734}
   serializedVersion: 2
   m_SwingAxis: {x: 0, y: 0, z: 1}
   m_TwistLimitSpring:
@@ -747,7 +756,7 @@ Rigidbody:
   m_IsKinematic: 0
   m_Interpolate: 0
   m_Constraints: 0
-  m_CollisionDetection: 0
+  m_CollisionDetection: 1
 --- !u!144 &2053651953
 CharacterJoint:
   m_ObjectHideFlags: 0
@@ -759,7 +768,7 @@ CharacterJoint:
   m_Anchor: {x: 0, y: 0, z: 0}
   m_Axis: {x: 0, y: 0, z: -1}
   m_AutoConfigureConnectedAnchor: 1
-  m_ConnectedAnchor: {x: 0.30502638, y: 0.36526418, z: -0.0062125097}
+  m_ConnectedAnchor: {x: 0.30502623, y: 0.36526096, z: -0.006210878}
   serializedVersion: 2
   m_SwingAxis: {x: -1, y: 0, z: 0}
   m_TwistLimitSpring:
@@ -822,7 +831,7 @@ Rigidbody:
   m_IsKinematic: 0
   m_Interpolate: 0
   m_Constraints: 0
-  m_CollisionDetection: 0
+  m_CollisionDetection: 1
 --- !u!144 &1685376996
 CharacterJoint:
   m_ObjectHideFlags: 0
@@ -834,7 +843,7 @@ CharacterJoint:
   m_Anchor: {x: 0, y: 0, z: 0}
   m_Axis: {x: 0, y: 0, z: -1}
   m_AutoConfigureConnectedAnchor: 1
-  m_ConnectedAnchor: {x: -0.3050266, y: 0.3658827, z: -0.013254914}
+  m_ConnectedAnchor: {x: -0.30502692, y: 0.36587977, z: -0.013257097}
   serializedVersion: 2
   m_SwingAxis: {x: 1, y: 0, z: 0}
   m_TwistLimitSpring:
@@ -897,7 +906,7 @@ Rigidbody:
   m_IsKinematic: 0
   m_Interpolate: 0
   m_Constraints: 0
-  m_CollisionDetection: 0
+  m_CollisionDetection: 1
 --- !u!136 &316018041
 CapsuleCollider:
   m_ObjectHideFlags: 0
@@ -923,7 +932,7 @@ CharacterJoint:
   m_Anchor: {x: 0, y: 0, z: 0}
   m_Axis: {x: 1, y: 0, z: 0}
   m_AutoConfigureConnectedAnchor: 1
-  m_ConnectedAnchor: {x: 0.00000010058284, y: 0.50346565, z: -0.00000024586916}
+  m_ConnectedAnchor: {x: 0.0000010244548, y: 0.50346595, z: 0.00000023841858}
   serializedVersion: 2
   m_SwingAxis: {x: 0, y: 0, z: -1}
   m_TwistLimitSpring:
@@ -972,7 +981,7 @@ Rigidbody:
   m_IsKinematic: 0
   m_Interpolate: 0
   m_Constraints: 0
-  m_CollisionDetection: 0
+  m_CollisionDetection: 1
 --- !u!65 &555387634
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -1121,6 +1130,10 @@ PrefabInstance:
       propertyPath: m_Controller
       value: 
       objectReference: {fileID: 9100000, guid: 346f96d887fcc0c48924e8b39219edf2, type: 2}
+    - target: {fileID: 9500000, guid: 44cc996368f8a3d45857d143c5b6796b, type: 3}
+      propertyPath: m_CullingMode
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 9500000, guid: 44cc996368f8a3d45857d143c5b6796b, type: 3}
       propertyPath: m_UpdateMode
       value: 1

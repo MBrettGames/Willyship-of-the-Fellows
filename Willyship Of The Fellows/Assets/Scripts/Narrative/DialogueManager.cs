@@ -6,6 +6,8 @@ using UnityEngine.UI;
 public class DialogueManager : MonoBehaviour
 {
     private Queue<string> sentences;
+    private Queue<string> CharNames;
+
 
     [SerializeField] private GameObject DialogueBox;
 
@@ -22,6 +24,7 @@ public class DialogueManager : MonoBehaviour
     void Start()
     {
         sentences = new Queue<string>();
+        CharNames = new Queue<string>();
         dialogueStatic = this;
         DialogueBox.SetActive(false);
         animator.SetBool("IsOpen", true);
@@ -34,15 +37,23 @@ public class DialogueManager : MonoBehaviour
         interactScript = localInteractScript;
         InteractCol = questGiver;
         animator.SetBool("IsOpen", true);
-        nameText.text = (dialogue.name);
 
         sentences.Clear();
+        CharNames.Clear();
+
 
         foreach (string sentence in dialogue.sentences)
         {
             sentences.Enqueue(sentence);
         }
+
+        foreach (string names in dialogue.names)
+        {
+            CharNames.Enqueue(names);
+        }
+
         DisplayNextSentence();
+
     }
 
     public void DisplayNextSentence ()
@@ -52,19 +63,27 @@ public class DialogueManager : MonoBehaviour
             EndDialogue();
             return;
         }
+        string name = CharNames.Dequeue();
         string sentence = sentences.Dequeue();
+
+
         StopAllCoroutines();
-        StartCoroutine(TypeSentence(sentence));
+        StartCoroutine(TypeSentence(sentence, name));
     }
 
-    IEnumerator TypeSentence (string sentence)
+    IEnumerator TypeSentence (string sentence, string CharName)
     {
+        nameText.text = "";
+        nameText.text = CharName;
+
         dialogueText.text = "";
         foreach (char letter in sentence.ToCharArray())
         {
             dialogueText.text += letter;
             yield return null;
         }
+
+
     }
 
     void EndDialogue()
