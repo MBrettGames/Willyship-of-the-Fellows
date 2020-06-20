@@ -49,6 +49,7 @@ public class ThirdPersonCharController : MonoBehaviour
     #region Publics
 
     public List<Collider> RagdollParts = new List<Collider>();
+    private float RotSpeed = 0.3f;
 
     #endregion
 
@@ -165,7 +166,7 @@ public class ThirdPersonCharController : MonoBehaviour
         rb.velocity += Vector3.up * y;
 
         if (v_moveDir.magnitude > 0.3f)
-            transform.rotation = Quaternion.Lerp(transform.rotation, Quaternion.LookRotation(v_moveDir), 0.3f);
+            transform.rotation = Quaternion.Lerp(transform.rotation, Quaternion.LookRotation(v_moveDir), RotSpeed);
 
     }
 
@@ -177,10 +178,10 @@ public class ThirdPersonCharController : MonoBehaviour
 
     private void Jump()
     {
-        if (b_jump && b_isGrounded)
+        if (b_jump && b_isGrounded && !b_isRagdolling)
         {
             anim.Play("Leap");
-            rb.AddForce(Vector3.up * f_JumpForce * (b_isGrounded ? 1 : 0), ForceMode.Impulse);
+            rb.AddForce(Vector3.up * f_JumpForce * Time.deltaTime * 40 * (b_isGrounded ? 1 : 0), ForceMode.Impulse);
         }
     }
 
@@ -201,21 +202,25 @@ public class ThirdPersonCharController : MonoBehaviour
             TurnOnRagdoll();
         }
 
-        else if (b_utility && b_isRagdolling)
+        /*else if (b_utility && b_isRagdolling)
         {
             TurnOffRagdoll();
             f_maxSpeed = f_maxSpeed * 10000f;
         }
+        */
     }
 
     IEnumerator Dropkickslow()
     {
         f_maxSpeed = f_maxSpeed / 2f;
+        RotSpeed *= 0.1f;
         yield return new WaitForSeconds(1);
         dropKickBox.SetActive(true);
         f_maxSpeed = f_maxSpeed * 2f;
         yield return new WaitForSeconds(0.4f);
         dropKickBox.SetActive(false);
+        RotSpeed *= 10f;
+
 
     }
 
@@ -246,6 +251,8 @@ public class ThirdPersonCharController : MonoBehaviour
         this.gameObject.GetComponent<CapsuleCollider>().enabled = false;
         anim.enabled = false;
         f_maxSpeed = f_maxSpeed / 10000f;
+        RotSpeed = RotSpeed / 10000f;
+
         b_isRagdolling = true;
 
         foreach (Collider col in RagdollParts)
@@ -253,6 +260,8 @@ public class ThirdPersonCharController : MonoBehaviour
             col.isTrigger = false;
             col.attachedRigidbody.velocity = Vector3.zero;
         }
+        StartCoroutine(GetUp());
+
     }
 
     public void TurnOffRagdoll()
@@ -266,7 +275,18 @@ public class ThirdPersonCharController : MonoBehaviour
         {
             col.isTrigger = true;
         }
+
     }
 
+    IEnumerator GetUp()
+    {
+        yield return new WaitForSeconds(5f);
+        TurnOffRagdoll();
+        anim.Play("GetUp");
+        yield return new WaitForSeconds(2.5f);
+        f_maxSpeed = f_maxSpeed * 10000f;
+        RotSpeed = RotSpeed * 10000f;
+
+    }
 
 }

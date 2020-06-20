@@ -10,6 +10,7 @@ public class DialogueManager : MonoBehaviour
 
 
     [SerializeField] private GameObject DialogueBox;
+    [SerializeField] QuestProgress Q_Prog;
 
     public Text nameText;
     public Text dialogueText;
@@ -92,6 +93,7 @@ public class DialogueManager : MonoBehaviour
         if(InteractCol.CompareTag ("NPCQuestObj"))
         {
         InteractCol.SetActive(false);
+            Q_Prog.QuestFinished();
         }
         else
         {

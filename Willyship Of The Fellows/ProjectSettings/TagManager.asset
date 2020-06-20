@@ -9,6 +9,7 @@ TagManager:
   - RagdollPart
   - NPCQuestObj
   - HurtableNPC
+  - QuestInteractable
   layers:
   - Default
   - TransparentFX

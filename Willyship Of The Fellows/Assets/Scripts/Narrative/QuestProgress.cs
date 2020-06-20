@@ -4,17 +4,33 @@ using UnityEngine;
 
 public class QuestProgress : MonoBehaviour
 {
-    [SerializeField] private bool b_QuestProgressed;
-    [SerializeField] private GameObject CurrentQuestObj;
-    [SerializeField] private GameObject NextQuestObj;
+    [SerializeField] List<ActualQuestElement> QuestEl = new List<ActualQuestElement>();
+    private int CurrentQuestInt;
 
-    void Start()
+    private void Start()
     {
-        
+        CurrentQuestInt = 0;
+        QuestFinished();
     }
 
-    void Update()
+    public void QuestFinished()
     {
-        
+        foreach (GameObject QuestComponent in QuestEl[CurrentQuestInt].TurnOnAfterFinished)
+        {
+            QuestComponent.SetActive(true);
+        }
+        foreach (GameObject QuestComponent in QuestEl[CurrentQuestInt].TurnOffAfterFinished)
+        {
+            QuestComponent.SetActive(false);
+        }
+
+        CurrentQuestInt++;
+    }
+
+    [System.Serializable]
+    public class ActualQuestElement
+    {
+        public GameObject[] TurnOffAfterFinished = new GameObject[0];
+        public GameObject[] TurnOnAfterFinished = new GameObject[0];
     }
 }

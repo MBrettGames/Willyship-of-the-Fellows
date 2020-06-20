@@ -59,10 +59,14 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   dialogue:
-    name: Lord Wilson
+    names:
+    - Lord Wilson
+    - Lord Wilson
+    - Brett the Elf
     sentences:
     - Jam butties, lad...
     - 'Midget near here could have some gossip. Dew sum werk and find em'', yeah? '
+    - On it, Lad.
 --- !u!1 &5465205069424248731
 GameObject:
   m_ObjectHideFlags: 0
@@ -122,18 +126,29 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   dialogue:
-    name: Lord Wilson
+    names:
+    - Brett the Elf
+    - Lord Wilson
+    - Lord Wilson
+    - Lord Wilson
+    - Lord Wilson
+    - Brett the Elf
+    - Lord Wilson
+    - Lord Wilson
+    - Brett the Elf
     sentences:
-    - You aren't from around here, are you?
-    - Do you know why "Lord Wilson" wears a crown, eh?... It's because in my town
-      I may as well be king, innit.
-    - Anyways, enough of that. You ain't one of mine, elf ears give that away. Means
-      that you've just got here.
-    - Couldn't have been you then. Right. One of the cheeky little bellends in my
-      town nabbed me jam butties!
-    - Couldn't. bloody. believe it. Left them for 5 minutes maximum...
-    - The missus made them, so you do me a favour. Find who took me' butties, lad.
-    - I'll give ye' a reward or summet'.
+    - Wus' poppin, my Lord?
+    - I'll tell you whats "popping". One of the cheeky bellends in the city has taken
+      my jam butties.
+    - Bloody. Fuming...
+    - Tell you what lad, you obviously aren't from these parts so I'll give ya' a
+      little job.
+    - Find out who took my butties and bring em to me. The headsman would like to
+      meet them.
+    - That's fair, r'kid. Whats in it for me?
+    - I'll give you a knighthood for this. Find the jam butties.
+    - Elliot the Dwarf knows a lot about what goes on in the city. Chat him up.
+    - Will do, fella. Alright I'm off. Have a good'n.
 --- !u!136 &5465205069722267828
 CapsuleCollider:
   m_ObjectHideFlags: 0

@@ -9,18 +9,27 @@ public class NPCRagdoll : MonoBehaviour
     private Rigidbody rb;
     Animator anim;
     [SerializeField] GameObject DialogueCols;
-
+    [SerializeField] Rigidbody ChestBone;
     public List<Collider> RagdollParts = new List<Collider>();
-
+    private Animator Anim;
+    private Vector3 ChestBonePos;
 
 
     public void Start()
     {
         rb = GetComponent<Rigidbody>();
 
+        foreach (Collider col in RagdollParts)
+        {
+            col.attachedRigidbody.isKinematic = true;
+        }
+
+        ChestBonePos = ChestBone.transform.localPosition ;
+
         anim = GetComponentInChildren<Animator>();
         b_isRagdolling = false;
-        RagdollCtrl();
+        RagdollCtrl(Vector3.zero);
+
     }
 
     private void Awake()
@@ -30,15 +39,11 @@ public class NPCRagdoll : MonoBehaviour
 
     }
 
-    private void Update()
-    { 
-    }
-
-    public void RagdollCtrl()
+    public void RagdollCtrl(Vector3 HitDir)
     {
         if (b_isRagdolling == true)
         {
-            TurnOnRagdoll();
+            TurnOnRagdoll(HitDir);
         }
 
         else
@@ -67,32 +72,60 @@ public class NPCRagdoll : MonoBehaviour
 
     }
 
-    public void TurnOnRagdoll()
+    public void TurnOnRagdoll(Vector3 HitDir)
     {
         DialogueCols.SetActive(false);
         rb.useGravity = false;
-        rb.velocity = Vector3.zero;
-        anim.enabled = false;
         this.gameObject.GetComponent<CapsuleCollider>().enabled = false;
+        anim.enabled = false;
+        rb.velocity = Vector3.zero;
 
         foreach (Collider col in RagdollParts)
         {
+            col.attachedRigidbody.isKinematic = false;
             col.isTrigger = false;
             col.attachedRigidbody.velocity = Vector3.zero;
+            col.attachedRigidbody.useGravity = false;
         }
+        StartCoroutine(DelayRagdoll());
+        ChestBone.AddForce(HitDir, ForceMode.Impulse);
+        StartCoroutine(GetUp());
+
     }
 
     public void TurnOffRagdoll()
     {
+        transform.position = ChestBone.transform.TransformPoint(ChestBone.transform.localPosition);
+        ChestBone.transform.localPosition = ChestBonePos;
         DialogueCols.SetActive(true);
-        rb.useGravity = true;
-        anim.enabled = true;
         this.gameObject.GetComponent<CapsuleCollider>().enabled = true;
+        anim.enabled = true;
+        rb.useGravity = true;
 
         foreach (Collider col in RagdollParts)
         {
+            col.attachedRigidbody.isKinematic = true;
             col.isTrigger = true;
         }
+
+    }
+
+    IEnumerator DelayRagdoll()
+    {
+        yield return new WaitForEndOfFrame();
+        foreach (Collider col in RagdollParts)
+        {
+            col.attachedRigidbody.velocity = Vector3.zero;
+            col.attachedRigidbody.useGravity = true;
+        }
+
+    }
+
+    IEnumerator GetUp()
+    {
+        yield return new WaitForSeconds(5f);
+        TurnOffRagdoll();
+        anim.Play("GetUp");
     }
 
 }

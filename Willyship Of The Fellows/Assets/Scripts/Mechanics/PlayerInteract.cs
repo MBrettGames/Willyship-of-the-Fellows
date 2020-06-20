@@ -7,6 +7,7 @@ using Rewired;
 
 public class PlayerInteract : MonoBehaviour
 {
+    [SerializeField] QuestProgress Q_Prog;
     private GameObject raycastedObj;
     private Player player;
     private QuestElement questElement;
@@ -55,7 +56,6 @@ public class PlayerInteract : MonoBehaviour
                     {
                         CrosshairInactive();
                         TriggerDialogue(raycastedObj);
-                        Debug.Log("I have spoken");
                     }
                 }
             }
@@ -77,15 +77,31 @@ public class PlayerInteract : MonoBehaviour
                 {
                     anim.Play("Interact");
 
-                    Debug.Log("I have interacted");
                 }
+
             }
+            else if (hit.collider.CompareTag("QuestInteractable"))
+            {
+                raycastedObj = hit.collider.gameObject;
+                CrosshairUseActive();
+
+                if (player.GetButtonDown("Interact"))
+                {
+                    anim.Play("Interact");
+                    Q_Prog.QuestFinished();
+                }
+
+            }
+            else
+            {
+                CrosshairUseInactive();
+            }
+
         }
         else
         {
-            CrosshairInactive();
+            CrosshairUseInactive();
         }
-
     }
 
     void CrosshairTalkActive()
@@ -104,9 +120,14 @@ public class PlayerInteract : MonoBehaviour
     void CrosshairInactive()
     {
         uiCrosshairTalk.SetActive(false);
-        uiCrosshairUse.SetActive(false);
-
     }
+
+
+    void CrosshairUseInactive()
+    {
+        uiCrosshairUse.SetActive(false);
+    }
+
 
     public void TriggerDialogue(GameObject NPC)
     {
@@ -116,8 +137,8 @@ public class PlayerInteract : MonoBehaviour
         movementScript.enabled = false;
         movementScript.StopMovement();
         anim.Play("Greet");
-        
+
     }
-
-
 }
+
+
