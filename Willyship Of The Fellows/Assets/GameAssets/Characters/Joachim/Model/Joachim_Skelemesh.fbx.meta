@@ -125,6 +125,71 @@ ModelImporter:
     100238: Rigged_Bitches_Ctrl_Thumb_2_R
     100240: Rigged_Bitches_Ctrl_Toe_L
     100242: Rigged_Bitches_Ctrl_Toe_R
+    100244: Head
+    100246: HeadTop_End
+    100248: Hips
+    100250: LeftArm
+    100252: LeftFoot
+    100254: LeftForeArm
+    100256: LeftHand
+    100258: LeftHandIndex1
+    100260: LeftHandIndex2
+    100262: LeftHandIndex3
+    100264: LeftHandIndex4
+    100266: LeftHandMiddle1
+    100268: LeftHandMiddle2
+    100270: LeftHandMiddle3
+    100272: LeftHandMiddle4
+    100274: LeftHandPinky1
+    100276: LeftHandPinky2
+    100278: LeftHandPinky3
+    100280: LeftHandPinky4
+    100282: LeftHandRing1
+    100284: LeftHandRing2
+    100286: LeftHandRing3
+    100288: LeftHandRing4
+    100290: LeftHandThumb1
+    100292: LeftHandThumb2
+    100294: LeftHandThumb3
+    100296: LeftHandThumb4
+    100298: LeftLeg
+    100300: LeftShoulder
+    100302: LeftToe_End
+    100304: LeftToeBase
+    100306: LeftUpLeg
+    100308: Neck
+    100310: RightArm
+    100312: RightFoot
+    100314: RightForeArm
+    100316: RightHand
+    100318: RightHandIndex1
+    100320: RightHandIndex2
+    100322: RightHandIndex3
+    100324: RightHandIndex4
+    100326: RightHandMiddle1
+    100328: RightHandMiddle2
+    100330: RightHandMiddle3
+    100332: RightHandMiddle4
+    100334: RightHandPinky1
+    100336: RightHandPinky2
+    100338: RightHandPinky3
+    100340: RightHandPinky4
+    100342: RightHandRing1
+    100344: RightHandRing2
+    100346: RightHandRing3
+    100348: RightHandRing4
+    100350: RightHandThumb1
+    100352: RightHandThumb2
+    100354: RightHandThumb3
+    100356: RightHandThumb4
+    100358: RightLeg
+    100360: RightShoulder
+    100362: RightToe_End
+    100364: RightToeBase
+    100366: RightUpLeg
+    100368: Spine
+    100370: Spine1
+    100372: Spine2
     400000: Joachim
     400002: Joachim_Head
     400004: Joachim_HeadTop_End
@@ -247,6 +312,71 @@ ModelImporter:
     400238: Rigged_Bitches_Ctrl_Thumb_2_R
     400240: Rigged_Bitches_Ctrl_Toe_L
     400242: Rigged_Bitches_Ctrl_Toe_R
+    400244: Head
+    400246: HeadTop_End
+    400248: Hips
+    400250: LeftArm
+    400252: LeftFoot
+    400254: LeftForeArm
+    400256: LeftHand
+    400258: LeftHandIndex1
+    400260: LeftHandIndex2
+    400262: LeftHandIndex3
+    400264: LeftHandIndex4
+    400266: LeftHandMiddle1
+    400268: LeftHandMiddle2
+    400270: LeftHandMiddle3
+    400272: LeftHandMiddle4
+    400274: LeftHandPinky1
+    400276: LeftHandPinky2
+    400278: LeftHandPinky3
+    400280: LeftHandPinky4
+    400282: LeftHandRing1
+    400284: LeftHandRing2
+    400286: LeftHandRing3
+    400288: LeftHandRing4
+    400290: LeftHandThumb1
+    400292: LeftHandThumb2
+    400294: LeftHandThumb3
+    400296: LeftHandThumb4
+    400298: LeftLeg
+    400300: LeftShoulder
+    400302: LeftToe_End
+    400304: LeftToeBase
+    400306: LeftUpLeg
+    400308: Neck
+    400310: RightArm
+    400312: RightFoot
+    400314: RightForeArm
+    400316: RightHand
+    400318: RightHandIndex1
+    400320: RightHandIndex2
+    400322: RightHandIndex3
+    400324: RightHandIndex4
+    400326: RightHandMiddle1
+    400328: RightHandMiddle2
+    400330: RightHandMiddle3
+    400332: RightHandMiddle4
+    400334: RightHandPinky1
+    400336: RightHandPinky2
+    400338: RightHandPinky3
+    400340: RightHandPinky4
+    400342: RightHandRing1
+    400344: RightHandRing2
+    400346: RightHandRing3
+    400348: RightHandRing4
+    400350: RightHandThumb1
+    400352: RightHandThumb2
+    400354: RightHandThumb3
+    400356: RightHandThumb4
+    400358: RightLeg
+    400360: RightShoulder
+    400362: RightToe_End
+    400364: RightToeBase
+    400366: RightUpLeg
+    400368: Spine
+    400370: Spine1
+    400372: Spine2
     2100000: Joachim_Skin
     2100002: Joachim_Clothes
     4300000: Joachim_M_Eyes
