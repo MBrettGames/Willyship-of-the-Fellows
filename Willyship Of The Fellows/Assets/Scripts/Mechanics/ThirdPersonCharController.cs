@@ -257,6 +257,7 @@ public class ThirdPersonCharController : MonoBehaviour
 
         foreach (Collider col in RagdollParts)
         {
+            col.attachedRigidbody.isKinematic = false;
             col.isTrigger = false;
             col.attachedRigidbody.velocity = Vector3.zero;
         }
@@ -273,6 +274,7 @@ public class ThirdPersonCharController : MonoBehaviour
 
         foreach (Collider col in RagdollParts)
         {
+            col.attachedRigidbody.isKinematic = true;
             col.isTrigger = true;
         }
 

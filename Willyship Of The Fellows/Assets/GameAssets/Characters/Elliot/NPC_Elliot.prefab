@@ -1031,13 +1031,21 @@ PrefabInstance:
       objectReference: {fileID: 9100000, guid: 2298586bc5d8e16479429eaab72be8f8, type: 2}
     - target: {fileID: 9500000, guid: e17824d18c7e6224ebe743cea06c147e, type: 3}
       propertyPath: m_UpdateMode
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 9500000, guid: e17824d18c7e6224ebe743cea06c147e, type: 3}
       propertyPath: m_CullingMode
-      value: 0
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 9500000, guid: e17824d18c7e6224ebe743cea06c147e, type: 3}
+      propertyPath: m_ApplyRootMotion
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 100458, guid: e17824d18c7e6224ebe743cea06c147e, type: 3}
+      propertyPath: m_TagString
+      value: RagdollPart
+      objectReference: {fileID: 0}
+    - target: {fileID: 100462, guid: e17824d18c7e6224ebe743cea06c147e, type: 3}
       propertyPath: m_TagString
       value: RagdollPart
       objectReference: {fileID: 0}
@@ -1046,10 +1054,6 @@ PrefabInstance:
       value: RagdollPart
       objectReference: {fileID: 0}
     - target: {fileID: 100450, guid: e17824d18c7e6224ebe743cea06c147e, type: 3}
-      propertyPath: m_TagString
-      value: RagdollPart
-      objectReference: {fileID: 0}
-    - target: {fileID: 100462, guid: e17824d18c7e6224ebe743cea06c147e, type: 3}
       propertyPath: m_TagString
       value: RagdollPart
       objectReference: {fileID: 0}

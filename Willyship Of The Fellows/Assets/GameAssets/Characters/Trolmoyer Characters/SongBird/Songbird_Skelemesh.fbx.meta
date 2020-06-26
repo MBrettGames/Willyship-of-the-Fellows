@@ -1,0 +1,294 @@
+fileFormatVersion: 2
+guid: afe24d32dfffe334ea67677941494a8a
+ModelImporter:
+  serializedVersion: 23
+  fileIDToRecycleName:
+    100000: Chain
+    100002: Chest
+    100004: Eyes
+    100006: Feet
+    100008: Feetmover
+    100010: Hand_L
+    100012: Hand_R
+    100014: Hands
+    100016: Hat
+    100018: Hat 1
+    100020: Hat1
+    100022: HatLeft
+    100024: HatRight
+    100026: Head
+    100028: Hips
+    100030: Hipsmover
+    100032: joint1
+    100034: joint1 1
+    100036: joint2
+    100038: LabCoat
+    100040: Lantern
+    100042: Lantern 1
+    100044: Lefthandmover
+    100046: LowerArm_L
+    100048: LowerArm_R
+    100050: LowerLegs
+    100052: MainBody
+    100054: Middle1_L
+    100056: Middle1_R
+    100058: Middle2_L
+    100060: Middle2_R
+    100062: Middle3_L
+    100064: Middle3_R
+    100066: Middle4_L
+    100068: Middle4_R
+    100070: Neck
+    100072: Pinky1_L
+    100074: Pinky1_R
+    100076: Pinky2_L
+    100078: Pinky2_R
+    100080: Pinky3_L
+    100082: Pinky3_R
+    100084: Pinky4_L
+    100086: Pinky4_R
+    100088: Pointing1_L
+    100090: Pointing1_R
+    100092: Pointing2_L
+    100094: Pointing2_R
+    100096: Pointing3_L
+    100098: Pointing3_R
+    100100: Pointing4_L
+    100102: Pointing4_R
+    100104: Promise1_L
+    100106: Promise1_R
+    100108: Promise2_L
+    100110: Promise2_R
+    100112: Promise3_L
+    100114: Promise3_R
+    100116: Promise4_L
+    100118: Promise4_R
+    100120: Righthandmover
+    100122: Shoulder_L
+    100124: Shoulder_R
+    100126: Songbirb
+    100128: //RootNode
+    100130: Stomach
+    100132: Strapsback1_L
+    100134: Strapsback1_R
+    100136: Strapsback2_L
+    100138: Strapsback2_R
+    100140: Strapsback3_L
+    100142: Strapsback3_R
+    100144: Strapsback4_L
+    100146: Strapsback4_R
+    100148: Strapsback5_L
+    100150: Strapsback5_R
+    100152: Strapsback6_L
+    100154: Strapsback6_R
+    100156: Thumb1_L
+    100158: Thumb1_R
+    100160: Thumb2_L
+    100162: Thumb2_R
+    100164: Thumb3_L
+    100166: Thumb3_R
+    100168: UpperArm_L
+    100170: UpperArm_R
+    100172: Vial
+    400000: Chain
+    400002: Chest
+    400004: Eyes
+    400006: Feet
+    400008: Feetmover
+    400010: Hand_L
+    400012: Hand_R
+    400014: Hands
+    400016: Hat
+    400018: Hat 1
+    400020: Hat1
+    400022: HatLeft
+    400024: HatRight
+    400026: Head
+    400028: Hips
+    400030: Hipsmover
+    400032: joint1
+    400034: joint1 1
+    400036: joint2
+    400038: LabCoat
+    400040: Lantern
+    400042: Lantern 1
+    400044: Lefthandmover
+    400046: LowerArm_L
+    400048: LowerArm_R
+    400050: LowerLegs
+    400052: MainBody
+    400054: Middle1_L
+    400056: Middle1_R
+    400058: Middle2_L
+    400060: Middle2_R
+    400062: Middle3_L
+    400064: Middle3_R
+    400066: Middle4_L
+    400068: Middle4_R
+    400070: Neck
+    400072: Pinky1_L
+    400074: Pinky1_R
+    400076: Pinky2_L
+    400078: Pinky2_R
+    400080: Pinky3_L
+    400082: Pinky3_R
+    400084: Pinky4_L
+    400086: Pinky4_R
+    400088: Pointing1_L
+    400090: Pointing1_R
+    400092: Pointing2_L
+    400094: Pointing2_R
+    400096: Pointing3_L
+    400098: Pointing3_R
+    400100: Pointing4_L
+    400102: Pointing4_R
+    400104: Promise1_L
+    400106: Promise1_R
+    400108: Promise2_L
+    400110: Promise2_R
+    400112: Promise3_L
+    400114: Promise3_R
+    400116: Promise4_L
+    400118: Promise4_R
+    400120: Righthandmover
+    400122: Shoulder_L
+    400124: Shoulder_R
+    400126: Songbirb
+    400128: //RootNode
+    400130: Stomach
+    400132: Strapsback1_L
+    400134: Strapsback1_R
+    400136: Strapsback2_L
+    400138: Strapsback2_R
+    400140: Strapsback3_L
+    400142: Strapsback3_R
+    400144: Strapsback4_L
+    400146: Strapsback4_R
+    400148: Strapsback5_L
+    400150: Strapsback5_R
+    400152: Strapsback6_L
+    400154: Strapsback6_R
+    400156: Thumb1_L
+    400158: Thumb1_R
+    400160: Thumb2_L
+    400162: Thumb2_R
+    400164: Thumb3_L
+    400166: Thumb3_R
+    400168: UpperArm_L
+    400170: UpperArm_R
+    400172: Vial
+    2100000: lambert1
+    2100002: lambert2
+    4300000: LabCoat
+    4300002: Hat
+    4300004: Lantern
+    4300006: Chain
+    4300008: MainBody
+    4300010: Vial
+    4300012: Eyes
+    4300014: Hands
+    9500000: //RootNode
+    13700000: Chain
+    13700002: Eyes
+    13700004: Hands
+    13700006: Hat
+    13700008: LabCoat
+    13700010: Lantern
+    13700012: MainBody
+    13700014: Vial
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: lambert1
+    second: {fileID: 2100000, guid: 7ed863551e71f264c8d6c0c02fe452df, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: lambert2
+    second: {fileID: 2100000, guid: a076d212afcb7ca47aacbfe023a85b8e, type: 2}
+  materials:
+    importMaterials: 0
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    importConstraints: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 0.35
+    meshCompression: 0
+    addColliders: 0
+    useSRGBMaterialColor: 1
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    preserveHierarchy: 0
+    indexFormat: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 0
+    previousCalculatedGlobalScale: 0.3
+    hasPreviousCalculatedGlobalScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+    legacyComputeAllNormalsFromSmoothingGroupsWhenMeshHasBlendShapes: 0
+    blendShapeNormalImportMode: 1
+    normalSmoothingSource: 0
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

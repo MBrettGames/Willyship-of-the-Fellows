@@ -54,7 +54,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 126
   m_IsActive: 1
 --- !u!4 &1455778855396788163
 Transform:
@@ -132,7 +132,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 126
   m_IsActive: 1
 --- !u!4 &4073765594132359538
 Transform:
@@ -171,6 +171,10 @@ PrefabInstance:
     - target: {fileID: 100002, guid: dd7b9ca28e25674429ca685603356018, type: 3}
       propertyPath: m_Name
       value: CP_Umbrella1 (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 100002, guid: dd7b9ca28e25674429ca685603356018, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 126
       objectReference: {fileID: 0}
     - target: {fileID: 400002, guid: dd7b9ca28e25674429ca685603356018, type: 3}
       propertyPath: m_LocalPosition.x
@@ -242,6 +246,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: CPPizzaSlice1
       objectReference: {fileID: 0}
+    - target: {fileID: 4557000558224584477, guid: 2ee081b423f54224788da43c82da31b6,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 126
+      objectReference: {fileID: 0}
     - target: {fileID: 4662431520578601579, guid: 2ee081b423f54224788da43c82da31b6,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -297,6 +306,11 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 1903190192825277209, guid: 2ee081b423f54224788da43c82da31b6,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 126
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 2ee081b423f54224788da43c82da31b6, type: 3}
 --- !u!4 &5102232163359157743 stripped
@@ -315,6 +329,10 @@ PrefabInstance:
     - target: {fileID: 100002, guid: f09f2043d13dc994cbf09d306bdc44ff, type: 3}
       propertyPath: m_Name
       value: CP_Chair (3)
+      objectReference: {fileID: 0}
+    - target: {fileID: 100002, guid: f09f2043d13dc994cbf09d306bdc44ff, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 126
       objectReference: {fileID: 0}
     - target: {fileID: 400002, guid: f09f2043d13dc994cbf09d306bdc44ff, type: 3}
       propertyPath: m_LocalPosition.x
@@ -386,6 +404,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: CPMug
       objectReference: {fileID: 0}
+    - target: {fileID: 7305831990031030132, guid: 98fa20d0724212848af4b0116ac8f376,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 126
+      objectReference: {fileID: 0}
     - target: {fileID: 207180812341521224, guid: 98fa20d0724212848af4b0116ac8f376,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -441,6 +464,11 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 5964097007545808218, guid: 98fa20d0724212848af4b0116ac8f376,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 126
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 98fa20d0724212848af4b0116ac8f376, type: 3}
 --- !u!4 &1677575590220877034 stripped
@@ -460,6 +488,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: CPPlate (3)
+      objectReference: {fileID: 0}
+    - target: {fileID: 3455838009111182008, guid: 0c586c355b910be4f95a7fa9242006d1,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 126
       objectReference: {fileID: 0}
     - target: {fileID: 2407546184763684000, guid: 0c586c355b910be4f95a7fa9242006d1,
         type: 3}
@@ -516,6 +549,11 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 6268883794961086547, guid: 0c586c355b910be4f95a7fa9242006d1,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 126
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 0c586c355b910be4f95a7fa9242006d1, type: 3}
 --- !u!4 &4011278133307587506 stripped
@@ -535,6 +573,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: CPPizzaSlice1 (3)
+      objectReference: {fileID: 0}
+    - target: {fileID: 4557000558224584477, guid: 2ee081b423f54224788da43c82da31b6,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 126
       objectReference: {fileID: 0}
     - target: {fileID: 4662431520578601579, guid: 2ee081b423f54224788da43c82da31b6,
         type: 3}
@@ -591,6 +634,11 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 1903190192825277209, guid: 2ee081b423f54224788da43c82da31b6,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 126
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 2ee081b423f54224788da43c82da31b6, type: 3}
 --- !u!4 &7392945295693739780 stripped
@@ -610,6 +658,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: CPcup
+      objectReference: {fileID: 0}
+    - target: {fileID: 4805689098840921060, guid: b90bff712977b444398681e44d448a8c,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 126
       objectReference: {fileID: 0}
     - target: {fileID: 1038862203039412406, guid: b90bff712977b444398681e44d448a8c,
         type: 3}
@@ -666,6 +719,11 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 7695633566006413275, guid: b90bff712977b444398681e44d448a8c,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 126
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: b90bff712977b444398681e44d448a8c, type: 3}
 --- !u!4 &2626466304910987130 stripped
@@ -685,6 +743,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: CPPizzaSlice1 (2)
+      objectReference: {fileID: 0}
+    - target: {fileID: 4557000558224584477, guid: 2ee081b423f54224788da43c82da31b6,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 126
       objectReference: {fileID: 0}
     - target: {fileID: 4662431520578601579, guid: 2ee081b423f54224788da43c82da31b6,
         type: 3}
@@ -741,6 +804,11 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 1903190192825277209, guid: 2ee081b423f54224788da43c82da31b6,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 126
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 2ee081b423f54224788da43c82da31b6, type: 3}
 --- !u!4 &8269026153595215956 stripped
@@ -759,6 +827,10 @@ PrefabInstance:
     - target: {fileID: 100002, guid: d8779005b89aa5e40bba2b87404fdb96, type: 3}
       propertyPath: m_Name
       value: CP_Table
+      objectReference: {fileID: 0}
+    - target: {fileID: 100002, guid: d8779005b89aa5e40bba2b87404fdb96, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 126
       objectReference: {fileID: 0}
     - target: {fileID: 400002, guid: d8779005b89aa5e40bba2b87404fdb96, type: 3}
       propertyPath: m_LocalPosition.x
@@ -830,6 +902,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: CPPizza1
       objectReference: {fileID: 0}
+    - target: {fileID: 2547114877149248447, guid: 3698a8a30677ede47b412af00d8b7306,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 126
+      objectReference: {fileID: 0}
     - target: {fileID: 9181146394877109498, guid: 3698a8a30677ede47b412af00d8b7306,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -885,6 +962,11 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 3632395035959728969, guid: 3698a8a30677ede47b412af00d8b7306,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 126
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 3698a8a30677ede47b412af00d8b7306, type: 3}
 --- !u!4 &5114677982708410719 stripped
@@ -904,6 +986,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: CPMug (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 7305831990031030132, guid: 98fa20d0724212848af4b0116ac8f376,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 126
       objectReference: {fileID: 0}
     - target: {fileID: 207180812341521224, guid: 98fa20d0724212848af4b0116ac8f376,
         type: 3}
@@ -960,6 +1047,11 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 5964097007545808218, guid: 98fa20d0724212848af4b0116ac8f376,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 126
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 98fa20d0724212848af4b0116ac8f376, type: 3}
 --- !u!4 &5094602965382548337 stripped
@@ -979,6 +1071,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: CPPlate
+      objectReference: {fileID: 0}
+    - target: {fileID: 3455838009111182008, guid: 0c586c355b910be4f95a7fa9242006d1,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 126
       objectReference: {fileID: 0}
     - target: {fileID: 2407546184763684000, guid: 0c586c355b910be4f95a7fa9242006d1,
         type: 3}
@@ -1035,6 +1132,11 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 6268883794961086547, guid: 0c586c355b910be4f95a7fa9242006d1,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 126
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 0c586c355b910be4f95a7fa9242006d1, type: 3}
 --- !u!4 &7887494617140352638 stripped
@@ -1053,6 +1155,10 @@ PrefabInstance:
     - target: {fileID: 100002, guid: f09f2043d13dc994cbf09d306bdc44ff, type: 3}
       propertyPath: m_Name
       value: CP_Chair (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 100002, guid: f09f2043d13dc994cbf09d306bdc44ff, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 126
       objectReference: {fileID: 0}
     - target: {fileID: 400002, guid: f09f2043d13dc994cbf09d306bdc44ff, type: 3}
       propertyPath: m_LocalPosition.x
@@ -1124,6 +1230,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: CPMenu
       objectReference: {fileID: 0}
+    - target: {fileID: 6107072743104414507, guid: 71a7990faf0c7dc43887cbffca0f1f9e,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 126
+      objectReference: {fileID: 0}
     - target: {fileID: 8128033563814786616, guid: 71a7990faf0c7dc43887cbffca0f1f9e,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -1179,6 +1290,11 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 4224111339201445820, guid: 71a7990faf0c7dc43887cbffca0f1f9e,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 126
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 71a7990faf0c7dc43887cbffca0f1f9e, type: 3}
 --- !u!4 &1354571704951822342 stripped
@@ -1198,6 +1314,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: CPPizza2
+      objectReference: {fileID: 0}
+    - target: {fileID: 3774980250113261495, guid: 7558ba26cf86c614592853bde47a16a7,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 126
       objectReference: {fileID: 0}
     - target: {fileID: 4835388446508273379, guid: 7558ba26cf86c614592853bde47a16a7,
         type: 3}
@@ -1254,6 +1375,11 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 7810978683855646851, guid: 7558ba26cf86c614592853bde47a16a7,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 126
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 7558ba26cf86c614592853bde47a16a7, type: 3}
 --- !u!4 &2872406375286406040 stripped
@@ -1273,6 +1399,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: CPPlate (2)
+      objectReference: {fileID: 0}
+    - target: {fileID: 3455838009111182008, guid: 0c586c355b910be4f95a7fa9242006d1,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 126
       objectReference: {fileID: 0}
     - target: {fileID: 2407546184763684000, guid: 0c586c355b910be4f95a7fa9242006d1,
         type: 3}
@@ -1329,6 +1460,11 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 6268883794961086547, guid: 0c586c355b910be4f95a7fa9242006d1,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 126
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 0c586c355b910be4f95a7fa9242006d1, type: 3}
 --- !u!4 &4924557646206309206 stripped
@@ -1348,6 +1484,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: CPPizzaSlice1 (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 4557000558224584477, guid: 2ee081b423f54224788da43c82da31b6,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 126
       objectReference: {fileID: 0}
     - target: {fileID: 4662431520578601579, guid: 2ee081b423f54224788da43c82da31b6,
         type: 3}
@@ -1404,6 +1545,11 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 1903190192825277209, guid: 2ee081b423f54224788da43c82da31b6,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 126
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 2ee081b423f54224788da43c82da31b6, type: 3}
 --- !u!4 &2789566653935864959 stripped
@@ -1423,6 +1569,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: CPcup (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 4805689098840921060, guid: b90bff712977b444398681e44d448a8c,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 126
       objectReference: {fileID: 0}
     - target: {fileID: 1038862203039412406, guid: b90bff712977b444398681e44d448a8c,
         type: 3}
@@ -1479,6 +1630,11 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 7695633566006413275, guid: b90bff712977b444398681e44d448a8c,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 126
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: b90bff712977b444398681e44d448a8c, type: 3}
 --- !u!4 &7580722307263824209 stripped
@@ -1498,6 +1654,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: CPPlate (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 3455838009111182008, guid: 0c586c355b910be4f95a7fa9242006d1,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 126
       objectReference: {fileID: 0}
     - target: {fileID: 2407546184763684000, guid: 0c586c355b910be4f95a7fa9242006d1,
         type: 3}
@@ -1554,6 +1715,11 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 6268883794961086547, guid: 0c586c355b910be4f95a7fa9242006d1,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 126
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 0c586c355b910be4f95a7fa9242006d1, type: 3}
 --- !u!4 &5634920913966423578 stripped
@@ -1572,6 +1738,10 @@ PrefabInstance:
     - target: {fileID: 100002, guid: f09f2043d13dc994cbf09d306bdc44ff, type: 3}
       propertyPath: m_Name
       value: CP_Chair (2)
+      objectReference: {fileID: 0}
+    - target: {fileID: 100002, guid: f09f2043d13dc994cbf09d306bdc44ff, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 126
       objectReference: {fileID: 0}
     - target: {fileID: 400002, guid: f09f2043d13dc994cbf09d306bdc44ff, type: 3}
       propertyPath: m_LocalPosition.x
@@ -1641,6 +1811,10 @@ PrefabInstance:
     - target: {fileID: 100002, guid: f09f2043d13dc994cbf09d306bdc44ff, type: 3}
       propertyPath: m_Name
       value: CP_Chair
+      objectReference: {fileID: 0}
+    - target: {fileID: 100002, guid: f09f2043d13dc994cbf09d306bdc44ff, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 126
       objectReference: {fileID: 0}
     - target: {fileID: 400002, guid: f09f2043d13dc994cbf09d306bdc44ff, type: 3}
       propertyPath: m_LocalPosition.x
